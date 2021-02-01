@@ -6,17 +6,17 @@
     "required": "true"
   },
   {
-    "name": "Characteristics[organism]",
-    "description": "Provide a taxonomic information associated to the Source Biological material (for example, Species, genus, strain,....). Ideally, provide NCBI TaxID or NEWT identifier",
+    "name": "tax_id", //First field on an ENA sample file. Might want to add ontology to it and restrict dataType to integers.
+    "description": "NCBI Taxonomy Identifier. This is appropriate for individual organisms and some environmental samples.",
     "dataType": "Ontology term",
-    "required": "false"
+    "required": true
   },
   {
-    "name": "Sample Name",
-    "description": "Samples represent major outputs resulting from a protocol application other than the special case outputs of Extract or a Labeled Extract.",
-    "dataType": "String",
-    "required": "true"
-  },
+    "name": "Characteristics[organism]",
+    "description": "Scientific name of sample that distinguishes its taxonomy.  Please use a name or synonym that is tracked in the INSDC Taxonomy database. Also, this field can be used to confirm the TAXON_ID setting.", //Changed to the description from ENA
+    "dataType": "Ontology term",
+    "required": true
+  },  
   {
     "name": "ploidy",
     "description": "The ploidy level of the genome (e.g. allopolyploid, haploid, diploid, triploid, tetraploid). It has implications for the downstream study of duplicated gene and regions of the genomes (and perhaps for difficulties in assembly). For terms, please select terms listed under class ploidy (PATO:001374) of Phenotypic Quality Ontology (PATO), and for a browser of PATO (v 2013-10-28) please refer to http://purl.bioontology.org/ontology/PATO. Mandatory for MIGS of eukaryotes.",
@@ -1044,5 +1044,11 @@
     "required": false,
     "ontology": null,
     "dataType": "string"
+  },
+  {
+    "name": "Sample Name",
+    "description": "Samples represent major outputs resulting from a protocol application other than the special case outputs of Extract or a Labeled Extract.",
+    "dataType": "String",
+    "required": "true"
   }
 ]
