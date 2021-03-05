@@ -2,7 +2,7 @@ const parser = require("xml2js").parseString;
 const fs = require("fs");
 const fsPromises = fs.promises;
 
-const getData = async (options) => {
+const getENAData = async (options) => {
   const { ISAConfiguration, ENAChecklist, outputPath } = options;
   const ISA_XML = await fsPromises.readFile(ISAConfiguration);
   const ENA_XML = await fsPromises.readFile(ENAChecklist);
@@ -17,6 +17,14 @@ const getData = async (options) => {
   writeOutput(finalRes, outputPath);
 };
 
+const getMetabolightsData = async (options) => {
+  const { ISAConfiguration, outputPath } = options;
+  const ISA_XML = await fsPromises.readFile(ISAConfiguration);
+  const ISAParsed = await dataParse(ISA_XML);
+  const ISAData = ISAExtract(ISAParsed);
+  writeOutput(ISAData, outputPath);
+};
+
 const dataParse = async (data) => {
   return new Promise((r) => {
     parser(data, (e, result) => {
@@ -27,13 +35,16 @@ const dataParse = async (data) => {
 
 const ISAExtract = (data) => {
   const temp = data["isatab-config-file"]["isatab-configuration"][0]["field"];
+
   return temp.map((x) => {
+    const ontologies = x["recommended-ontologies"];
     return {
       name: x["$"]["header"],
       description: x["description"][0].trim(),
       dataType: x["$"]["data-type"],
       required: x["$"]["is-required"],
       CVList: undefined,
+      ontology: ontologies ? extractMetabolightsOntology(ontologies) : undefined,
     };
   });
 };
@@ -87,6 +98,21 @@ const extractOntology = (data) => {
   return match ? match[0] : null;
 };
 
+const extractMetabolightsOntology = (data) => {
+  const temp = data[0]["ontology"];
+  let output = [];
+  temp.forEach((x, i) => {
+    output.push({
+      name: x["$"]["name"],
+      version: x["$"]["version"],
+      abbreviation: x["$"]["abbreviation"],
+      id: x["$"]["id"],
+    });
+  });
+
+  return output;
+};
+
 const writeOutput = async (data, outputPath) => {
   try {
     await fsPromises.writeFile(outputPath, JSON.stringify(data));
@@ -96,4 +122,4 @@ const writeOutput = async (data, outputPath) => {
   }
 };
 
-module.exports = { getData };
+module.exports = { getENAData, getMetabolightsData };

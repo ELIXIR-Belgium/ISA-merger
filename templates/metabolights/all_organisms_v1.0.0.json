@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Source Name",
+    "description": "Sources are considered as the starting biological material used in a study.",
+    "dataType": "String",
+    "required": "true"
+  },
+  {
+    "name": "Characteristics[Organism]",
+    "description": "Provide a taxonomic information associated to the Source Biological material (for example, Species, genus, strain,....). Ideally, provide NCBI TaxID or NEWT identifier",
+    "dataType": "Ontology term",
+    "required": "true",
+    "ontology": [
+      {
+        "name": "National Center for Biotechnology Information (NCBI) Organismal Classification",
+        "version": "NCBITAXON",
+        "abbreviation": "NCBITAXON",
+        "id": "http://data.bioontology.org/ontologies/NCBITAXON"
+      }
+    ]
+  },
+  {
+    "name": "Characteristics[Organism part]",
+    "description": "The part of organism's anatomy or substance arising from an organism from which the biomaterial was derived, excludes cells. E.g. tissue, organ, system, sperm, blood or body location (arm)",
+    "dataType": "Ontology term",
+    "required": "true",
+    "ontology": [
+      { "name": "BRENDA tissue / enzyme source", "version": "46601", "abbreviation": "BTO", "id": "1005" },
+      { "name": "Experimental Factor Ontology", "version": "46765", "abbreviation": "EFO", "id": "1136" },
+      {
+        "name": "Plant Ontology (Structure, Growth and Developmental Stage)",
+        "version": "Jun 2010",
+        "abbreviation": "PO",
+        "id": ""
+      },
+      {
+        "name": "Foundational Model of Anatomy Ontology",
+        "version": "Jun 2010",
+        "abbreviation": "FMA",
+        "id": ""
+      }
+    ]
+  },
+  {
+    "name": "Sample Name",
+    "description": "Samples represent major outputs resulting from a protocol application other than the special case outputs of Instrument or a Sample extract.",
+    "dataType": "String",
+    "required": "true"
+  }
+]
