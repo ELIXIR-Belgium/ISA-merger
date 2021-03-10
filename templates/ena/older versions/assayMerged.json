@@ -1,0 +1,154 @@
+{
+  "meta": { "measurement": "genome sequencing", "technology": "nucleotide sequencing" },
+  "data": {
+    "nucleic acid extraction": [
+      {
+        "name": "Extract Name",
+        "description": "User-defined names for each portion of extracted material.",
+        "dataType": "String",
+        "required": "false",
+        "ontology": null,
+        "CVList": null
+      }
+    ],
+    "library construction": [
+      {
+        "name": "Parameter Value[library source]",
+        "description": "The LIBRARY_SOURCE specifies the type of source material that is being sequenced. (SRA 1.2 documentation)",
+        "dataType": "String",
+        "required": "false",
+        "ontology": null,
+        "CVList": null
+      },
+      {
+        "name": "Parameter Value[library strategy]",
+        "description": "Sequencing technique intended for this library (SRA 1.2 documentation)",
+        "dataType": "List",
+        "required": "false",
+        "ontology": null,
+        "CVList": ["AMPLICON", "CLONE", "WGS", "OTHER"]
+      },
+      {
+        "name": "Parameter Value[library selection]",
+        "description": "Whether any method was used to select for or against, enrich, or screen the material being sequenced. (SRA 1.2 documentation)",
+        "dataType": "String",
+        "required": "false",
+        "ontology": null,
+        "CVList": null
+      },
+      {
+        "name": "Parameter Value[library layout]",
+        "description": "specifies whether to expect single, paired, or other configuration of reads.",
+        "dataType": "List",
+        "required": "false",
+        "ontology": null,
+        "CVList": ["SINGLE", "PAIRED"]
+      }
+    ],
+    "nucleic acid sequencing": [
+      {
+        "name": "Parameter Value[sequencing instrument]",
+        "description": "a parameter to report the sequencing instrument model and make",
+        "dataType": "List",
+        "required": "false",
+        "ontology": null,
+        "CVList": [
+          "454 GS",
+          "454 GS 20",
+          "454 GS FLX",
+          "454 GS FLX Plus",
+          "454 GS FLX Titanium",
+          "454 GS Junior",
+          "AB SOLiD System",
+          "AB SOLiD System 2.0",
+          "AB SOLiD System 3.0",
+          "AB SOLiD 4 System",
+          "AB SOLiD 4hq System",
+          "AB SOLiD PI System",
+          "AB SOLiD 5500",
+          "AB SOLiD 5500xl",
+          "AB 5500 Genetic Analyzer",
+          "AB 5500xl Genetic analyzer",
+          "Illumina Genome Analyzer",
+          "Illumina Genome Analyzer II",
+          "Illumina Genome Analyzer IIx",
+          "Illumina HiSeq 1000",
+          "Illumina HiSeq 2000",
+          "Illumina HiSeq 2500",
+          "Illumina HiScanSQ",
+          "Illumina MiSeq",
+          "Ion Torrent PGM",
+          "Ion Torrent Proton",
+          "Sanger sequencing instrument",
+          "unspecified"
+        ]
+      },
+      {
+        "name": "Parameter Value[quality scorer]",
+        "description": "ENA term if applicable",
+        "dataType": "Ontology term",
+        "required": "false",
+        "ontology": null,
+        "CVList": null
+      },
+      {
+        "name": "Parameter Value[base caller]",
+        "description": "ENA term if applicable",
+        "dataType": "Ontology term",
+        "required": "false",
+        "ontology": null,
+        "CVList": null
+      },
+      {
+        "name": "Assay Name",
+        "description": "assayname",
+        "dataType": "String",
+        "required": "true",
+        "ontology": null,
+        "CVList": null
+      },
+      {
+        "name": "Comment[Export]",
+        "description": "Use this field to select/set which records should be exported for a submission to SRA/ENA",
+        "dataType": "List",
+        "required": "false",
+        "ontology": null,
+        "CVList": ["yes", "no"]
+      },
+      {
+        "name": "Raw Data File",
+        "description": "raw data",
+        "dataType": "String",
+        "required": "false",
+        "ontology": null,
+        "CVList": null
+      }
+    ],
+    "sequence assembly": [
+      {
+        "name": "Normalization Name",
+        "description": "User-defined name for each normalization applied",
+        "dataType": "String",
+        "required": "false",
+        "ontology": null,
+        "CVList": null
+      },
+      {
+        "name": "Data Transformation Name",
+        "description": "a data transformation",
+        "dataType": "String",
+        "required": "false",
+        "ontology": null,
+        "CVList": null
+      },
+      {
+        "name": "Derived Data File",
+        "description": "derived data such as an assembly file",
+        "dataType": "String",
+        "required": "false",
+        "ontology": null,
+        "CVList": null
+      }
+    ]
+  }
+}
