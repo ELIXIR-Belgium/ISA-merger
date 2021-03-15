@@ -87,7 +87,7 @@
   {
     "name": "isolation_source",
     "description": "describes the physical, environmental and/or local geographical source of the biological sample from which the sample was derived",
-    "dataType": "string"
+    "dataType": "string",
     "required": false,
     "ontology": null    
   },
