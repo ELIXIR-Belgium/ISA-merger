@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "name": "nucleic acid sequencing",
+    "group": "ena",
+    "group_order": 4,
+    "temporary_name": "4_ena_nucleic_acid_sequencing",
+    "template_version": "1.1.0",
+    "isa_config": "genome_seq_default_v2015-07-02",
+    "isa_measurement_type": "genome sequencing",
+    "isa_technology_type": "nucleotide sequencing",
+    "isa_protocol_type": "nucleic acid sequencing",
+    "repo_schema_id": "ENA General experiment information 2021",
+    "organism": "any",
+    "level": "assay"
+  },
+  "data": [
+    {
+      "name": "protocol type",
+      "description": "type of assay or experimental step performed.",
+      "required": true,
+      "ontology": null,
+      "CVList": ["nucleic acid sequencing"]
+    },
+    {
+      "name": "sequencing instrument",
+      "description": "a parameter to report the sequencing instrument model and make",
+      "dataType": "List",
+      "required": false,
+      "ontology": null,
+      "CVList": [
+        " 454 GS",
+        " 454 GS 20",
+        " 454 GS FLX",
+        " 454 GS FLX+",
+        " 454 GS FLX Titanium",
+        " 454 GS Junior",
+        " HiSeq X Five",
+        " HiSeq X Ten",
+        " Illumina Genome Analyzer",
+        " Illumina Genome Analyzer II",
+        " Illumina Genome Analyzer IIx",
+        " Illumina HiScanSQ",
+        " Illumina HiSeq 1000",
+        " Illumina HiSeq 1500",
+        " Illumina HiSeq 2000",
+        " Illumina HiSeq 2500",
+        " Illumina HiSeq 3000",
+        " Illumina HiSeq 4000",
+        " Illumina iSeq 100",
+        " Illumina MiSeq",
+        " Illumina MiniSeq",
+        " Illumina NovaSeq 6000",
+        " NextSeq 500",
+        " NextSeq 550",
+        " PacBio RS",
+        " PacBio RS II",
+        " Sequel",
+        " Ion Torrent PGM",
+        " Ion Torrent Proton",
+        " Ion Torrent S5",
+        " Ion Torrent S5 XL",
+        " AB 3730xL Genetic Analyzer",
+        " AB 3730 Genetic Analyzer",
+        " AB 3500xL Genetic Analyzer",
+        " AB 3500 Genetic Analyzer",
+        " AB 3130xL Genetic Analyzer",
+        " AB 3130 Genetic Analyzer",
+        " AB 310 Genetic Analyzer",
+        " MinION",
+        " GridION",
+        " PromethION",
+        " BGISEQ-500",
+        " DNBSEQ-T7",
+        " DNBSEQ-G400",
+        " DNBSEQ-G50",
+        " DNBSEQ-G400 FAST",
+        " unspecified"
+      ]
+    },
+    {
+      "name": "quality scorer",
+      "description": "ENA term if applicable",
+      "dataType": "Ontology term",
+      "required": false,
+      "ontology": null,
+      "CVList": null
+    },
+    {
+      "name": "base caller",
+      "description": "ENA term if applicable",
+      "dataType": "Ontology term",
+      "required": false,
+      "ontology": null,
+      "CVList": null
+    },
+    {
+      "name": "Assay Name",
+      "description": "assayname",
+      "dataType": "String",
+      "required": true,
+      "ontology": null,
+      "CVList": null
+    },      
+    {
+      "name": "Raw Data File",
+      "description": "raw data",
+      "dataType": "String",
+      "required": false,
+      "ontology": null,
+      "CVList": null
+    } 
+  ]
+}
