@@ -4,7 +4,7 @@
     "group": "ena",
     "group_order": 3,
     "temporary_name": "3_ena_library_construction",
-    "template_version": "1.1.1",
+    "template_version": "1.2.0",
     "isa_config": "genome_seq_default_v2015-07-02",
     "isa_measurement_type": "genome sequencing",
     "isa_technology_type": "nucleotide sequencing",
@@ -15,18 +15,20 @@
   },
   "data": [
     {
-      "name": "protocol type",
+      "name": "library construction",
       "description": "type of assay or experimental step performed.",
       "required": true,
       "ontology": null,
-      "CVList": ["library construction"]
+      "dataType": "String", //need to be autofilled with name of selected SOP for that block
+      "isaTag": "protocol"
     },
     {
       "name": "library name",
       "description": "Name given to the generated library",
       "dataType": "String",
       "required": false,
-      "ontology": null      
+      "ontology": null,
+      "isaTag": "otherMaterial_characteristic"      
     },
     {
       "name": "library source",
@@ -44,7 +46,8 @@
         "SYNTHETIC",
         "VIRAL RNA",
         "OTHER"
-      ]
+      ],
+      "isaTag": "parameter_value"
     },
     {
       "name": "library strategy",
@@ -52,7 +55,8 @@
       "dataType": "List",
       "required": true,
       "ontology": null,
-      "CVList": ["AMPLICON", "CLONE", "WGS", "OTHER"]
+      "CVList": ["AMPLICON", "CLONE", "WGS", "OTHER"],
+      "isaTag": "parameter_value"
     },
     {
       "name": "library selection",
@@ -92,7 +96,8 @@
         "padlock probes capture method",
         "other",
         "unspecified"
-      ]
+      ],
+      "isaTag": "parameter_value"
     },
     {
       "name": "library layout",
@@ -100,21 +105,24 @@
       "dataType": "List",
       "required": false,
       "ontology": null,
-      "CVList": ["SINGLE", "PAIRED"]
+      "CVList": ["SINGLE", "PAIRED"],
+      "isaTag": "parameter_value"
     },
     {
       "name": "insert size",
       "description": "Insert size for paired reads.",
       "dataType": "String",
       "required": false,
-      "ontology": null      
+      "ontology": null,
+      "isaTag": "parameter_value"      
     },
     {
       "name": "Description",
       "description": "Free form text describing the protocol by which the sequencing library was constructed.",
       "dataType": "String",
       "required": false,
-      "ontology": null      
+      "ontology": null,
+      "isaTag": "parameter_value"      
     }
 
   ]
