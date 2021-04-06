@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "name": "nucleic acid extraction",
+    "group": "arrayexpress",
+    "group_order": 2,
+    "temporary_name": "2_arrayexpress_nucleic_acid_extraction",
+    "template_version": "1.1.0",
+    "isa_config": "genome_seq_default_v2015-07-02",
+    "isa_measurement_type": "genome sequencing",
+    "isa_technology_type": "nucleotide sequencing",
+    "isa_protocol_type": "nucleic acid extraction",
+    "repo_schema_id": "NA",
+    "organism": "any",
+    "level": "assay"
+  },
+  "data": [
+      {
+        "name": "protocol type",
+        "description": "type of assay or experimental step performed.",
+        "required": true,
+        "ontology": null,
+        "CVList": ["nucleic acid extraction"]
+      },
+      {
+        "name": "sample volume or weight for DNA extraction",
+        "description": "Volume (mL) or weight (g) of sample processed for DNA extraction",
+        "required": "false",
+        "ontology": null,
+        "unit": null
+      },
+      {
+        "name": "Extract Name",
+        "description": "User-defined names for each portion of extracted material.",
+        "required": true,
+        "ontology": null,
+        "CVList": null
+      },
+      {
+        "name": "Material type",
+        "description": "This column contains terms describing the type of each material, for examples: whole organism, organism part, cell, total RNA.",
+        "required": true,
+        "ontology": null,
+        "CVList": [
+          "whole organism", 
+          "organism part", 
+          "RNA", 
+          "DNA", 
+          "cell"
+        ]
+      }
+    ]  
+}
