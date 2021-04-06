@@ -20,6 +20,7 @@
       "required": true,
       "ontology": null,
       "dataType": "String", //need to be autofilled with name of selected SOP for that block
+      "CVList":,//SOPtittle
       "isaTag": "protocol"
     },
     {
