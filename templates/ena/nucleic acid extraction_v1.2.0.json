@@ -20,14 +20,16 @@
       "required": false,
       "ontology": null,
       "dataType": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
-      "unit": ["mL","g"]
+      "unit": ["mL","g"],
+      "isaTag": "parameter_value"
     },
     {
-      "name": "protocol type",
+      "name": "nucleic acid extraction",
       "description": "type of assay or experimental step performed.",
       "required": true,
       "ontology": null,
-      "CVList": ["nucleic acid extraction"]
+      "dataType": "String", //need to be autofilled with name of selected SOP for that block
+      "isaTag": "protocol"
     },
     {
       "name": "Extract Name",
@@ -35,7 +37,8 @@
       "dataType": "String",
       "required": true,
       "ontology": null,
-      "CVList": null
+      "CVList": null,
+      "isaTag": "otherMaterial"
     }
   ]
 }
