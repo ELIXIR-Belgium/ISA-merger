@@ -15,6 +15,7 @@
   },
   "data": [
     {
+      "iri": null,
       "name": "nucleic acid sequencing",
       "description": "type of assay or experimental step performed.",
       "required": true,
@@ -24,6 +25,7 @@
       "isaTag": "protocol"
     },
     {
+      "iri": null,
       "name": "sequencing instrument",
       "description": "a parameter to report the sequencing instrument model and make",
       "dataType": "List",
@@ -81,6 +83,7 @@
       "isaTag": "parameter_value"
     },
     {
+      "iri": null,
       "name": "quality scorer",
       "description": "ENA term if applicable",
       "dataType": "Ontology term",
@@ -90,6 +93,7 @@
       "isaTag": "parameter_value"
     },
     {
+      "iri": null,
       "name": "base caller",
       "description": "ENA term if applicable",
       "dataType": "Ontology term",
@@ -99,6 +103,7 @@
       "isaTag": "parameter_value"
     },
     {
+      "iri": null,
       "name": "Assay Name",
       "description": "assayname",
       "dataType": "String",
@@ -108,6 +113,7 @@
       "isaTag": "otherMaterial"
     },      
     {
+      "iri": null,
       "name": "Raw Data File",
       "description": "raw data",
       "dataType": "String",

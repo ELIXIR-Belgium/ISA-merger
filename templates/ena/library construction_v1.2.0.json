@@ -15,6 +15,7 @@
   },
   "data": [
     {
+      "iri": null,
       "name": "library construction",
       "description": "type of assay or experimental step performed.",
       "required": true,
@@ -24,6 +25,7 @@
       "isaTag": "protocol"
     },
     {
+      "iri": null,
       "name": "library name",
       "description": "Name given to the generated library",
       "dataType": "String",
@@ -32,6 +34,7 @@
       "isaTag": "otherMaterial_characteristic"      
     },
     {
+      "iri": null,
       "name": "library source",
       "description": "The LIBRARY_SOURCE specifies the type of source material that is being sequenced. (SRA 1.2 documentation)",
       "dataType": "String",
@@ -51,6 +54,7 @@
       "isaTag": "parameter_value"
     },
     {
+      "iri": null,
       "name": "library strategy",
       "description": "Sequencing technique intended for this library (SRA 1.2 documentation)",
       "dataType": "List",
@@ -60,6 +64,7 @@
       "isaTag": "parameter_value"
     },
     {
+      "iri": null,
       "name": "library selection",
       "description": "Whether any method was used to select for or against, enrich, or screen the material being sequenced. (SRA 1.2 documentation)",
       "dataType": "List",
@@ -101,6 +106,7 @@
       "isaTag": "parameter_value"
     },
     {
+      "iri": null,
       "name": "library layout",
       "description": "specifies whether to expect single, paired, or other configuration of reads. In the case of paired reads, information about the relative distance and orientation is specified.",
       "dataType": "List",
@@ -110,6 +116,7 @@
       "isaTag": "parameter_value"
     },
     {
+      "iri": null,
       "name": "insert size",
       "description": "Insert size for paired reads.",
       "dataType": "String",
@@ -118,6 +125,7 @@
       "isaTag": "parameter_value"      
     },
     {
+      "iri": null,
       "name": "Description",
       "description": "Free form text describing the protocol by which the sequencing library was constructed.",
       "dataType": "String",

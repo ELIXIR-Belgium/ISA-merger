@@ -15,6 +15,7 @@
   },
   "data": [  
     {
+      "iri": null,
       "name": "sequence assembly",
       "description": "type of assay or experimental step performed.",
       "required": true,
@@ -24,6 +25,7 @@
       "isaTag": "protocol"
     },
     {
+      "iri": null,
       "name": "Normalization Name",
       "description": "User-defined name for each normalization applied",
       "dataType": "String",
@@ -33,6 +35,7 @@
       "isaTag": "parameter_value"
     },
     {
+      "iri": null,
       "name": "Data Transformation Name",
       "description": "a data transformation",
       "dataType": "String",
@@ -42,6 +45,7 @@
       "isaTag": "parameter_value"
     },
     {
+      "iri": null,
       "name": "Derived Data File",
       "description": "derived data such as an assembly file",
       "dataType": "String",
