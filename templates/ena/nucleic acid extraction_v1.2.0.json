@@ -4,7 +4,7 @@
     "group": "ena",
     "group_order": 2,
     "temporary_name": "2_ena_nucleic_acid_extraction",
-    "template_version": "1.1.0",
+    "template_version": "1.2.0",
     "isa_config": "genome_seq_default_v2015-07-02",
     "isa_measurement_type": "genome sequencing",
     "isa_technology_type": "nucleotide sequencing",
@@ -20,14 +20,17 @@
       "required": false,
       "ontology": null,
       "dataType": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
-      "unit": ["mL","g"]
+      "unit": ["mL","g"],
+      "isaTag": "parameter_value"
     },
     {
-      "name": "protocol type",
+      "name": "nucleic acid extraction",
       "description": "type of assay or experimental step performed.",
       "required": true,
       "ontology": null,
-      "CVList": ["nucleic acid extraction"]
+      "dataType": "String", //need to be autofilled with name of selected SOP for that block
+      "CVList":,//SOPtittle
+      "isaTag": "protocol"
     },
     {
       "name": "Extract Name",
@@ -35,7 +38,8 @@
       "dataType": "String",
       "required": true,
       "ontology": null,
-      "CVList": null
+      "CVList": null,
+      "isaTag": "otherMaterial"
     }
   ]
 }
