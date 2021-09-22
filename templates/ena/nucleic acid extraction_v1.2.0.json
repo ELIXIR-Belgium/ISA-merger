@@ -2,8 +2,8 @@
   "metadata": {
     "name": "nucleic acid extraction",
     "group": "ena",
-    "group_order": 2,
-    "temporary_name": "2_ena_nucleic_acid_extraction",
+    "group_order": 3,
+    "temporary_name": "3_ena_nucleic_acid_extraction",
     "template_version": "1.2.0",
     "isa_config": "genome_seq_default_v2015-07-02",
     "isa_measurement_type": "genome sequencing",
