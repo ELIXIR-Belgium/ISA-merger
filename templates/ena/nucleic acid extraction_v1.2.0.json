@@ -16,14 +16,12 @@
   "data": [
     {
       "iri": null,
-      "name": "sample volume or weight for DNA extraction",
-      "description": "Volume (mL) or weight (g) of sample processed for DNA extraction",
-      "required": false,
-      "ontology": null,
-      "dataType": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
-      "unit": ["mL","g"],
-      "isaTag": "parameter_value"
-    },
+      "name": "Input",
+      "description": "Existing Samples in DataHub that represent input for this protocol.",
+      "dataType": "seek sample multi",
+      "required": "true",
+      "isaTag": null
+    },    
     {
       "iri": null,
       "name": "nucleic acid extraction",
@@ -33,6 +31,16 @@
       "dataType": "String", //need to be autofilled with name of selected SOP for that block
       "CVList":,//SOPtittle
       "isaTag": "protocol"
+    },
+    {
+      "iri": null,
+      "name": "sample volume or weight for DNA extraction",
+      "description": "Volume (mL) or weight (g) of sample processed for DNA extraction",
+      "required": false,
+      "ontology": null,
+      "dataType": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
+      "unit": ["mL","g"],
+      "isaTag": "parameter_value"
     },
     {
       "iri": null,

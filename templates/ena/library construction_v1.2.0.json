@@ -16,6 +16,14 @@
   "data": [
     {
       "iri": null,
+      "name": "Input",
+      "description": "Existing Samples in DataHub that represent input for this protocol.",
+      "dataType": "seek sample multi",
+      "required": "true",
+      "isaTag": null
+    },
+    {
+      "iri": null,
       "name": "library construction",
       "description": "type of assay or experimental step performed.",
       "required": true,
