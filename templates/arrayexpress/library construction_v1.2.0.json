@@ -2,8 +2,8 @@
   "metadata": {
     "name": "library construction",
     "group": "arrayexpress",
-    "group_order": 3,
-    "temporary_name": "3_arrayexpress_library_construction",
+    "group_order": 4,
+    "temporary_name": "4_arrayexpress_library_construction",
     "template_version": "1.2.0",
     "isa_config": "genome_seq_default_v2015-07-02",
     "isa_measurement_type": "genome sequencing",
@@ -14,9 +14,18 @@
     "level": "assay"
   },
   "data": [
+    {
+      "iri": null,
+      "name": "Input",
+      "description": "Existing Samples in DataHub that represent input for this protocol.",
+      "dataType": "SEEK Sample Multi",
+      "required": true,
+      "isaTag": null
+    },
       {
+        "iri": "http://www.ebi.ac.uk/efo/EFO_0004184",
         "name": "library construction",
-        "description": "type of assay or experimental step performed.",
+        "description": "A protocol that describes the processes performed and equipment used to prepare nucleic acid sequencing library.",
         "required": true,
         "isaTag": "protocol",
         "ontology": null,
@@ -25,6 +34,7 @@
       {
         "name": "library source",
         "description": "The LIBRARY_SOURCE specifies the type of source material that is being sequenced. (SRA 1.2 documentation)",
+        "dataType": "Controlled Vocabulary",
         "required": true,
         "isaTag": "parameter_value",
         "ontology": null,
@@ -43,6 +53,7 @@
       {
         "name": "library strategy",
         "description": "Sequencing technique intended for this library (SRA 1.2 documentation)",
+        "dataType": "Controlled Vocabulary",
         "required": true,
         "isaTag": "parameter_value",
         "ontology": null,
@@ -87,6 +98,7 @@
       {
         "name": "library selection",
         "description": "Whether any method was used to select for or against, enrich, or screen the material being sequenced. (SRA 1.2 documentation)",
+        "dataType": "Controlled Vocabulary",
         "required": true,
         "isaTag": "parameter_value",
         "ontology": null,
@@ -127,6 +139,7 @@
       {
         "name": "library layout",
         "description": "specifies whether to expect single, paired, or other configuration of reads.",
+        "dataType": "Controlled Vocabulary",
         "required": true,
         "isaTag": "parameter_value",
         "ontology": null,
@@ -135,6 +148,7 @@
       {
         "name": "library strand",
         "description": "",
+        "dataType": "Controlled Vocabulary",
         "required": false,
         "isaTag": "parameter_value",
         "ontology": null,
@@ -143,6 +157,7 @@
       {
         "name": "orientation",
         "description": "",
+        "dataType": "Controlled Vocabulary",
         "required": false,
         "isaTag": "parameter_value",
         "ontology": null,
@@ -151,10 +166,12 @@
       {
         "name": "library name",
         "description": "name given to the generated library.",
+        "dataType": "String",
+        "title": true,
         "required": true,
         "isaTag": "otherMaterial",
         "ontology": null,
-        "CVList": [] //SOPtitle
+        "CVList": []
       }
     ]
   }
