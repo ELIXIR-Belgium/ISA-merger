@@ -29,17 +29,8 @@
       "required": true,
       "ontology": null,
       "dataType": "String", //need to be autofilled with name of selected SOP for that block
-      "CVList":,//SOPtittle
+      "CVList": null,//SOPtittle
       "isaTag": "protocol"
-    },
-    {
-      "iri": null,
-      "name": "library name",
-      "description": "Name given to the generated library",
-      "dataType": "String",
-      "required": false,
-      "ontology": null,
-      "isaTag": "otherMaterial_characteristic"      
     },
     {
       "iri": null,
@@ -68,7 +59,47 @@
       "dataType": "Controlled Vocabulary",
       "required": true,
       "ontology": null,
-      "CVList": ["AMPLICON", "CLONE", "WGS", "OTHER"],
+      "CVList": [
+        "WGS",
+        "WGA",
+        "WXS",
+        "RNA-Seq",
+        "ssRNA-seq",
+        "miRNA-Seq",
+        "ncRNA-Seq",
+        "FL-cDNA",
+        "EST",
+        "Hi-C",
+        "ATAC-seq",
+        "WCS",
+        "RAD-Seq",
+        "CLONE",
+        "POOLCLONE",
+        "AMPLICON",
+        "CLONEEND",
+        "FINISHING",
+        "ChIP-Seq",
+        "MNase-Seq",
+        "DNase-Hypersensitivity",
+        "Bisulfite-Seq",
+        "CTS",
+        "MRE-Seq",
+        "MeDIP-Seq",
+        "MBD-Seq",
+        "Tn-Seq",
+        "VALIDATION",
+        "FAIRE-seq",
+        "SELEX",
+        "RIP-Seq",
+        "ChIA-PET",
+        "Synthetic-Long-Read",
+        "Targeted-Capture",
+        "Tethered Chromatin Conformation Capture",
+        "OTHER",
+        "NOMe-Seq",
+        "ChM-Seq",
+        "GBS"
+      ],
       "isaTag": "parameter_value"
     },
     {
@@ -140,6 +171,17 @@
       "required": false,
       "ontology": null,
       "isaTag": "parameter_value"      
+    },
+    {
+      "iri": null,
+      "name": "library name",
+      "description": "Name given to the generated library",
+      "dataType": "String",
+      "title": true,
+      "required": true,
+      "ontology": null,
+      "CVList": null,
+      "isaTag": "otherMaterial"      
     }
 
   ]
