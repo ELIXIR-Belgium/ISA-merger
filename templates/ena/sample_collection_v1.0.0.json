@@ -8,7 +8,7 @@
     "isa_config": "genome_seq_default_v2015-07-02",
     "isa_measurement_type": null,
     "isa_technology_type": "nucleotide sequencing",
-    "isa_protocol_type": null,
+    "isa_protocol_type": "sample collection",
     "repo_schema_id": "ERC000011.xml 2021",
     "organism": "any",
     "level": "study"
@@ -18,18 +18,18 @@
     "iri": null,
     "name": "Input",
     "description": "Existing Samples in DataHub that represent input for this protocol.",
-    "dataType": "seek sample multi",
-    "required": "true",
+    "dataType": "SEEK Sample Multi",
+    "required": true,
     "isaTag": null
   },  
   {
     "iri": null,
     "name": "sample collection",
     "description": "type of assay or experimental step performed.",
-    "dataType": "string",
+    "dataType": "String", //need to be autofilled with name of selected SOP for that block
     "required": true,
     "ontology": null,    
-    "CVList":,//SOPtittle
+    "CVList": null, //SOPtittle
     "isaTag": "protocol"
   },
   {
@@ -37,6 +37,7 @@
     "name": "Sample Name",
     "description": "Name of the major output resulting from the application of the protocol.",
     "dataType": "String",
+    "title": true,
     "required": true,
     "isaTag": "sample"
   }
