@@ -3,7 +3,7 @@
     "name": "sample collection plant",
     "group": "ena",
     "group_order": 2,
-    "temporary_name": "1_ena_plant",
+    "temporary_name": "2_ena_plant",
     "template_version": "1.0.0",
     "isa_config": "genome_seq_default_v2015-07-02",
     "isa_measurement_type": "genome sequencing",
@@ -18,8 +18,8 @@
    "iri": null,
    "name": "Input",
    "description": "Existing Samples in DataHub that represent input for this protocol.",
-   "dataType": "seek sample multi",
-   "required": "true",
+   "dataType": "SEEK Sample Multi",
+   "required": true,
    "isaTag": null
   },  
   {
@@ -29,7 +29,7 @@
     "dataType": "string",
     "required": true,
     "ontology": null,    
-    "CVList":,//SOPtittle
+    "CVList": null,//SOPtittle
     "isaTag": "protocol"
   },
   {
@@ -105,6 +105,8 @@
     "description": "Samples represent major outputs resulting from a protocol application other than the special case outputs of Extract or a Labeled Extract.",
     "dataType": "String",
     "required": true,
-    "isaTag": "sample"
+    "title": true,
+    "ontology": null,
+    "isaTag": "sample"    
   }
 ]
