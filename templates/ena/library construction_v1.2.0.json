@@ -18,7 +18,7 @@
       "iri": null,
       "name": "Input",
       "description": "Existing Samples in DataHub that represent input for this protocol.",
-      "dataType": "seek sample multi",
+      "dataType": "SEEK Sample Multi",
       "required": "true",
       "isaTag": null
     },
