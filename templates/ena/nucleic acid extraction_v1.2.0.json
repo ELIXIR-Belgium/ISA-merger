@@ -18,7 +18,7 @@
       "iri": null,
       "name": "Input",
       "description": "Existing Samples in DataHub that represent input for this protocol.",
-      "dataType": "seek sample multi",
+      "dataType": "SEEK Sample Multi",
       "required": "true",
       "isaTag": null
     },    
@@ -39,7 +39,7 @@
       "required": false,
       "ontology": null,
       "dataType": "String", // Original regex "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
-      "unit": ["mL","g"],
+      "unit": null, //Original unit options ["mL","g"],
       "isaTag": "parameter_value"
     },
     {
@@ -47,6 +47,7 @@
       "name": "Extract Name",
       "description": "User-defined names for each portion of extracted material.",
       "dataType": "String",
+      "title": true,
       "required": true,
       "ontology": null,
       "CVList": null,

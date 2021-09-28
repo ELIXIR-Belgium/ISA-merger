@@ -6,7 +6,7 @@
     "temporary_name": "3_arrayexpress_nucleic_acid_extraction",
     "template_version": "1.2.0",
     "isa_config": "genome_seq_default_v2015-07-02",
-    "isa_measurement_type": "genome sequencing",
+    "isa_measurement_type": "transcription profiling",
     "isa_technology_type": "nucleotide sequencing",
     "isa_protocol_type": "nucleic acid extraction",
     "repo_schema_id": "NA",
@@ -33,6 +33,17 @@
         "CVList": [] //SOPtitle
       },
       {
+        "iri": null,
+        "name": "sample volume or weight for DNA extraction",
+        "description": "Volume (mL) or weight (g) of sample processed for DNA extraction",
+        "dataType": "String",
+        "required": false,
+        "isaTag": "parameter_value",
+        "ontology": null,
+        "unit": null
+      },
+      {
+        "iri": null,
         "name": "Extract Name",
         "description": "User-defined names for each portion of extracted material.",
         "dataType": "String",
@@ -43,15 +54,7 @@
         "CVList": null
       },
       {
-        "name": "sample volume or weight for DNA extraction",
-        "description": "Volume (mL) or weight (g) of sample processed for DNA extraction",
-        "dataType": "String",
-        "required": false,
-        "isaTag": "parameter_value",
-        "ontology": null,
-        "unit": null
-      },
-      {
+        "iri": null,
         "name": "Material type",
         "description": "This column contains terms describing the type of each material, for examples: whole organism, organism part, cell, total RNA.",
         "dataType": "Controlled Vocabulary",
