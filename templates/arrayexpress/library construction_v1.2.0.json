@@ -6,10 +6,10 @@
     "temporary_name": "4_arrayexpress_library_construction",
     "template_version": "1.2.0",
     "isa_config": "genome_seq_default_v2015-07-02",
-    "isa_measurement_type": "genome sequencing",
+    "isa_measurement_type": "transcription profiling",
     "isa_technology_type": "nucleotide sequencing",
     "isa_protocol_type": "library construction",
-    "repo_schema_id": "ENA General experiment information 2021",
+    "repo_schema_id": "General experiment information 2021",
     "organism": "any",
     "level": "assay"
   },
@@ -18,7 +18,7 @@
       "iri": null,
       "name": "Input",
       "description": "Existing Samples in DataHub that represent input for this protocol.",
-      "dataType": "SEEK Sample Multi",
+      "dataType": "seek sample multi",
       "required": true,
       "isaTag": null
     },
@@ -29,9 +29,11 @@
         "required": true,
         "isaTag": "protocol",
         "ontology": null,
-        "CVList": [] //SOPtitle
+        "dataType": "String", //need to be autofilled with name of selected SOP for that block
+        "CVList": null //SOPtitle
       },
       {
+        "iri": null,
         "name": "library source",
         "description": "The LIBRARY_SOURCE specifies the type of source material that is being sequenced. (SRA 1.2 documentation)",
         "dataType": "Controlled Vocabulary",
@@ -51,6 +53,7 @@
         ]
       },
       {
+        "iri": null,
         "name": "library strategy",
         "description": "Sequencing technique intended for this library (SRA 1.2 documentation)",
         "dataType": "Controlled Vocabulary",
@@ -96,6 +99,7 @@
         ]
       },
       {
+        "iri": null,
         "name": "library selection",
         "description": "Whether any method was used to select for or against, enrich, or screen the material being sequenced. (SRA 1.2 documentation)",
         "dataType": "Controlled Vocabulary",
@@ -137,6 +141,7 @@
         ]
       },
       {
+        "iri": null,
         "name": "library layout",
         "description": "specifies whether to expect single, paired, or other configuration of reads.",
         "dataType": "Controlled Vocabulary",
@@ -146,6 +151,7 @@
         "CVList": ["SINGLE", "PAIRED"]
       },
       {
+        "iri": null,
         "name": "library strand",
         "description": "",
         "dataType": "Controlled Vocabulary",
@@ -171,7 +177,7 @@
         "required": true,
         "isaTag": "otherMaterial",
         "ontology": null,
-        "CVList": []
+        "CVList": null
       }
     ]
   }
