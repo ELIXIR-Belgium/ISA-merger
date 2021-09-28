@@ -18,8 +18,8 @@
       "iri": null,
       "name": "Input",
       "description": "Existing Samples in DataHub that represent input for this protocol.",
-      "dataType": "seek sample multi",
-      "required": "true",
+      "dataType": "SEEK Sample Multi",
+      "required": true,
       "isaTag": null
     },
     {
@@ -29,7 +29,7 @@
       "required": true,
       "ontology": null,
       "dataType": "String", //need to be autofilled with name of selected SOP for that block
-      "CVList":,//SOPtittle
+      "CVList": null,//SOPtittle
       "isaTag": "protocol"
     },
     {
@@ -37,7 +37,7 @@
       "name": "sequencing instrument",
       "description": "a parameter to report the sequencing instrument model and make",
       "dataType": "Controlled Vocabulary",
-      "required": false,
+      "required": true,
       "ontology": null,
       "CVList": [
         " 454 GS",
@@ -94,7 +94,7 @@
       "iri": null,
       "name": "quality scorer",
       "description": "ENA term if applicable",
-      "dataType": "Ontology term",
+      "dataType": "String",
       "required": false,
       "ontology": null,
       "CVList": null,
@@ -103,7 +103,7 @@
     {
       "iri": null,
       "name": "base caller",
-      "description": "ENA term if applicable",
+      "description": "String",
       "dataType": "Ontology term",
       "required": false,
       "ontology": null,
@@ -113,7 +113,7 @@
     {
       "iri": null,
       "name": "Assay Name",
-      "description": "assayname",
+      "description": "User-defined name for an assay.",
       "dataType": "String",
       "required": true,
       "ontology": null,
@@ -125,7 +125,8 @@
       "name": "Raw Data File",
       "description": "raw data",
       "dataType": "String",
-      "required": false,
+      "title": true,
+      "required": true,
       "ontology": null,
       "CVList": null,
       "isaTag": "dataFile"
