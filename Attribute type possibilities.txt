@@ -1,0 +1,23 @@
+String
+Date time
+Date
+Real number
+Integer
+Web link
+Email address
+Text
+ChEBI
+ECN
+MetaNEtX chemical
+MetaNEtX reaction
+MetaNEtX compartment
+InChi
+Boolean
+SEEK Strain
+SEEK Sample
+SEEK Sample Multi
+Controlled Vocabulary
+URI
+DOI
+NCBI ID
+SEEK Data file

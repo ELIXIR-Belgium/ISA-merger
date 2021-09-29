@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "name": "sample collection plant",
+    "group": "ena",
+    "group_order": 2,
+    "temporary_name": "2_ena_plant",
+    "template_version": "1.0.0",
+    "isa_config": "genome_seq_default_v2015-07-02",
+    "isa_measurement_type": "genome sequencing",
+    "isa_technology_type": "nucleotide sequencing",
+    "isa_protocol_type": "sample collection",
+    "repo_schema_id": "ERC000037.xml 2021",
+    "organism": "plant",
+    "level": "study"
+  },
+  "data": [
+  {
+   "iri": null,
+   "name": "Input",
+   "description": "Existing Samples in DataHub that represent input for this protocol.",
+   "dataType": "SEEK Sample Multi",
+   "required": true,
+   "isaTag": null
+  },  
+  {
+    "iri": null,
+    "name": "sample collection",
+    "description": "type of assay or experimental step performed.",
+    "dataType": "string",
+    "required": true,
+    "ontology": null,    
+    "CVList": null,//SOPtittle
+    "isaTag": "protocol"
+  },
+  {
+    "iri": null,
+    "name": "sample collection device or method",
+    "description": "The method or deviced employed for collecting the sample",
+    "dataType": "string",
+    "required": false,
+    "ontology": null,
+    "isaTag": "parameter_value"    
+  },
+  {
+    "iri": null,
+    "name": "sample material processing",
+    "description": "Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v 2013-10-25) terms please see http://purl.bioontology.org/ontology/OBI",
+    "dataType": "string",
+    "required": false,
+    "ontology": {
+      "name": "OBI",
+      "version": "",
+      "description": "Ontology for Biomedical Investigations",
+      "rootTermURI": "http://purl.obolibrary.org/obo/OBI_0000094"},
+      "isaTag": "parameter_value"       
+  },
+  {
+    "iri": null,
+    "name": "amount or size of sample collected",
+    "description": "Amount or size of sample (volume, mass or area) that was collected",
+    "dataType": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
+    "required": false,
+    "ontology": null,
+    "isaTag": "parameter_value"    
+  },
+  {
+    "iri": null,
+    "name": "sample storage duration",
+    "description": "duration for which sample was stored",
+    "dataType": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
+    "required": false,
+    "ontology": null,
+    "isaTag": "parameter_value"    
+  },
+  {
+    "iri": null,
+    "name": "sample storage temperature",
+    "description": "temperature at which sample was stored, e.g. -80",
+    "dataType": "[+-]?(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
+    "required": false,
+    "ontology": null,
+    "isaTag": "parameter_value"    
+  },
+  {
+    "iri": null,
+    "name": "sample storage location",
+    "description": "location at which sample was stored, usually name of a specific freezer/room",
+    "dataType": "string",
+    "required": false,
+    "ontology": null,
+    "isaTag": "parameter_value"    
+  },
+  {
+    "iri": null,
+    "name": "sampling time point",
+    "description": "",
+    "dataType": "string",
+    "required": false,
+    "ontology": null,
+    "isaTag": "parameter_value"    
+  },
+  {
+    "iri": null,
+    "name": "Sample Name",
+    "description": "Samples represent major outputs resulting from a protocol application other than the special case outputs of Extract or a Labeled Extract.",
+    "dataType": "String",
+    "required": true,
+    "title": true,
+    "ontology": null,
+    "isaTag": "sample"    
+  }
+]

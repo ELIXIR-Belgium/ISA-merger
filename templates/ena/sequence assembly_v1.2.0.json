@@ -2,8 +2,8 @@
   "metadata": {
     "name": "sequence assembly",
     "group": "ena",
-    "group_order": 5,
-    "temporary_name": "5_ena_sequence_assembly",
+    "group_order": 6,
+    "temporary_name": "6_ena_sequence_assembly",
     "template_version": "1.2.0",
     "isa_config": "genome_seq_default_v2015-07-02",
     "isa_measurement_type": "genome sequencing",
@@ -15,6 +15,15 @@
   },
   "data": [  
     {
+      "iri": null,
+      "name": "Input",
+      "description": "Existing Samples in DataHub that represent input for this protocol.",
+      "dataType": "seek sample multi",
+      "required": "true",
+      "isaTag": null
+    },
+    {
+      "iri": null,
       "name": "sequence assembly",
       "description": "type of assay or experimental step performed.",
       "required": true,
@@ -24,6 +33,7 @@
       "isaTag": "protocol"
     },
     {
+      "iri": null,
       "name": "Normalization Name",
       "description": "User-defined name for each normalization applied",
       "dataType": "String",
@@ -33,6 +43,7 @@
       "isaTag": "parameter_value"
     },
     {
+      "iri": null,
       "name": "Data Transformation Name",
       "description": "a data transformation",
       "dataType": "String",
@@ -42,6 +53,7 @@
       "isaTag": "parameter_value"
     },
     {
+      "iri": null,
       "name": "Derived Data File",
       "description": "derived data such as an assembly file",
       "dataType": "String",

@@ -2,8 +2,8 @@
   "metadata": {
     "name": "nucleic acid extraction",
     "group": "ena",
-    "group_order": 2,
-    "temporary_name": "2_ena_nucleic_acid_extraction",
+    "group_order": 3,
+    "temporary_name": "3_ena_nucleic_acid_extraction",
     "template_version": "1.2.0",
     "isa_config": "genome_seq_default_v2015-07-02",
     "isa_measurement_type": "genome sequencing",
@@ -15,15 +15,15 @@
   },
   "data": [
     {
-      "name": "sample volume or weight for DNA extraction",
-      "description": "Volume (mL) or weight (g) of sample processed for DNA extraction",
-      "required": false,
-      "ontology": null,
-      "dataType": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
-      "unit": ["mL","g"],
-      "isaTag": "parameter_value"
-    },
+      "iri": null,
+      "name": "Input",
+      "description": "Existing Samples in DataHub that represent input for this protocol.",
+      "dataType": "SEEK Sample Multi",
+      "required": "true",
+      "isaTag": null
+    },    
     {
+      "iri": null,
       "name": "nucleic acid extraction",
       "description": "type of assay or experimental step performed.",
       "required": true,
@@ -33,9 +33,21 @@
       "isaTag": "protocol"
     },
     {
+      "iri": null,
+      "name": "sample volume or weight for DNA extraction",
+      "description": "Volume (mL) or weight (g) of sample processed for DNA extraction",
+      "required": false,
+      "ontology": null,
+      "dataType": "String", // Original regex "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
+      "unit": null, //Original unit options ["mL","g"],
+      "isaTag": "parameter_value"
+    },
+    {
+      "iri": null,
       "name": "Extract Name",
       "description": "User-defined names for each portion of extracted material.",
       "dataType": "String",
+      "title": true,
       "required": true,
       "ontology": null,
       "CVList": null,
