@@ -45,7 +45,7 @@
     "iri": null,
     "name": "sample material processing",
     "description": "Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v 2013-10-25) terms please see http://purl.bioontology.org/ontology/OBI",
-    "dataType": "string",
+    "dataType": "Ontology",
     "required": false,
     "ontology": {
       "name": "OBI",
