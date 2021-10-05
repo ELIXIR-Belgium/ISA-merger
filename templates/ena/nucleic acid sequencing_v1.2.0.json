@@ -119,7 +119,24 @@
       "ontology": null,
       "CVList": null,
       "isaTag": "otherMaterial"
-    },      
+    },
+    {
+      "iri": null,
+      "name": "file type",
+      "description": "The run data file model.",
+      "dataType": "String",
+      "required": true,
+      "ontology": null,
+      "CVList": [
+        "bam",
+        "cram",
+        "fastq",
+        "oxfordnanopore_native",
+        "pacbio_hdf5",
+        "sff"
+        ],
+      "isaTag": "parameter_value"
+    },
     {
       "iri": null,
       "name": "Raw Data File",
