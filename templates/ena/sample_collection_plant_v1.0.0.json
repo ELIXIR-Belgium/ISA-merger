@@ -26,7 +26,7 @@
     "iri": null,
     "name": "sample collection",
     "description": "type of assay or experimental step performed.",
-    "dataType": "string",
+    "dataType": "String",
     "required": true,
     "ontology": null,    
     "CVList": null,//SOPtittle
@@ -36,7 +36,7 @@
     "iri": null,
     "name": "sample collection device or method",
     "description": "The method or deviced employed for collecting the sample",
-    "dataType": "string",
+    "dataType": "String",
     "required": false,
     "ontology": null,
     "isaTag": "parameter_value"    
@@ -45,7 +45,7 @@
     "iri": null,
     "name": "sample material processing",
     "description": "Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v 2013-10-25) terms please see http://purl.bioontology.org/ontology/OBI",
-    "dataType": "string",
+    "dataType": "Ontology",
     "required": false,
     "ontology": {
       "name": "OBI",
@@ -58,7 +58,7 @@
     "iri": null,
     "name": "amount or size of sample collected",
     "description": "Amount or size of sample (volume, mass or area) that was collected",
-    "dataType": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
+    "dataType": "String", // original Regex "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
     "required": false,
     "ontology": null,
     "isaTag": "parameter_value"    
@@ -67,7 +67,7 @@
     "iri": null,
     "name": "sample storage duration",
     "description": "duration for which sample was stored",
-    "dataType": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
+    "dataType": "String", // original Regex "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
     "required": false,
     "ontology": null,
     "isaTag": "parameter_value"    
@@ -76,7 +76,7 @@
     "iri": null,
     "name": "sample storage temperature",
     "description": "temperature at which sample was stored, e.g. -80",
-    "dataType": "[+-]?(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
+    "dataType": "String", // original Regex "[+-]?(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
     "required": false,
     "ontology": null,
     "isaTag": "parameter_value"    
@@ -85,7 +85,7 @@
     "iri": null,
     "name": "sample storage location",
     "description": "location at which sample was stored, usually name of a specific freezer/room",
-    "dataType": "string",
+    "dataType": "String",
     "required": false,
     "ontology": null,
     "isaTag": "parameter_value"    
@@ -94,7 +94,7 @@
     "iri": null,
     "name": "sampling time point",
     "description": "",
-    "dataType": "string",
+    "dataType": "String",
     "required": false,
     "ontology": null,
     "isaTag": "parameter_value"    

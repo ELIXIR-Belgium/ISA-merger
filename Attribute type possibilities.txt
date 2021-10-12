@@ -17,6 +17,7 @@ SEEK Strain
 SEEK Sample
 SEEK Sample Multi
 Controlled Vocabulary
+Ontology
 URI
 DOI
 NCBI ID

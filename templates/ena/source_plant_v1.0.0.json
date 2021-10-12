@@ -448,7 +448,7 @@
     "iri": null,
     "name": "environment (biome)",
     "description": "Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Biome should be treated as the descriptor of the broad ecological context of a sample. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO (v 2013-06-14) terms can be found via the link: www.environmentontology.org/Browse-EnvO",
-    "dataType": "String",
+    "dataType": "Ontology",
     "required": false,
     "ontology": {
       "name": "ENVO",
@@ -463,12 +463,7 @@
     "description": "Environmental feature level includes geographic environmental features. Compared to biome, feature is a descriptor of the more local environment. Examples include: harbor, cliff, or lake. EnvO (v 2013-06-14) terms can be found via the link: www.environmentontology.org/Browse-EnvO",
     "dataType": "String",
     "required": false,
-    "ontology": {
-      "name": "ENVO",
-      "version": "",
-      "description": "Environment Ontology",
-      "rootTermURI": ""},
-      "isaTag": "source_characteristic"
+    "isaTag": "source_characteristic"
   },
   {
     "iri": null,
@@ -509,7 +504,7 @@
     "iri": null,
     "name": "plant structure",
     "description": "name of plant structure that the sample was obtained from; for Plant Ontology (PO) terms see http://purl.bioontology.org/ontology/PO, e.g. petiole epidermis (PO_0000051); if an individual flower is sampled the sex of it can be recorded here",
-    "dataType": "String",
+    "dataType": "Ontology",
     "required": true,    
     "ontology": {
       "name": "PO",
@@ -522,7 +517,7 @@
     "iri": null,
     "name": "plant developmental stage",
     "description": "developmental stage at the time of sample collection; for Plant Ontology (PO) (v 20) terms, see http://purl.bioontology.org/ontology/PO, e.g. hypocotyl emergence stage (PO_0007043)",
-    "dataType": "String",
+    "dataType": "Ontology",
     "required": true,
     "ontology": {
       "name": "PO",
