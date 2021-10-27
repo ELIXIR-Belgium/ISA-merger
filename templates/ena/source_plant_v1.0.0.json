@@ -25,6 +25,23 @@
   },
   {
     "iri": null,
+    "name": "Title",
+    "description": "Short text that can be used to call out sample records in search results or in displays.",
+    "dataType": "String",
+    "required": true,
+    "isaTag": "source_characteristic"
+  },
+  {
+    "iri": null,
+    "name": "Description",
+    "description": "Free-form text describing the sample, its origin, and its method of isolation.",
+    "dataType": "String",
+    "required": true,
+    "ontology": null,
+    "isaTag": "source_characteristic"
+  },
+  {
+    "iri": null,
     "name": "tax_id", //First field on an ENA sample file. It is the number ID
     "description": "NCBI Taxonomy Identifier number ID. This is appropriate for individual organisms and some environmental samples.",
     "dataType": "String",
