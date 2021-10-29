@@ -89,37 +89,7 @@
         " unspecified"
       ],
       "isaTag": "parameter_value"
-    },
-    {
-      "iri": null,
-      "name": "quality scorer",
-      "description": "ENA term if applicable",
-      "dataType": "String",
-      "required": false,
-      "ontology": null,
-      "CVList": null,
-      "isaTag": "parameter_value"
-    },
-    {
-      "iri": null,
-      "name": "base caller",
-      "description": "String",
-      "dataType": "Ontology term",
-      "required": false,
-      "ontology": null,
-      "CVList": null,
-      "isaTag": "parameter_value"
-    },
-    {
-      "iri": null,
-      "name": "Assay Name",
-      "description": "User-defined name for an assay.",
-      "dataType": "String",
-      "required": true,
-      "ontology": null,
-      "CVList": null,
-      "isaTag": "otherMaterial"
-    },
+    },    
     {
       "iri": null,
       "name": "file type",
