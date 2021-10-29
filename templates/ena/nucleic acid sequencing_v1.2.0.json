@@ -112,7 +112,7 @@
       "name": "file checksum",
       "description": "The MD5 checksum of the file.",
       "dataType": "String",
-      "required": true,
+      "required": false,
       "ontology": null,
       "CVList": null,
       "isaTag": "dataFile_comment"
@@ -130,10 +130,10 @@
     },
     {
       "iri": null,
-      "name": "submission date",
-      "description": "Date of submission to ENA.",
+      "name": "accession",
+      "description": "ENA run accession code.",
       "dataType": "String",
-      "required": true,
+      "required": false,
       "ontology": null,
       "CVList": null,
       "isaTag": "dataFile_comment"
