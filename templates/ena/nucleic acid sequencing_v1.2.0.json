@@ -4,7 +4,7 @@
     "group": "ena",
     "group_order": 5,
     "temporary_name": "5_ena_nucleic_acid_sequencing",
-    "template_version": "1.2.0",
+    "template_version": "1.3.0",
     "isa_config": "genome_seq_default_v2015-07-02",
     "isa_measurement_type": "genome sequencing",
     "isa_technology_type": "nucleotide sequencing",
@@ -105,7 +105,17 @@
         "pacbio_hdf5",
         "sff"
         ],
-      "isaTag": "parameter_value"
+      "isaTag": "dataFile_comment"
+    },
+    {
+      "iri": null,
+      "name": "file checksum",
+      "description": "The MD5 checksum of the file.",
+      "dataType": "String",
+      "required": true,
+      "ontology": null,
+      "CVList": null,
+      "isaTag": "dataFile_comment"
     },
     {
       "iri": null,
@@ -117,6 +127,16 @@
       "ontology": null,
       "CVList": null,
       "isaTag": "dataFile"
-    } 
+    },
+    {
+      "iri": null,
+      "name": "submission date",
+      "description": "Date of submission to ENA.",
+      "dataType": "String",
+      "required": true,
+      "ontology": null,
+      "CVList": null,
+      "isaTag": "dataFile_comment"
+    }
   ]
 }
