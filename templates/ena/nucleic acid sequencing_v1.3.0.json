@@ -130,8 +130,28 @@
     },
     {
       "iri": null,
+      "name": "submission date",
+      "description": "Date of submission to ENA.",
+      "dataType": "String",
+      "required": false,
+      "ontology": null,
+      "CVList": null,
+      "isaTag": "dataFile_comment"
+    },
+    {
+      "iri": null,
       "name": "accession",
       "description": "ENA run accession code.",
+      "dataType": "String",
+      "required": false,
+      "ontology": null,
+      "CVList": null,
+      "isaTag": "dataFile_comment"
+    },
+    {
+      "iri": null,
+      "name": "status",
+      "description": "Status of submission to ENA.",
       "dataType": "String",
       "required": false,
       "ontology": null,
