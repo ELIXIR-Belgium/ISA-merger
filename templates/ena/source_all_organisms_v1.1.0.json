@@ -609,6 +609,43 @@
     "required": false,
     "ontology": null,
     "isaTag": "source_characteristic"    
+  },
+  {
+    "iri": null,
+    "name": "submission date",
+    "description": "Date in which sample was submitted to ENA.",
+    "dataType": "String",
+    "required": false,
+    "ontology": null,
+    "CVList": null,
+    "isaTag": "source_characteristic"
+  },
+  {
+    "iri": null,
+    "name": "status",
+    "description": "Status of submission to ENA.",
+    "dataType": "String",
+    "required": false,
+    "ontology": null,
+    "CVList": ["add",
+      "added",
+      "modify",
+      "modified",
+      "cancel",
+      "cancelled",
+      "release",
+      "released"],
+    "isaTag": "source_characteristic"
+  },
+  {
+    "iri": null,
+    "name": "accession",
+    "description": "ENA sample accession code. Provided by ENA after submission.",
+    "dataType": "String",
+    "required": false,
+    "ontology": null,
+    "CVList": null,
+    "isaTag": "source_characteristic"
   }
 ]
 }
