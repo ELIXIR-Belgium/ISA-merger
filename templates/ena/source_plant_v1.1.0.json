@@ -4,7 +4,7 @@
     "group": "ena",
     "group_order": 1,
     "temporary_name": "1_ena_plant",
-    "template_version": "1.0.0",
+    "template_version": "1.1.0",
     "isa_config": "genome_seq_default_v2015-07-02",
     "isa_measurement_type": null,
     "isa_technology_type": "nucleotide sequencing",
@@ -22,6 +22,23 @@
     "title": true,
     "required": true,
     "isaTag": "source"             
+  },
+  {
+    "iri": null,
+    "name": "Title",
+    "description": "Short text that can be used to call out sample records in search results or in displays.",
+    "dataType": "String",
+    "required": true,
+    "isaTag": "source_characteristic"
+  },
+  {
+    "iri": null,
+    "name": "Description",
+    "description": "Free-form text describing the sample, its origin, and its method of isolation.",
+    "dataType": "String",
+    "required": true,
+    "ontology": null,
+    "isaTag": "source_characteristic"
   },
   {
     "iri": null,
@@ -1210,5 +1227,43 @@
     "required": false,
     "ontology": null,
     "isaTag": "source_characteristic"    
+  },
+  {
+    "iri": null,
+    "name": "submission date",
+    "description": "Date in which sample was submitted to ENA.",
+    "dataType": "String",
+    "required": false,
+    "ontology": null,
+    "CVList": null,
+    "isaTag": "source_characteristic"
+  },
+  {
+    "iri": null,
+    "name": "status",
+    "description": "Status of submission to ENA.",
+    "dataType": "String",
+    "required": false,
+    "ontology": null,
+    "CVList": ["add",
+      "added",
+      "modify",
+      "modified",
+      "cancel",
+      "cancelled",
+      "release",
+      "released"],
+    "isaTag": "source_characteristic"
+  },
+  {
+    "iri": null,
+    "name": "accession",
+    "description": "ENA sample accession code. Provided by ENA after submission.",
+    "dataType": "String",
+    "required": false,
+    "ontology": null,
+    "CVList": null,
+    "isaTag": "source_characteristic"
   }
 ]
+}
