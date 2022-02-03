@@ -1,0 +1,63 @@
+{
+    "metadata": {
+      "name": "nucleic acid extraction",
+      "group": "arrayexpress",
+      "group_order": 3,
+      "temporary_name": "3_arrayexpress_nucleic_acid_extraction",
+      "template_version": "1.2.0",
+      "isa_config": "genome_seq_default_v2015-07-02",
+      "isa_measurement_type": "transcription profiling",
+      "isa_technology_type": "nucleotide sequencing",
+      "isa_protocol_type": "nucleic acid extraction",
+      "repo_schema_id": "NA",
+      "organism": "any",
+      "level": "assay"
+    },
+    "data": [
+      {
+        "iri": null,
+        "name": "Input",
+        "description": "Existing Samples in DataHub that represent input for this protocol.",
+        "dataType": "SEEK Sample Multi",
+        "required": true,
+        "isaTag": null
+      },
+        {
+          "iri": "http://www.ebi.ac.uk/efo/EFO_0002944",
+          "name": "nucleic acid extraction",
+          "description": "A protocol that describes in which a material separation to recover the nucleic acid fraction of an input material is performed.",
+          "dataType": "String",
+          "required": true,
+          "isaTag": "protocol",
+          "ontology": null,
+          "CVList": null 
+        },
+        {
+          "iri": null,
+          "name": "Extract Name",
+          "description": "User-defined names for each portion of extracted material.",
+          "dataType": "String",
+          "title": true,
+          "required": true,
+          "isaTag": "otherMaterial",
+          "ontology": null,
+          "CVList": null
+        },
+        {
+          "iri": null,
+          "name": "Material type",
+          "description": "This column contains terms describing the type of each material, for examples: whole organism, organism part, cell, total RNA.",
+          "dataType": "Controlled Vocabulary",
+          "required": true,
+          "isaTag": "otherMaterial_characteristic",
+          "ontology": null,
+          "CVList": [
+            "whole organism", 
+            "organism part", 
+            "RNA", 
+            "DNA", 
+            "cell"
+          ]
+        }
+      ]  
+  }
