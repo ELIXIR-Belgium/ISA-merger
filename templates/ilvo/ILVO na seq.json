@@ -1,7 +1,7 @@
 {
     "metadata": {
       "name": "nucleic acid sequencing",
-      "group": "arrayexpress",
+      "group": "ilvo",
       "group_order": 5,
       "temporary_name": "5_arrayexpress_nucleic_acid_sequencing",
       "template_version": "1.2.0",
@@ -148,7 +148,107 @@
             "ontology": null,
             "CVList": null,
             "isaTag": "dataFile_comment"
-        },      
+        },
+        {
+          "iri": null,
+          "name": "B species or environment code",
+          "description": "",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "dataFile_comment"
+        },
+        {
+          "iri": null,
+          "name": "experiment site code",
+          "description": "",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "dataFile_comment"
+        },
+        {
+          "iri": null,
+          "name": "collection date code",
+          "description": "",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "dataFile_comment"
+        },
+        {
+          "iri": null,
+          "name": "# samples/pool code",
+          "description": "",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "dataFile_comment"
+        },
+        {
+          "iri": null,
+          "name": "individual code",
+          "description": "",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "dataFile_comment"
+        },
+        {
+          "iri": null,
+          "name": "P protocol code",
+          "description": "",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "dataFile_comment"
+        },
+        {
+          "iri": null,
+          "name": "technical replicate code",
+          "description": "",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "dataFile_comment"
+        },
+        {
+          "iri": null,
+          "name": "U flowcell lanes",
+          "description": "",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "dataFile_comment"
+        },
+        {
+          "iri": null,
+          "name": "unique sample code",
+          "description": "",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "dataFile_comment"
+        },
+        {
+          "iri": null,
+          "name": "P U protocol lane",
+          "description": "",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "dataFile_comment"
+        },    
         {
           "iri": null,
           "name": "Raw Data File",
@@ -189,6 +289,43 @@
             "ontology": null,
             "CVList": null,
             "isaTag": "dataFile_comment"
+        },
+        {
+          "iri": null,
+          "name": "submission date",
+          "description": "Date in which run was submitted to repository. Date of submission to repository.",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "dataFile_comment"
+        },
+        {
+          "iri": null,
+          "name": "status",
+          "description": "Status of submission to repository.",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": ["add",
+            "added",
+            "modify",
+            "modified",
+            "cancel",
+            "cancelled",
+            "release",
+            "released"],
+          "isaTag": "dataFile_comment"
+        },
+        {
+          "iri": null,
+          "name": "accession",
+          "description": "repository run accession code. Provided by ENA after submission.",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "dataFile"
         }   
       ]    
   }

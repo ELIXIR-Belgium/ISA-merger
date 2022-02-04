@@ -1,7 +1,7 @@
 {
     "metadata": {
       "name": "nucleic acid extraction",
-      "group": "arrayexpress",
+      "group": "ilvo",
       "group_order": 3,
       "temporary_name": "3_arrayexpress_nucleic_acid_extraction",
       "template_version": "1.2.0",

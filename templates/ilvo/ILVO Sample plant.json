@@ -1,7 +1,7 @@
 {
     "metadata": {
       "name": "sample_collection",
-      "group": "arrayexpress",
+      "group": "ilvo",
       "group_order": 2,
       "temporary_name": "2_arrayexpress_sample_collection",
       "template_version": "1.2.0",
@@ -41,7 +41,7 @@
       "isaTag": "parameter_value"
     },
     {
-        "iri": "",
+        "iri": null,
         "name": "collection date",
         "description": "YYMMDD",
         "dataType": "String",
