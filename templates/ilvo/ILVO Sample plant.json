@@ -1,0 +1,114 @@
+{
+    "metadata": {
+      "name": "sample_collection",
+      "group": "ilvo",
+      "group_order": 2,
+      "temporary_name": "2_arrayexpress_sample_collection",
+      "template_version": "1.2.0",
+      "isa_config": "studySample_default_v2015-07-02",
+      "isa_measurement_type": "Sample",
+      "isa_technology_type": null,
+      "isa_protocol_type": "sample collection",
+      "repo_schema_id": "Annotare-default.properties",
+      "organism": "any",
+      "level": "study"
+    },
+    "data":[
+    {
+      "iri": null,
+      "name": "Input",
+      "description": "Existing Samples in DataHub that represent input for this protocol.",
+      "dataType": "SEEK Sample Multi",
+      "required": true,
+      "isaTag": null
+    },
+    {
+      "iri": "http://www.ebi.ac.uk/efo/EFO_0005518",
+      "name": "sample collection",
+      "description": "A protocol that describes the procedure whereby biological samples for an experiment are sourced. Examples of this are: collection of clinical samples from patients, collection of plant materials in a forest, collection of larvae from lab-grown Drosophila flies.",
+      "dataType": "String",
+      "required": true,
+      "isaTag": "protocol",
+      "ontology": null,
+      "CVList": null
+    }, 
+    {
+      "iri": "http://www.ebi.ac.uk/efo/EFO_0000688",
+      "name": "sampling site",
+      "description": "A site from which a sample, i.e. a statistically representative of the whole, is extracted from the whole. e.g. a liver sample.",
+      "dataType": "String",
+      "required": false,
+      "isaTag": "parameter_value"
+    },
+    {
+        "iri": null,
+        "name": "collection date",
+        "description": "YYMMDD",
+        "dataType": "String",
+        "required": false,
+        "isaTag": "parameter_value"
+    },
+    {
+        "iri": "http://www.ebi.ac.uk/efo/EFO_0000635",
+        "name": "organism part",
+        "description": "The part of organism's anatomy or substance arising from an organism from which the biomaterial was derived, excludes cells. E.g. tissue, organ, system, sperm, blood or body location (arm).",
+        "dataType": "Ontology",
+        "required": true,
+        "isaTag": "sample_characteristic",
+        "ontology": {
+          "name": "efo",
+          "version": "1",
+          "description": "Experimental Factor Ontology",
+          "rootTermURI": "http://www.ebi.ac.uk/efo/EFO_0000635"
+        } 
+    },
+    {
+        "iri": null,
+        "name": "material type",
+        "description": "Used as an attribute column following Source Name, Sample Name, Extract Name, or Labeled Extract Name. This column contains terms describing the type of each material, for examples: whole organism, organism part, cell, total RNA.",
+        "dataType": "Controlled Vocabulary",
+        "required": true,
+        "isaTag": "sample_characteristic",
+        "ontology": null,
+        "CVList": ["whole organism", "organism part", "RNA", "DNA", "cell"]
+    }, 
+    {
+      "iri": null,
+      "name": "Sample Name",
+      "description": "Name of the major output resulting from the application of the protocol.",
+      "dataType": "String",
+      "title": true,
+      "required": true,
+      "isaTag": "sample",
+      "ontology": null
+    },
+    {
+        "iri": null,
+        "name": "# samples/pool",
+        "description": "number of genotypes in composite samples or pools",
+        "dataType": "String",
+        "required": true,
+        "isaTag": "sample_characteristic",
+        "ontology": null
+    },
+    {
+        "iri": null,
+        "name": "individual",
+        "description": "genotype number or description of sample (with unique genome composition as sample) unique in combination with species and location or experiment",
+        "dataType": "String",
+        "required": true,
+        "isaTag": "sample_characteristic",
+        "ontology": null
+    },
+    {
+        "iri": null,
+        "name": "remarks",
+        "description": "",
+        "dataType": "String",
+        "required": false,
+        "isaTag": "sample_characteristic",
+        "ontology": null
+    }
+ 
+  ]
+  }
