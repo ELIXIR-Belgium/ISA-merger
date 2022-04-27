@@ -70,7 +70,86 @@
               "name": "ISA sample collection",
               "group": "ISA Test",
               "group_order": 2,
-              "temporary_name": "1_ISA_Test_sample_collection",
+              "temporary_name": "2_ISA_Test_sample_collection",
+              "template_version": "1.0.0",
+              "isa_config": null,
+              "isa_measurement_type": null,
+              "isa_technology_type": null,
+              "isa_protocol_type": null,
+              "repo_schema_id": null,
+              "organism": "any",
+              "level": "assay"
+            },
+            "data": [
+              {
+                "iri": null,
+                "name": "Input",
+                "description": "Existing Samples in DataHub that represent input for this protocol.",
+                "dataType": "SEEK Sample Multi",
+                "required": true,
+                "isaTag": null
+              },
+              {
+                "iri": null,
+                "name": "sample collection",
+                "description": "type of assay or experimental step performed.",
+                "dataType": "String",
+                "required": true,
+                "ontology": null,
+                "CVList": null,
+                "isaTag": "protocol"
+              },
+              {
+                "iri": null,
+                "name": "sample collection parameter value 1",
+                "description": "Parameter value 1 for sample collection",
+                "dataType": "String",
+                "required": true,
+                "ontology": null,
+                "CVList": null,
+                "isaTag": "parameter_value"
+              },
+              {
+                "iri": null,
+                "name": "sample collection parameter value 2",
+                "description": "Parameter value 2 for sample collection",
+                "dataType": "Controlled Vocabulary",
+                "required": false,
+                "ontology": null,
+                "CVList": ["1","2","3"],
+                "isaTag": "parameter_value"
+              },
+              {
+                "iri": null,
+                "name": "sample collection parameter value 3",
+                "description": "Parameter value 3 for sample collection",
+                "dataType": "Ontology",
+                "required": false,
+                "ontology": {
+                    "name": "PATO",
+                    "version": "",
+                    "description": "Phenotype And Trait Ontology",
+                    "rootTermURI": "http://purl.obolibrary.org/obo/PATO_0002317"},
+                "CVList": null,
+                "isaTag": "parameter_value"
+              },
+              {
+                "iri": null,
+                "name": "Sample Name",
+                "description": "Name of the major output resulting from the application of the protocol.",
+                "dataType": "String",
+                "title": true,
+                "required": true,
+                "isaTag": "sample"
+              }
+            ]
+          },
+          {
+            "metadata": {
+              "name": "ISA Assay 1",
+              "group": "ISA Test",
+              "group_order": 3,
+              "temporary_name": "3_ISA_Test_sample_collection",
               "template_version": "1.0.0",
               "isa_config": null,
               "isa_measurement_type": null,
