@@ -55,10 +55,10 @@
 						"name": "ENVO",
 						"version": "",
 						"description": "Environment Ontology",
-						"rootTermURI": "http://purl.obolibrary.org/obo/ENVO_00005803",
-						"CVList": null,
-						"isaTag": "source_characteristic"
-					}
+						"rootTermURI": "http://purl.obolibrary.org/obo/ENVO_00005803"
+					},
+					"CVList": null,
+					"isaTag": "source_characteristic"
 				}
 			]
 		},
