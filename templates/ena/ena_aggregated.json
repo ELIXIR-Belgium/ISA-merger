@@ -6,7 +6,7 @@
         "group": "ena",
         "group_order": 4,
         "temporary_name": "4_ena_library_construction",
-        "template_version": "1.3.0",
+        "version": "1.3.0",
         "isa_config": "genome_seq_default_v2015-07-02",
         "isa_measurement_type": "genome sequencing",
         "isa_technology_type": "nucleotide sequencing",
@@ -21,7 +21,7 @@
           "name": "Input",
           "description": "Existing Samples in DataHub that represent input for this protocol.",
           "dataType": "Registered Sample (multiple)",
-          "required": "true",
+          "required": true,
           "isaTag": null
         },
         {
@@ -244,7 +244,7 @@
         "group": "ena",
         "group_order": 3,
         "temporary_name": "3_ena_nucleic_acid_extraction",
-        "template_version": "1.2.0",
+        "version": "1.2.0",
         "isa_config": "genome_seq_default_v2015-07-02",
         "isa_measurement_type": "genome sequencing",
         "isa_technology_type": "nucleotide sequencing",
@@ -259,7 +259,7 @@
           "name": "Input",
           "description": "Existing Samples in DataHub that represent input for this protocol.",
           "dataType": "Registered Sample (multiple)",
-          "required": "true",
+          "required": true,
           "isaTag": null
         },
         {
@@ -279,7 +279,6 @@
           "required": false,
           "ontology": null,
           "dataType": "String",
-          "unit": null,
           "isaTag": "parameter_value"
         },
         {
@@ -302,7 +301,7 @@
         "group": "ena",
         "group_order": 5,
         "temporary_name": "5_ena_nucleic_acid_sequencing",
-        "template_version": "1.3.0",
+        "version": "1.3.0",
         "isa_config": "genome_seq_default_v2015-07-02",
         "isa_measurement_type": "genome sequencing",
         "isa_technology_type": "nucleotide sequencing",
@@ -458,7 +457,7 @@
         "group": "ena",
         "group_order": 2,
         "temporary_name": "2_ena_plant",
-        "template_version": "1.0.0",
+        "version": "1.0.0",
         "isa_config": "genome_seq_default_v2015-07-02",
         "isa_measurement_type": "genome sequencing",
         "isa_technology_type": "nucleotide sequencing",
@@ -573,7 +572,7 @@
         "group": "ena",
         "group_order": 2,
         "temporary_name": "2_ena_sample_collection",
-        "template_version": "1.0.0",
+        "version": "1.0.0",
         "isa_config": "genome_seq_default_v2015-07-02",
         "isa_measurement_type": null,
         "isa_technology_type": "nucleotide sequencing",
@@ -618,7 +617,7 @@
         "group": "ena",
         "group_order": 6,
         "temporary_name": "6_ena_sequence_assembly",
-        "template_version": "1.2.0",
+        "version": "1.2.0",
         "isa_config": "genome_seq_default_v2015-07-02",
         "isa_measurement_type": "genome sequencing",
         "isa_technology_type": "nucleotide sequencing",
@@ -633,7 +632,7 @@
           "name": "Input",
           "description": "Existing Samples in DataHub that represent input for this protocol.",
           "dataType": "Registered Sample (multiple)",
-          "required": "true",
+          "required": true,
           "isaTag": null
         },
         {
@@ -684,7 +683,7 @@
         "group": "ena",
         "group_order": 1,
         "temporary_name": "1_ena_source_all_organisms",
-        "template_version": "1.1.1",
+        "version": "1.1.1",
         "isa_config": "genome_seq_default_v2015-07-02",
         "isa_measurement_type": null,
         "isa_technology_type": "nucleotide sequencing",
@@ -1329,7 +1328,7 @@
         "group": "ena",
         "group_order": 1,
         "temporary_name": "1_ena_plant",
-        "template_version": "1.1.1",
+        "version": "1.1.1",
         "isa_config": "genome_seq_default_v2015-07-02",
         "isa_measurement_type": null,
         "isa_technology_type": "nucleotide sequencing",
@@ -1422,7 +1421,6 @@
           "dataType": "Integer",
           "required": true,
           "ontology": null,
-          "unit": null,
           "isaTag": "source_characteristic"
         },
         {
@@ -2049,7 +2047,7 @@
           "description": "most relevant phenotypic traits of the subject; for Phenotypic quality Ontology (PATO) (v 2013-10-28) terms, please see http://purl.bioontology.org/ontology/PATO, e.g. bifurcated (PATO_0001784); terms from Trait Ontology (TO), Plant Ontology (PO) or Crop Ontology (CO) are also accepted; include name/method/scale for each trait; can include multiple traits",
           "dataType": "String",
           "required": false,
-          "ontology": false,
+          "ontology": null,
           "isaTag": "source_characteristic"
         },
         {
@@ -2559,7 +2557,7 @@
           "description": "list of chemical compounds administered to the host or site where sampling occurred, and when (e.g. antibiotics, N fertilizer, air filter); can include multiple compounds. For Chemical Entities of Biological Interest ontology (CHEBI) (v111), please see http://purl.bioontology.org/ontology/CHEBI",
           "dataType": "String",
           "required": false,
-          "ontology": false,
+          "ontology": null,
           "isaTag": "source_characteristic"
         },
         {
