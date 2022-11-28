@@ -17,7 +17,7 @@
       },
       "data": [
         {
-          "iri": null,
+          "pid": null,
           "name": "Input",
           "description": "Existing Samples in DataHub that represent input for this protocol.",
           "dataType": "Registered Sample (multiple)",
@@ -25,7 +25,7 @@
           "isaTag": null
         },
         {
-          "iri": "http://www.ebi.ac.uk/efo/EFO_0005518",
+          "pid": "http://www.ebi.ac.uk/efo/EFO_0005518",
           "name": "sample collection",
           "description": "A protocol that describes the procedure whereby biological samples for an experiment are sourced. Examples of this are: collection of clinical samples from patients, collection of plant materials in a forest, collection of larvae from lab-grown Drosophila flies.",
           "dataType": "String",
@@ -35,7 +35,7 @@
           "CVList": null
         },
         {
-          "iri": "http://www.ebi.ac.uk/efo/EFO_0000688",
+          "pid": "http://www.ebi.ac.uk/efo/EFO_0000688",
           "name": "sampling site",
           "description": "A site from which a sample, i.e. a statistically representative of the whole, is extracted from the whole. e.g. a liver sample.",
           "dataType": "String",
@@ -43,7 +43,7 @@
           "isaTag": "parameter_value"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "collection date",
           "description": "YYMMDD",
           "dataType": "String",
@@ -51,7 +51,7 @@
           "isaTag": "parameter_value"
         },
         {
-          "iri": "http://www.ebi.ac.uk/efo/EFO_0000635",
+          "pid": "http://www.ebi.ac.uk/efo/EFO_0000635",
           "name": "organism part",
           "description": "The part of organism's anatomy or substance arising from an organism from which the biomaterial was derived, excludes cells. E.g. tissue, organ, system, sperm, blood or body location (arm).",
           "dataType": "Ontology",
@@ -65,7 +65,7 @@
           }
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "material type",
           "description": "Used as an attribute column following Source Name, Sample Name, Extract Name, or Labeled Extract Name. This column contains terms describing the type of each material, for examples: whole organism, organism part, cell, total RNA.",
           "dataType": "Controlled Vocabulary",
@@ -75,7 +75,7 @@
           "CVList": ["whole organism", "organism part", "RNA", "DNA", "cell"]
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "Sample Name",
           "description": "Name of the major output resulting from the application of the protocol.",
           "dataType": "String",
@@ -85,7 +85,7 @@
           "ontology": null
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "# samples/pool",
           "description": "number of genotypes in composite samples or pools",
           "dataType": "String",
@@ -94,7 +94,7 @@
           "ontology": null
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "individual",
           "description": "genotype number or description of sample (with unique genome composition as sample) unique in combination with species and location or experiment",
           "dataType": "String",
@@ -103,7 +103,7 @@
           "ontology": null
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "remarks",
           "description": "",
           "dataType": "String",
@@ -130,7 +130,7 @@
       },
       "data": [
         {
-          "iri": null,
+          "pid": null,
           "name": "Source Name",
           "description": "Sources are considered as the starting biological material used in a study.",
           "dataType": "String",
@@ -139,7 +139,7 @@
           "isaTag": "source"
         },
         {
-          "iri": "http://purl.obolibrary.org/obo/OBI_0100026",
+          "pid": "http://purl.obolibrary.org/obo/OBI_0100026",
           "name": "organism",
           "description": "A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs. E.g Drosophila melanogaster.",
           "dataType": "Ontology",
@@ -153,7 +153,7 @@
           }
         },
         {
-          "iri": "http://purl.obolibrary.org/obo/NCBITaxon_33858",
+          "pid": "http://purl.obolibrary.org/obo/NCBITaxon_33858",
           "name": "environmental samples",
           "description": "",
           "dataType": "String",
@@ -161,7 +161,7 @@
           "isaTag": "source_characteristic"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "remarks",
           "description": "",
           "dataType": "String",
@@ -169,7 +169,7 @@
           "isaTag": "source_characteristic"
         },
         {
-          "iri": "http://www.ebi.ac.uk/efo/EFO_0000399",
+          "pid": "http://www.ebi.ac.uk/efo/EFO_0000399",
           "name": "developmental stage",
           "description": "A developmental stage is spatiotemporal region encompassing some part of the life cycle of an organism, e.g. blastula stage",
           "dataType": "Ontology",
@@ -183,7 +183,7 @@
           }
         },
         {
-          "iri": "http://www.ebi.ac.uk/efo/EFO_0000246",
+          "pid": "http://www.ebi.ac.uk/efo/EFO_0000246",
           "name": "age",
           "description": "A temporal measurement of the time period elapsed since an identifiable point in the life cycle of an organism. If a developmental stage is specified, the identifiable point would be the beginning of that stage. Otherwise the identifiable point must be specified such as planting (e.g. 3 days post planting).",
           "dataType": "Ontology",
@@ -197,7 +197,7 @@
           }
         },
         {
-          "iri": "http://www.ebi.ac.uk/efo/EFO_0000513",
+          "pid": "http://www.ebi.ac.uk/efo/EFO_0000513",
           "name": "genotype",
           "description": "The total sum of the genetic information of an organism that is known and relevant to the experiment being performed, including chromosomal, plasmid, viral or other genetic material which has been introduced into the organism either prior to or during the experiment.",
           "dataType": "Ontology",
@@ -211,7 +211,7 @@
           }
         },
         {
-          "iri": "http://www.ebi.ac.uk/efo/EFO_0005136",
+          "pid": "http://www.ebi.ac.uk/efo/EFO_0005136",
           "name": "cultivar",
           "description": "A cultivated plant variety selected and given a name because it has desirable characteristics that distinguish it from otherwise similar plants of the same species.",
           "dataType": "String",
@@ -219,7 +219,7 @@
           "isaTag": "source_characteristic"
         },
         {
-          "iri": "http://www.ebi.ac.uk/efo/EFO_0000510",
+          "pid": "http://www.ebi.ac.uk/efo/EFO_0000510",
           "name": "genetic modification",
           "description": "A genetic modification of the genome of an organism which may occur naturally by spontaneous mutation, or be introduced by some experimental means. Examples of genetic modification include specification of a transgene or the gene knocked-out or details of transient transfection.",
           "dataType": "Ontology",
@@ -233,7 +233,7 @@
           }
         },
         {
-          "iri": "http://www.ebi.ac.uk/efo/EFO_0000523",
+          "pid": "http://www.ebi.ac.uk/efo/EFO_0000523",
           "name": "growth condition",
           "description": "A role that a material entity can play which enables particular conditions used to grow organisms or parts of the organism. This includes isolated environments such as cultures and open environments such as field studies.",
           "dataType": "Ontology",
@@ -247,7 +247,7 @@
           }
         },
         {
-          "iri": "http://www.ebi.ac.uk/efo/EFO_0000683",
+          "pid": "http://www.ebi.ac.uk/efo/EFO_0000683",
           "name": "replicate",
           "description": "A role played by a a biological sample in the context of an experiment where the intent is that biological or technical variation is measured.",
           "dataType": "Ontology",
@@ -280,7 +280,7 @@
       },
       "data": [
         {
-          "iri": null,
+          "pid": null,
           "name": "Input",
           "description": "Existing Samples in DataHub that represent input for this protocol.",
           "dataType": "Registered Sample (multiple)",
@@ -288,7 +288,7 @@
           "isaTag": null
         },
         {
-          "iri": "http://www.ebi.ac.uk/efo/EFO_0004184",
+          "pid": "http://www.ebi.ac.uk/efo/EFO_0004184",
           "name": "library construction",
           "description": "A protocol that describes the processes performed and equipment used to prepare nucleic acid sequencing library.",
           "required": true,
@@ -298,7 +298,7 @@
           "CVList": null
         },
         {
-          "iri": "",
+          "pid": "",
           "name": "library type",
           "description": "type library can vary per technology and subclass: brand, kit or restriction enzyme",
           "required": true,
@@ -308,7 +308,7 @@
           "CVList": null
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "library source",
           "description": "The LIBRARY_SOURCE specifies the type of source material that is being sequenced. (SRA 1.2 documentation)",
           "dataType": "Controlled Vocabulary",
@@ -328,7 +328,7 @@
           ]
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "library strategy",
           "description": "Sequencing technique intended for this library (SRA 1.2 documentation)",
           "dataType": "Controlled Vocabulary",
@@ -374,7 +374,7 @@
           ]
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "library selection",
           "description": "Whether any method was used to select for or against, enrich, or screen the material being sequenced. (SRA 1.2 documentation)",
           "dataType": "Controlled Vocabulary",
@@ -416,7 +416,7 @@
           ]
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "library layout",
           "description": "specifies whether to expect single, paired, or other configuration of reads.",
           "dataType": "Controlled Vocabulary",
@@ -426,7 +426,7 @@
           "CVList": ["SINGLE", "PAIRED"]
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "library strand",
           "description": "",
           "dataType": "Controlled Vocabulary",
@@ -600,7 +600,7 @@
       },
       "data": [
         {
-          "iri": null,
+          "pid": null,
           "name": "Input",
           "description": "Existing Samples in DataHub that represent input for this protocol.",
           "dataType": "Registered Sample (multiple)",
@@ -608,7 +608,7 @@
           "isaTag": null
         },
         {
-          "iri": "http://www.ebi.ac.uk/efo/EFO_0002944",
+          "pid": "http://www.ebi.ac.uk/efo/EFO_0002944",
           "name": "nucleic acid extraction",
           "description": "A protocol that describes in which a material separation to recover the nucleic acid fraction of an input material is performed.",
           "dataType": "String",
@@ -618,7 +618,7 @@
           "CVList": null
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "Extract Name",
           "description": "User-defined names for each portion of extracted material.",
           "dataType": "String",
@@ -629,7 +629,7 @@
           "CVList": null
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "Material type",
           "description": "This column contains terms describing the type of each material, for examples: whole organism, organism part, cell, total RNA.",
           "dataType": "Controlled Vocabulary",
@@ -658,7 +658,7 @@
       },
       "data": [
         {
-          "iri": null,
+          "pid": null,
           "name": "Input",
           "description": "Existing Samples in DataHub that represent input for this protocol.",
           "dataType": "Registered Sample (multiple)",
@@ -666,7 +666,7 @@
           "isaTag": null
         },
         {
-          "iri": "http://www.ebi.ac.uk/efo/EFO_0004170",
+          "pid": "http://www.ebi.ac.uk/efo/EFO_0004170",
           "name": "nucleic acid sequencing",
           "description": "A protocol that describes the processes performed and equipment used to determine the order of nucleotide bases in a nucleic acid sample.",
           "dataType": "String",
@@ -676,7 +676,7 @@
           "CVList": null
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "sequencing instrument",
           "description": "a parameter to report the sequencing instrument model and make",
           "dataType": "Controlled Vocabulary",
@@ -734,7 +734,7 @@
           ]
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "quality scorer",
           "description": "Name and version of the quality scoring software.",
           "dataType": "String",
@@ -744,7 +744,7 @@
           "CVList": null
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "base caller",
           "description": "Name and version of the base or color calling software.",
           "dataType": "String",
@@ -754,7 +754,7 @@
           "CVList": null
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "Assay Name",
           "description": "User-defined name for an assay.",
           "dataType": "String",
@@ -764,7 +764,7 @@
           "CVList": null
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "Technology type",
           "description": "",
           "dataType": "Controlled Vocabulary",
@@ -783,7 +783,7 @@
           "CVList": null
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "run and lane",
           "description": "sequential number per run /per sequence provider /machinename /lane",
           "dataType": "String",
@@ -793,7 +793,7 @@
           "isaTag": "data_file_comment"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "B species or environment code",
           "description": "",
           "dataType": "String",
@@ -803,7 +803,7 @@
           "isaTag": "data_file_comment"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "experiment site code",
           "description": "",
           "dataType": "String",
@@ -813,7 +813,7 @@
           "isaTag": "data_file_comment"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "collection date code",
           "description": "",
           "dataType": "String",
@@ -823,7 +823,7 @@
           "isaTag": "data_file_comment"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "# samples/pool code",
           "description": "",
           "dataType": "String",
@@ -833,7 +833,7 @@
           "isaTag": "data_file_comment"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "individual code",
           "description": "",
           "dataType": "String",
@@ -843,7 +843,7 @@
           "isaTag": "data_file_comment"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "P protocol code",
           "description": "",
           "dataType": "String",
@@ -853,7 +853,7 @@
           "isaTag": "data_file_comment"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "technical replicate code",
           "description": "",
           "dataType": "String",
@@ -863,7 +863,7 @@
           "isaTag": "data_file_comment"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "U flowcell lanes",
           "description": "",
           "dataType": "String",
@@ -873,7 +873,7 @@
           "isaTag": "data_file_comment"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "unique sample code",
           "description": "",
           "dataType": "String",
@@ -883,7 +883,7 @@
           "isaTag": "data_file_comment"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "P U protocol lane",
           "description": "",
           "dataType": "String",
@@ -893,7 +893,7 @@
           "isaTag": "data_file_comment"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "Raw Data File",
           "description": "or Array Data File: Name (or URI) of the raw data file generated by an assay.",
           "dataType": "String",
@@ -904,7 +904,7 @@
           "CVList": null
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "md5 value PE forward",
           "description": "The MD5 checksum of the file.",
           "dataType": "String",
@@ -914,7 +914,7 @@
           "isaTag": "data_file_comment"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "md5 value PE reverse",
           "description": "The MD5 checksum of the file.",
           "dataType": "String",
@@ -924,7 +924,7 @@
           "isaTag": "data_file_comment"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "md5 value SE",
           "description": "The MD5 checksum of the file.",
           "dataType": "String",
@@ -934,7 +934,7 @@
           "isaTag": "data_file_comment"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "submission date",
           "description": "Date in which run was submitted to repository. Date of submission to repository.",
           "dataType": "String",
@@ -944,7 +944,7 @@
           "isaTag": "data_file_comment"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "status",
           "description": "Status of submission to repository.",
           "dataType": "Controlled Vocabulary",
@@ -954,7 +954,7 @@
           "isaTag": "data_file_comment"
         },
         {
-          "iri": null,
+          "pid": null,
           "name": "accession",
           "description": "repository run accession code. Provided by ENA after submission.",
           "dataType": "String",
