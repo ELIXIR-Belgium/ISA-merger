@@ -4,14 +4,14 @@
     "group": "ena",
     "group_order": 1,
     "temporary_name": "1_ena_source_all_organisms",
-    "template_version": "1.1.0",
+    "version": "1.1.0",
     "isa_config": "genome_seq_default_v2015-07-02",
     "isa_measurement_type": null,
     "isa_technology_type": "nucleotide sequencing",
     "isa_protocol_type": null,
     "repo_schema_id": "ERC000011.xml 2021",
     "organism": "any",
-    "level": "study"
+    "level": "study source"
   },
   "data": [
   {
