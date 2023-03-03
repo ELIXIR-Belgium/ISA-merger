@@ -60,7 +60,7 @@
 					"dataType": "String",
 					"title": true,
 					"required": true,
-					"isaTag": "source"
+					"isaTag": "sample"
 				},
 				{
 					"iri": null,
