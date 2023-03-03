@@ -13,7 +13,7 @@
 				"isa_protocol_type": "library construction",
 				"repo_schema_id": "General experiment information 2021",
 				"organism": "any",
-				"level": "study assay"
+				"level": "assay"
 			},
 			"data": [
 				{
@@ -196,7 +196,7 @@
 				"isa_protocol_type": "nucleic acid extraction",
 				"repo_schema_id": "NA",
 				"organism": "any",
-				"level": "study assay"
+				"level": "assay"
 			},
 			"data": [
 				{
@@ -262,7 +262,7 @@
 				"isa_protocol_type": "nucleic acid sequencing",
 				"repo_schema_id": "ENA General experiment information 2021",
 				"organism": "any",
-				"level": "study assay"
+				"level": "assay"
 			},
 			"data": [
 				{
