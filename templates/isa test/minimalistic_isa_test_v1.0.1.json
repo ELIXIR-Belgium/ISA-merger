@@ -70,7 +70,7 @@
 					"required": true,
 					"ontology": null,
 					"CVList": null,
-					"isaTag": "source_characteristic"
+					"isaTag": "sample_characteristic"
 				}
 			]
 		},
