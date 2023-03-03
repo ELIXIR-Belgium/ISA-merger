@@ -190,7 +190,7 @@
 				"isa_protocol_type": null,
 				"repo_schema_id": null,
 				"organism": "any",
-				"level": "study assay"
+				"level": "study sample"
 			},
 			"data": [
 				{
@@ -305,7 +305,7 @@
 				"isa_protocol_type": null,
 				"repo_schema_id": null,
 				"organism": "any",
-				"level": "study assay"
+				"level": "study sample"
 			},
 			"data": [
 				{
@@ -420,7 +420,7 @@
 				"isa_protocol_type": null,
 				"repo_schema_id": null,
 				"organism": "any",
-				"level": "study assay"
+				"level": "study sample"
 			},
 			"data": [
 				{
@@ -535,7 +535,7 @@
 				"isa_protocol_type": null,
 				"repo_schema_id": null,
 				"organism": "any",
-				"level": "study assay"
+				"level": "study sample"
 			},
 			"data": [
 				{
@@ -650,7 +650,7 @@
 				"isa_protocol_type": null,
 				"repo_schema_id": null,
 				"organism": "any",
-				"level": "study assay"
+				"level": "study sample"
 			},
 			"data": [
 				{
