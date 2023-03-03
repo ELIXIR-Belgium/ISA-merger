@@ -64,7 +64,7 @@
 				},
 				{
 					"iri": null,
-					"name": "Source Characteristic 1",
+					"name": "Sample Characteristic 1",
 					"description": "A characteristic of the sample",
 					"dataType": "String",
 					"required": true,
