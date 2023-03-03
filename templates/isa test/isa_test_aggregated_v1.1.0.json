@@ -17,7 +17,7 @@
 			},
 			"data": [
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Source Name",
 					"description": "Sources are considered as the starting biological material used in a study.",
 					"dataType": "String",
@@ -26,7 +26,7 @@
 					"isaTag": "source"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Source Characteristic 1",
 					"description": "A characteristic of the source",
 					"dataType": "String",
@@ -36,7 +36,7 @@
 					"isaTag": "source_characteristic"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Source Characteristic 2",
 					"description": "A characteristic of the source. With a controlled vocabulary of Yes and No.",
 					"dataType": "Controlled Vocabulary",
@@ -46,7 +46,7 @@
 					"isaTag": "source_characteristic"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Source Characteristic 3",
 					"description": "A characteristic of the source. With terms from an Ontology as accepted values",
 					"dataType": "Ontology",
@@ -79,7 +79,7 @@
 			},
 			"data": [
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Input",
 					"description": "Existing Samples in DataHub that represent input for this protocol.",
 					"dataType": "Registered Sample (multiple)",
@@ -87,7 +87,7 @@
 					"isaTag": null
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "sample collection",
 					"description": "type of assay or experimental step performed.",
 					"dataType": "String",
@@ -97,7 +97,7 @@
 					"isaTag": "protocol"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "sample collection parameter value 1",
 					"description": "Parameter value 1 for sample collection",
 					"dataType": "String",
@@ -107,7 +107,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "sample collection parameter value 2",
 					"description": "Parameter value 2 for sample collection",
 					"dataType": "Controlled Vocabulary",
@@ -117,7 +117,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "sample collection parameter value 3",
 					"description": "Parameter value 3 for sample collection",
 					"dataType": "Ontology",
@@ -132,7 +132,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Sample Name",
 					"description": "Name of the major output resulting from the application of the protocol.",
 					"dataType": "String",
@@ -141,7 +141,7 @@
 					"isaTag": "sample"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "sample characteristic 1",
 					"description": "sample characteristic 1",
 					"dataType": "String",
@@ -151,7 +151,7 @@
 					"isaTag": "sample_characteristic"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "sample characteristic 2",
 					"description": "sample characteristic 2",
 					"dataType": "Controlled Vocabulary",
@@ -161,7 +161,7 @@
 					"isaTag": "sample_characteristic"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "sample characteristic 3",
 					"description": "sample characteristic 3",
 					"dataType": "Ontology",
@@ -194,7 +194,7 @@
 			},
 			"data": [
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Input",
 					"description": "Existing Samples in DataHub that represent input for this protocol.",
 					"dataType": "Registered Sample (multiple)",
@@ -202,7 +202,7 @@
 					"isaTag": null
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Protocol Assay 1",
 					"description": "type of assay or experimental step performed.",
 					"dataType": "String",
@@ -212,7 +212,7 @@
 					"isaTag": "protocol"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Assay 1 parameter value 1",
 					"description": "Parameter value 1 for Assay 1",
 					"dataType": "String",
@@ -222,7 +222,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Assay 1 parameter value 2",
 					"description": "Parameter value 2 for Assay 1",
 					"dataType": "Controlled Vocabulary",
@@ -232,7 +232,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Assay 1 parameter value 3",
 					"description": "Parameter value 3 for Assay 1",
 					"dataType": "Ontology",
@@ -247,7 +247,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "other material 1",
 					"description": "Name of the major output resulting from the application of the protocol.",
 					"dataType": "String",
@@ -256,7 +256,7 @@
 					"isaTag": "other_material"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "other material characteristic 1",
 					"description": "other material characteristic 1",
 					"dataType": "String",
@@ -266,7 +266,7 @@
 					"isaTag": "other_material_characteristic"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "other material characteristic 2",
 					"description": "other material characteristic 2",
 					"dataType": "Controlled Vocabulary",
@@ -276,7 +276,7 @@
 					"isaTag": "other_material_characteristic"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "other material characteristic 3",
 					"description": "other material characteristic 3",
 					"dataType": "Ontology",
@@ -309,7 +309,7 @@
 			},
 			"data": [
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Input",
 					"description": "Existing Samples in DataHub that represent input for this protocol.",
 					"dataType": "Registered Sample (multiple)",
@@ -317,7 +317,7 @@
 					"isaTag": null
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Protocol Assay 2",
 					"description": "type of assay or experimental step performed.",
 					"dataType": "String",
@@ -327,7 +327,7 @@
 					"isaTag": "protocol"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Assay 2 parameter value 1",
 					"description": "Parameter value 1 for Assay 2",
 					"dataType": "String",
@@ -337,7 +337,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Assay 2 parameter value 2",
 					"description": "Parameter value 2 for Assay 2",
 					"dataType": "Controlled Vocabulary",
@@ -347,7 +347,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Assay 2 parameter value 3",
 					"description": "Parameter value 3 for Assay 2",
 					"dataType": "Ontology",
@@ -362,7 +362,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "other material 2",
 					"description": "Name of the major output resulting from the application of the protocol.",
 					"dataType": "String",
@@ -371,7 +371,7 @@
 					"isaTag": "other_material"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "other material 2 characteristic 1",
 					"description": "other material characteristic 2",
 					"dataType": "String",
@@ -381,7 +381,7 @@
 					"isaTag": "other_material_characteristic"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "other material 2 characteristic 2",
 					"description": "other material characteristic 2",
 					"dataType": "Controlled Vocabulary",
@@ -391,7 +391,7 @@
 					"isaTag": "other_material_characteristic"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "other material 2 characteristic 3",
 					"description": "other material characteristic 3",
 					"dataType": "Ontology",
@@ -424,7 +424,7 @@
 			},
 			"data": [
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Input",
 					"description": "Existing Samples in DataHub that represent input for this protocol.",
 					"dataType": "Registered Sample (multiple)",
@@ -432,7 +432,7 @@
 					"isaTag": null
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Protocol Assay 3",
 					"description": "type of assay or experimental step performed.",
 					"dataType": "String",
@@ -442,7 +442,7 @@
 					"isaTag": "protocol"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Assay 3 parameter value 1",
 					"description": "Parameter value 1 for Assay 3",
 					"dataType": "String",
@@ -452,7 +452,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Assay 3 parameter value 2",
 					"description": "Parameter value 2 for Assay 3",
 					"dataType": "Controlled Vocabulary",
@@ -462,7 +462,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Assay 3 parameter value 3",
 					"description": "Parameter value 3 for Assay 3",
 					"dataType": "Ontology",
@@ -477,7 +477,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "other material 3",
 					"description": "Name of the major output resulting from the application of the protocol.",
 					"dataType": "String",
@@ -486,7 +486,7 @@
 					"isaTag": "other_material"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "other material 3 characteristic 1",
 					"description": "other material characteristic 2",
 					"dataType": "String",
@@ -496,7 +496,7 @@
 					"isaTag": "other_material_characteristic"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "other material 3 characteristic 2",
 					"description": "other material characteristic 2",
 					"dataType": "Controlled Vocabulary",
@@ -506,7 +506,7 @@
 					"isaTag": "other_material_characteristic"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "other material 3 characteristic 3",
 					"description": "other material characteristic 3",
 					"dataType": "Ontology",
@@ -539,7 +539,7 @@
 			},
 			"data": [
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Input",
 					"description": "Existing Samples in DataHub that represent input for this protocol.",
 					"dataType": "Registered Sample (multiple)",
@@ -547,7 +547,7 @@
 					"isaTag": null
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Protocol Assay 4",
 					"description": "type of assay or experimental step performed.",
 					"dataType": "String",
@@ -557,7 +557,7 @@
 					"isaTag": "protocol"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Assay 4 parameter value 1",
 					"description": "Parameter value 1 for Assay 4",
 					"dataType": "String",
@@ -567,7 +567,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Assay 4 parameter value 2",
 					"description": "Parameter value 2 for Assay 4",
 					"dataType": "Controlled Vocabulary",
@@ -577,7 +577,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Assay 4 parameter value 3",
 					"description": "Parameter value 3 for Assay 4",
 					"dataType": "Ontology",
@@ -592,7 +592,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "data file 1",
 					"description": "Name of the major output resulting from the application of the protocol.",
 					"dataType": "String",
@@ -601,7 +601,7 @@
 					"isaTag": "data_file"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "comment 1",
 					"description": "data file comment 1",
 					"dataType": "String",
@@ -611,7 +611,7 @@
 					"isaTag": "data_file_comment"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "comment 2",
 					"description": "data file comment 2",
 					"dataType": "Controlled Vocabulary",
@@ -621,7 +621,7 @@
 					"isaTag": "data_file_comment"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "comment 3",
 					"description": "data file comment 3",
 					"dataType": "Ontology",
@@ -654,7 +654,7 @@
 			},
 			"data": [
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Input",
 					"description": "Existing Samples in DataHub that represent input for this protocol.",
 					"dataType": "Registered Sample (multiple)",
@@ -662,7 +662,7 @@
 					"isaTag": null
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Protocol Assay 5",
 					"description": "type of assay or experimental step performed.",
 					"dataType": "String",
@@ -672,7 +672,7 @@
 					"isaTag": "protocol"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Assay 5 parameter value 1",
 					"description": "Parameter value 1 for Assay 5",
 					"dataType": "String",
@@ -682,7 +682,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Assay 5 parameter value 2",
 					"description": "Parameter value 2 for Assay 5",
 					"dataType": "Controlled Vocabulary",
@@ -692,7 +692,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "Assay 5 parameter value 3",
 					"description": "Parameter value 3 for Assay 5",
 					"dataType": "Ontology",
@@ -707,7 +707,7 @@
 					"isaTag": "parameter_value"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "data file 2",
 					"description": "Name of the major output resulting from the application of the protocol.",
 					"dataType": "String",
@@ -716,7 +716,7 @@
 					"isaTag": "data_file"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "comment 1",
 					"description": "data file 2 comment 1",
 					"dataType": "String",
@@ -726,7 +726,7 @@
 					"isaTag": "data_file_comment"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "comment 2",
 					"description": "data file 2 comment 2",
 					"dataType": "Controlled Vocabulary",
@@ -736,7 +736,7 @@
 					"isaTag": "data_file_comment"
 				},
 				{
-					"pid": null,
+					"iri": null,
 					"name": "comment 3",
 					"description": "data file 2 comment 3",
 					"dataType": "Ontology",
