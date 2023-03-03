@@ -55,7 +55,7 @@
 			"data": [
 				{
 					"iri": null,
-					"name": "Source Name",
+					"name": "Sample Name",
 					"description": "Sources are considered as the starting biological material used in a study.",
 					"dataType": "String",
 					"title": true,
