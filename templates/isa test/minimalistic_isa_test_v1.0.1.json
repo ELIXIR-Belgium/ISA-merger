@@ -55,6 +55,24 @@
 			"data": [
 				{
 					"iri": null,
+					"name": "Input",
+					"description": "Existing Samples in DataHub that represent input for this protocol.",
+					"dataType": "Registered Sample (multiple)",
+					"required": true,
+					"isaTag": null
+				},
+				{	
+					"iri": null,
+					"name": "sample collection",
+					"description": "type of assay or experimental step performed.",
+					"dataType": "String",
+					"required": true,
+					"ontology": null,
+					"CVList": null,
+					"isaTag": "protocol"
+				},
+				{
+					"iri": null,
 					"name": "Sample Name",
 					"description": "Sources are considered as the starting biological material used in a study.",
 					"dataType": "String",
