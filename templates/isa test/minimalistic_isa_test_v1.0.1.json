@@ -65,7 +65,7 @@
 				{
 					"iri": null,
 					"name": "Source Characteristic 1",
-					"description": "A characteristic of the source",
+					"description": "A characteristic of the sample",
 					"dataType": "String",
 					"required": true,
 					"ontology": null,
