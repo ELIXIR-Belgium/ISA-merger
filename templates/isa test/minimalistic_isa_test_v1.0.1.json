@@ -41,7 +41,7 @@
 			"metadata": {
 				"name": "ISA Minimalistic Test 2",
 				"group": "ISA Minimalistic Test",
-				"group_order": 1,
+				"group_order": 2,
 				"temporary_name": "1_ISA_Test_Source",
 				"template_version": "1.0.0",
 				"isa_config": null,
