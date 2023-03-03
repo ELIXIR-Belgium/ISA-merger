@@ -11,7 +11,7 @@
     "isa_protocol_type": "nucleic acid sequencing",
     "repo_schema_id": "ENA General experiment information 2021",
     "organism": "any",
-    "level": "assay"
+    "level": "study assay"
   },
   "data": [
     {
