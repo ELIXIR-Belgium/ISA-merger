@@ -407,7 +407,7 @@
 				"isa_protocol_type": "sample collection",
 				"repo_schema_id": "Annotare-default.properties",
 				"organism": "any",
-				"level": "study source"
+				"level": "study"
 			},
 			"data": [
 				{
@@ -470,7 +470,7 @@
 				"isa_technology_type": null,
 				"repo_schema_id": "Annotare-default.properties",
 				"organism": "plant",
-				"level": "study source"
+				"level": "study"
 			},
 			"data": [
 				{
