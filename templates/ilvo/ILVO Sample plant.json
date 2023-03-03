@@ -4,7 +4,7 @@
       "group": "ilvo",
       "group_order": 2,
       "temporary_name": "2_arrayexpress_sample_collection",
-      "template_version": "1.2.0",
+      "version": "1.2.0",
       "isa_config": "studySample_default_v2015-07-02",
       "isa_measurement_type": "Sample",
       "isa_technology_type": null,

@@ -4,7 +4,7 @@
       "group": "ilvo",
       "group_order": 4,
       "temporary_name": "4_arrayexpress_library_construction",
-      "template_version": "1.2.0",
+      "version": "1.2.0",
       "isa_config": "genome_seq_default_v2015-07-02",
       "isa_measurement_type": "transcription profiling",
       "isa_technology_type": "nucleotide sequencing",
