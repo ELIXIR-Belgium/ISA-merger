@@ -11,7 +11,7 @@
     "isa_protocol_type": "sample collection",
     "repo_schema_id": "Annotare-default.properties",
     "organism": "any",
-    "level": "study"
+    "level": "study source"
   },
   "data":[
   {
