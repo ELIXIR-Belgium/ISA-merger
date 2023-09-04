@@ -1813,7 +1813,8 @@
           "description": "The elevation of the sampling site as measured by the vertical distance from mean sea level.",
           "dataType": "String",
           "required": false,
-          "ontology": null
+          "ontology": null,
+          "isaTag": "source_characteristic"
         },
         {
           "iri": null,
@@ -2531,7 +2532,8 @@
           "description": "information about treatment involving an exposure to light, this includes both light intensity and quality",
           "dataType": "String",
           "required": false,
-          "ontology": null
+          "ontology": null,
+          "isaTag": "source_characteristic"
         },
         {
           "iri": null,
