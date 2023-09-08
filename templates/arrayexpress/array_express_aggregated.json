@@ -13,7 +13,7 @@
 				"isa_protocol_type": "library construction",
 				"repo_schema_id": "General experiment information 2021",
 				"organism": "any",
-				"level": "assay"
+				"level": "assay - material"
 			},
 			"data": [
 				{
@@ -196,7 +196,7 @@
 				"isa_protocol_type": "nucleic acid extraction",
 				"repo_schema_id": "NA",
 				"organism": "any",
-				"level": "assay"
+				"level": "assay - material"
 			},
 			"data": [
 				{
@@ -262,7 +262,7 @@
 				"isa_protocol_type": "nucleic acid sequencing",
 				"repo_schema_id": "ENA General experiment information 2021",
 				"organism": "any",
-				"level": "assay"
+				"level": "assay - data file"
 			},
 			"data": [
 				{
@@ -367,7 +367,7 @@
 					"description": "User-defined name for an assay.",
 					"dataType": "String",
 					"required": true,
-					"isaTag": "other_material",
+					"isaTag": "data_file",
 					"ontology": null,
 					"CVList": null
 				},
@@ -377,7 +377,7 @@
 					"description": "",
 					"dataType": "Controlled Vocabulary",
 					"required": true,
-					"isaTag": "other_material_characteristic",
+					"isaTag": "data_file_comment",
 					"ontology": null,
 					"CVList": ["sequencing assay"]
 				},
@@ -388,7 +388,7 @@
 					"dataType": "String",
 					"title": true,
 					"required": true,
-					"isaTag": "data_file",
+					"isaTag": "data_file_comment",
 					"ontology": null,
 					"CVList": null
 				}
