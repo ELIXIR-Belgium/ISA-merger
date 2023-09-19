@@ -6,7 +6,7 @@
 				"group": "arrayexpress",
 				"group_order": 4,
 				"temporary_name": "4_arrayexpress_library_construction",
-				"version": "1.2.0",
+				"version": "1.2.1",
 				"isa_config": "genome_seq_default_v2015-07-02",
 				"isa_measurement_type": "transcription profiling",
 				"isa_technology_type": "nucleotide sequencing",
@@ -150,7 +150,10 @@
 					"required": true,
 					"isaTag": "parameter_value",
 					"ontology": null,
-					"CVList": ["SINGLE", "PAIRED"]
+					"CVList": [
+						"SINGLE",
+						"PAIRED"
+					]
 				},
 				{
 					"iri": null,
@@ -160,7 +163,11 @@
 					"required": false,
 					"isaTag": "parameter_value",
 					"ontology": null,
-					"CVList": ["first strand", "second strand", "not applicable"]
+					"CVList": [
+						"first strand",
+						"second strand",
+						"not applicable"
+					]
 				},
 				{
 					"name": "orientation",
@@ -169,7 +176,10 @@
 					"required": false,
 					"isaTag": "parameter_value",
 					"ontology": null,
-					"CVList": ["5'-3'-3'-5'", "5'-3'-5'-3'"]
+					"CVList": [
+						"5'-3'-3'-5'",
+						"5'-3'-5'-3'"
+					]
 				},
 				{
 					"name": "library name",
@@ -189,7 +199,7 @@
 				"group": "arrayexpress",
 				"group_order": 3,
 				"temporary_name": "3_arrayexpress_nucleic_acid_extraction",
-				"version": "1.2.0",
+				"version": "1.2.1",
 				"isa_config": "genome_seq_default_v2015-07-02",
 				"isa_measurement_type": "transcription profiling",
 				"isa_technology_type": "nucleotide sequencing",
@@ -245,7 +255,13 @@
 					"required": true,
 					"isaTag": "other_material_characteristic",
 					"ontology": null,
-					"CVList": ["whole organism", "organism part", "RNA", "DNA", "cell"]
+					"CVList": [
+						"whole organism",
+						"organism part",
+						"RNA",
+						"DNA",
+						"cell"
+					]
 				}
 			]
 		},
@@ -255,7 +271,7 @@
 				"group": "arrayexpress",
 				"group_order": 5,
 				"temporary_name": "5_arrayexpress_nucleic_acid_sequencing",
-				"version": "1.2.0",
+				"version": "1.2.1",
 				"isa_config": "genome_seq_default_v2015-07-02",
 				"isa_measurement_type": "transcription profiling",
 				"isa_technology_type": "nucleotide sequencing",
@@ -379,7 +395,9 @@
 					"required": true,
 					"isaTag": "data_file_comment",
 					"ontology": null,
-					"CVList": ["sequencing assay"]
+					"CVList": [
+						"sequencing assay"
+					]
 				},
 				{
 					"iri": null,
@@ -400,7 +418,7 @@
 				"group": "arrayexpress",
 				"group_order": 2,
 				"temporary_name": "2_arrayexpress_sample_collection",
-				"version": "1.2.0",
+				"version": "1.2.1",
 				"isa_config": "studySample_default_v2015-07-02",
 				"isa_measurement_type": "Sample",
 				"isa_technology_type": null,
@@ -454,7 +472,13 @@
 					"required": true,
 					"isaTag": "sample_characteristic",
 					"ontology": null,
-					"CVList": ["whole organism", "organism part", "RNA", "DNA", "cell"]
+					"CVList": [
+						"whole organism",
+						"organism part",
+						"RNA",
+						"DNA",
+						"cell"
+					]
 				}
 			]
 		},
@@ -464,7 +488,7 @@
 				"group": "arrayexpress",
 				"group_order": 1,
 				"temporary_name": "1_arrayexpress_source_plant",
-				"version": "1.2.0",
+				"version": "1.2.1",
 				"isa_config": "studySample_default_v2015-07-02",
 				"isa_measurement_type": null,
 				"isa_technology_type": null,
@@ -910,7 +934,13 @@
 					"required": true,
 					"isaTag": "source_characteristic",
 					"ontology": null,
-					"CVList": ["whole organism", "organism part", "RNA", "DNA", "cell"]
+					"CVList": [
+						"whole organism",
+						"organism part",
+						"RNA",
+						"DNA",
+						"cell"
+					]
 				}
 			]
 		}
