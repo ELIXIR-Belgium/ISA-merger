@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "name": "sequence assembly",
+    "group": "ena modified for upload tool",
+    "group_order": 6,
+    "temporary_name": "6_ena_sequence_assembly",
+    "version": "1.2.0",
+    "isa_config": "genome_seq_default_v2015-07-02",
+    "isa_measurement_type": "genome sequencing",
+    "isa_technology_type": "nucleotide sequencing",
+    "isa_protocol_type": "sequence assembly",
+    "repo_schema_id": "ENA General experiment information 2021",
+    "organism": "any",
+    "level": "assay"
+  },
+  "data": [
+    {
+      "iri": null,
+      "name": "Input",
+      "description": "Existing Samples in DataHub that represent input for this protocol.",
+      "dataType": "seek sample multi",
+      "required": "true",
+      "isaTag": null
+    },
+    {
+      "iri": null,
+      "name": "sequence assembly",
+      "description": "type of assay or experimental step performed.",
+      "required": true,
+      "ontology": null,
+      "dataType": "String", //need to be autofilled with name of selected SOP for that block
+      "CVList": , //SOPtittle
+      "isaTag": "protocol"
+    },
+    {
+      "iri": null,
+      "name": "Normalization Name",
+      "description": "User-defined name for each normalization applied",
+      "dataType": "String",
+      "required": false,
+      "ontology": null,
+      "CVList": null,
+      "isaTag": "parameter_value"
+    },
+    {
+      "iri": null,
+      "name": "Data Transformation Name",
+      "description": "a data transformation",
+      "dataType": "String",
+      "required": false,
+      "ontology": null,
+      "CVList": null,
+      "isaTag": "parameter_value"
+    },
+    {
+      "iri": null,
+      "name": "Derived Data File",
+      "description": "derived data such as an assembly file",
+      "dataType": "String",
+      "required": false,
+      "ontology": null,
+      "CVList": null,
+      "isaTag": "dataFile"
+    }
+  ]
+}
