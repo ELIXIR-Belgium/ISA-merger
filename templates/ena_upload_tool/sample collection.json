@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "name": "sample collection",
+    "name": "sample collection ENA Upload Tool",
     "group": "ena modified for upload tool",
     "group_order": 2,
-    "temporary_name": "2_ena_sample_collection",
+    "temporary_name": "2_ena_custom_sample_collection",
     "version": "1.0.0",
     "isa_config": "genome_seq_default_v2015-07-02",
     "isa_measurement_type": null,
