@@ -4,7 +4,7 @@
     "group": "ena modified for upload tool",
     "group_order": 1,
     "temporary_name": "1_ena_source_all_organisms",
-    "version": "1.1.0",
+    "version": "1.0.0",
     "isa_config": "genome_seq_default_v2015-07-02",
     "isa_measurement_type": null,
     "isa_technology_type": "nucleotide sequencing",
@@ -25,7 +25,7 @@
     },
     {
       "iri": null,
-      "name": "Title",
+      "name": "title",
       "description": "Short text that can be used to call out sample records in search results or in displays.",
       "dataType": "String",
       "required": true,
@@ -33,7 +33,7 @@
     },
     {
       "iri": null,
-      "name": "Description",
+      "name": "description",
       "description": "Free-form text describing the sample, its origin, and its method of isolation.",
       "dataType": "String",
       "required": true,
@@ -42,9 +42,9 @@
     },
     {
       "iri": null,
-      "name": "tax_id", //First field on an ENA sample file. It is the number ID
+      "name": "taxon_id", //First field on an ENA sample file. It is the number ID
       "description": "NCBI Taxonomy Identifier number ID. This is appropriate for individual organisms and some environmental samples.",
-      "dataType": "String",
+      "dataType": "Integer",
       "required": true,
       "ontology": null,
       "isaTag": "source_characteristic"
