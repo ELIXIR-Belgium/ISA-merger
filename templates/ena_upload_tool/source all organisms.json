@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "name": "source all organisms",
+    "name": "source ENA Upload Tool",
     "group": "ena modified for upload tool",
     "group_order": 1,
-    "temporary_name": "1_ena_source_all_organisms",
+    "temporary_name": "1_ena_custom_source",
     "version": "1.0.0",
     "isa_config": "genome_seq_default_v2015-07-02",
     "isa_measurement_type": null,
