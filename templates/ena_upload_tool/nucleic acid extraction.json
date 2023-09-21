@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "name": "nucleic acid extraction",
+    "name": "nucleic acid extraction ENA Upload Tool",
     "group": "ena modified for upload tool",
     "group_order": 3,
-    "temporary_name": "3_ena_nucleic_acid_extraction",
-    "version": "1.2.0",
+    "temporary_name": "3_ena_custom_nucleic_acid_extraction",
+    "version": "1.0.0",
     "isa_config": "genome_seq_default_v2015-07-02",
     "isa_measurement_type": "genome sequencing",
     "isa_technology_type": "nucleotide sequencing",
     "isa_protocol_type": "nucleic acid extraction",
     "repo_schema_id": "ENA General experiment information 2021",
     "organism": "any",
-    "level": "assay"
+    "level": "assay - material"
   },
   "data": [
     {
