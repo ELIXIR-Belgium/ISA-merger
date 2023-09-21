@@ -43,7 +43,7 @@
     },
     {
       "iri": null,
-      "name": "Title",
+      "name": "title",
       "description": "Short text that can be used to call out experiment records in searches or in displays.",
       "required": true,
       "ontology": null,
@@ -63,7 +63,7 @@
     },
     {
       "iri": null,
-      "name": "library source",
+      "name": "library_source",
       "description": "The LIBRARY_SOURCE specifies the type of source material that is being sequenced. (SRA 1.2 documentation)",
       "dataType": "Controlled Vocabulary",
       "required": true,
@@ -83,7 +83,7 @@
     },
     {
       "iri": null,
-      "name": "library strategy",
+      "name": "library_strategy",
       "description": "Sequencing technique intended for this library (SRA 1.2 documentation)",
       "dataType": "Controlled Vocabulary",
       "required": true,
@@ -133,7 +133,7 @@
     },
     {
       "iri": null,
-      "name": "library selection",
+      "name": "library_selection",
       "description": "Whether any method was used to select for or against, enrich, or screen the material being sequenced. (SRA 1.2 documentation)",
       "dataType": "Controlled Vocabulary",
       "required": true,
@@ -175,7 +175,7 @@
     },
     {
       "iri": null,
-      "name": "library layout",
+      "name": "library_layout",
       "description": "specifies whether to expect single, paired, or other configuration of reads. In the case of paired reads, information about the relative distance and orientation is specified.",
       "dataType": "Controlled Vocabulary",
       "required": false,
@@ -188,7 +188,7 @@
     },
     {
       "iri": null,
-      "name": "insert size",
+      "name": "insert_size",
       "description": "Insert size for paired reads.",
       "dataType": "String",
       "required": false,
@@ -197,7 +197,7 @@
     },
     {
       "iri": null,
-      "name": "library name",
+      "name": "library_name",
       "description": "Name given to the generated library",
       "dataType": "String",
       "title": true,
