@@ -19,7 +19,7 @@
 				{
 					"iri": null,
 					"name": "Source Name",
-					"description": "Do not edit the name of this attribute. Sources are considered as the starting biological material used in a study.",
+					"description": "Sources are considered as the starting biological material used in a study.",
 					"dataType": "String",
 					"title": true,
 					"required": true,
@@ -47,7 +47,7 @@
 				"isa_config": "isaconfig-default_v2015-07-02/studySample.xml",
 				"isa_measurement_type": "Sample",
 				"isa_technology_type": null,
-				"isa_protocol_type": "sample collection",
+				"isa_protocol_type": "protocol with samples as outputs",
 				"repo_schema_id": "none",
 				"organism": "any",
 				"level": "study sample"
@@ -63,8 +63,8 @@
 				},
 				{	
 					"iri": null,
-					"name": "Sample collection",
-					"description": "Do not edit the name of this attribute. Type of assay or experimental step performed.",
+					"name": "Name of a protocol with samples as outputs",
+					"description": "Type of experimental step that generates samples as outputs from the study sources.",
 					"dataType": "String",
 					"required": true,
 					"ontology": null,
@@ -84,7 +84,7 @@
 				{
 					"iri": null,
 					"name": "Sample Name",
-					"description": "Do not edit the name of this attribute. Samples are considered as biological material sampled from sources and used in the study.",
+					"description": "Samples are considered as biological material sampled from sources and used in the study.",
 					"dataType": "String",
 					"title": true,
 					"required": true,
