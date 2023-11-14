@@ -523,7 +523,7 @@
           "iri": null,
           "name": "sample material processing",
           "description": "Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v 2013-10-25) terms please see http://purl.bioontology.org/ontology/OBI",
-          "dataType": "Ontology",
+          "dataType": "Controlled Vocabulary",
           "required": false,
           "ontology": {
             "name": "OBI",
@@ -1421,7 +1421,7 @@
           "iri": null,
           "name": "ploidy",
           "description": "The ploidy level of the genome (e.g. allopolyploid, haploid, diploid, triploid, tetraploid). It has implications for the downstream study of duplicated gene and regions of the genomes (and perhaps for difficulties in assembly). For terms, please select terms listed under class ploidy (PATO:001374) of Phenotypic Quality Ontology (PATO), and for a browser of PATO (v 2013-10-28) please refer to http://purl.bioontology.org/ontology/PATO. Mandatory for MIGS of eukaryotes.",
-          "dataType": "Ontology",
+          "dataType": "Controlled Vocabulary",
           "required": true,
           "ontology": {
             "name": "PATO",
@@ -1824,7 +1824,7 @@
           "iri": null,
           "name": "environment (biome)",
           "description": "Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Biome should be treated as the descriptor of the broad ecological context of a sample. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO (v 2013-06-14) terms can be found via the link: www.environmentontology.org/Browse-EnvO",
-          "dataType": "Ontology",
+          "dataType": "Controlled Vocabulary",
           "required": false,
           "ontology": {
             "name": "ENVO",
@@ -1882,7 +1882,7 @@
           "iri": null,
           "name": "plant structure",
           "description": "name of plant structure that the sample was obtained from; for Plant Ontology (PO) terms see http://purl.bioontology.org/ontology/PO, e.g. petiole epidermis (PO_0000051); if an individual flower is sampled the sex of it can be recorded here",
-          "dataType": "Ontology",
+          "dataType": "Controlled Vocabulary",
           "required": true,
           "ontology": {
             "name": "PO",
@@ -1896,7 +1896,7 @@
           "iri": null,
           "name": "plant developmental stage",
           "description": "developmental stage at the time of sample collection; for Plant Ontology (PO) (v 20) terms, see http://purl.bioontology.org/ontology/PO, e.g. hypocotyl emergence stage (PO_0007043)",
-          "dataType": "Ontology",
+          "dataType": "Controlled Vocabulary",
           "required": true,
           "ontology": {
             "name": "PO",
