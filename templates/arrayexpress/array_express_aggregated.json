@@ -20,7 +20,7 @@
 					"iri": null,
 					"name": "Input",
 					"description": "Existing Samples in DataHub that represent input for this protocol.",
-					"dataType": "Registered Sample (multiple)",
+					"dataType": "Registered Sample List",
 					"required": true,
 					"isaTag": null
 				},
@@ -213,7 +213,7 @@
 					"iri": null,
 					"name": "Input",
 					"description": "Existing Samples in DataHub that represent input for this protocol.",
-					"dataType": "Registered Sample (multiple)",
+					"dataType": "Registered Sample List",
 					"required": true,
 					"isaTag": null
 				},
@@ -285,7 +285,7 @@
 					"iri": null,
 					"name": "Input",
 					"description": "Existing Samples in DataHub that represent input for this protocol.",
-					"dataType": "Registered Sample (multiple)",
+					"dataType": "Registered Sample List",
 					"required": true,
 					"isaTag": null
 				},
@@ -432,7 +432,7 @@
 					"iri": null,
 					"name": "Input",
 					"description": "Existing Samples in DataHub that represent input for this protocol.",
-					"dataType": "Registered Sample (multiple)",
+					"dataType": "Registered Sample List",
 					"required": true,
 					"isaTag": null
 				},
@@ -510,7 +510,7 @@
 					"iri": "http://purl.obolibrary.org/obo/OBI_0100026",
 					"name": "organism",
 					"description": "A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs. E.g Drosophila melanogaster.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": true,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -524,7 +524,7 @@
 					"iri": "http://www.ebi.ac.uk/efo/EFO_0000635",
 					"name": "organism part",
 					"description": "The part of organism's anatomy or substance arising from an organism from which the biomaterial was derived, excludes cells. E.g. tissue, organ, system, sperm, blood or body location (arm).",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": true,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -538,7 +538,7 @@
 					"iri": "http://www.ebi.ac.uk/efo/EFO_0000399",
 					"name": "developmental stage",
 					"description": "A developmental stage is spatiotemporal region encompassing some part of the life cycle of an organism, e.g. blastula stage",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": true,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -552,7 +552,7 @@
 					"iri": "http://www.ebi.ac.uk/efo/EFO_0000246",
 					"name": "age",
 					"description": "A temporal measurement of the time period elapsed since an identifiable point in the life cycle of an organism. If a developmental stage is specified, the identifiable point would be the beginning of that stage. Otherwise the identifiable point must be specified such as planting (e.g. 3 days post planting).",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": true,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -566,7 +566,7 @@
 					"iri": "http://www.ebi.ac.uk/efo/EFO_0000513",
 					"name": "genotype",
 					"description": "The total sum of the genetic information of an organism that is known and relevant to the experiment being performed, including chromosomal, plasmid, viral or other genetic material which has been introduced into the organism either prior to or during the experiment.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": true,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -588,7 +588,7 @@
 					"iri": "http://purl.obolibrary.org/obo/CL_0000010",
 					"name": "cultured cell",
 					"description": "A cell in vitro that is or has been maintained or propagated as part of a cell culture.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -602,7 +602,7 @@
 					"iri": "http://www.ebi.ac.uk/efo/EFO_0000324",
 					"name": "cell type",
 					"description": "A cell type is a distinct morphological or functional form of cell. Examples are epithelial, glial etc.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -616,7 +616,7 @@
 					"iri": "http://www.ebi.ac.uk/efo/EFO_0000352",
 					"name": "clinical history",
 					"description": "Is an information entity about the material's (i.e., the patient's) medical record as background information relevant to the experiment.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -630,7 +630,7 @@
 					"iri": "http://purl.obolibrary.org/obo/CHEBI_24431",
 					"name": "chemical entity",
 					"description": "A drug, solvent, chemical, etc., with a property that can be measured such as concentration. A molecular entity consisting of two or more chemical elements.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -644,7 +644,7 @@
 					"iri": "http://www.ebi.ac.uk/efo/EFO_0002755",
 					"name": "diet",
 					"description": "The customary allowance of food and drink taken by a person or an animal from day to day, particularly one especially planned to meet specific requirements of the individual, including or excluding certain items of food; a prescribed course of eating and drinking in which the amount and kind of food, as well as the times at which it is to be taken, are regulated for therapeutic purposes or selected with reference to a particular state of health. Regular course of eating and drinking adopted by a person or animal. This does not include DIET THERAPY, a specific diet prescribed in the treatment of a disease.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -658,7 +658,7 @@
 					"iri": "http://www.ebi.ac.uk/efo/EFO_0000408",
 					"name": "disease",
 					"description": "A disease is a disposition to undergo pathological processes that exists in an organism because of one or more disorders in that organism. [ OGMS:0000031 ]",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -672,7 +672,7 @@
 					"iri": "http://www.ebi.ac.uk/efo/EFO_0000410",
 					"name": "disease staging",
 					"description": "The stage or progression of a disease in an organism. Includes pathological staging of cancers and other disease progression. E.g. Dukes C stage describing colon cancer.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -694,7 +694,7 @@
 					"iri": "http://www.ebi.ac.uk/efo/EFO_0000434",
 					"name": "ecotype",
 					"description": "A biotype resulting from selection in a particular habitat, e.g. the A. thaliana Ecotype Ler.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -732,7 +732,7 @@
 					"iri": "http://www.ebi.ac.uk/efo/EFO_0000510",
 					"name": "genetic modification",
 					"description": "A genetic modification of the genome of an organism which may occur naturally by spontaneous mutation, or be introduced by some experimental means. Examples of genetic modification include specification of a transgene or the gene knocked-out or details of transient transfection.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -746,7 +746,7 @@
 					"iri": "http://www.ebi.ac.uk/efo/EFO_0000523",
 					"name": "growth condition",
 					"description": "A role that a material entity can play which enables particular conditions used to grow organisms or parts of the organism. This includes isolated environments such as cultures and open environments such as field studies.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -760,7 +760,7 @@
 					"iri": "http://www.ebi.ac.uk/efo/EFO_0000541",
 					"name": "immunoprecipitate",
 					"description": "The precipitate antibody bound target molecules generated when precipitating an antigen out of a solution during the process of immunoprecipitation.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -798,7 +798,7 @@
 					"iri": "http://www.ebi.ac.uk/efo/EFO_0000546",
 					"name": "injury",
 					"description": "Damage inflicted on the body as the direct or indirect result of an external force, with or without disruption of structural continuity. [ NCIT:C3671 ]",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -828,7 +828,7 @@
 					"iri": "http://www.ebi.ac.uk/efo/EFO_0000651",
 					"name": "phenotype",
 					"description": "The observable form taken by some character (or group of characters) in an individual or an organism, excluding pathology and disease. The detectable outward manifestations of a specific genotype.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -850,7 +850,7 @@
 					"iri": "http://www.ebi.ac.uk/efo/EFO_0000683",
 					"name": "replicate",
 					"description": "A role played by a a biological sample in the context of an experiment where the intent is that biological or technical variation is measured.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -864,7 +864,7 @@
 					"iri": "http://purl.obolibrary.org/obo/PATO_0000047",
 					"name": "sex",
 					"description": "The assemblage of physical properties or qualities by which male is distinguished from female; the physical difference between male and female; the distinguishing peculiarity of male or female. An organismal quality inhering in a bearer by virtue of the bearer's ability to undergo sexual reproduction in order to differentiate the individuals or types involved. Term applied to any organism able to undergo sexual reproduction in order to differentiate the individuals or types involved. Sexual reproduction is defined as the ability to exchange genetic material with the potential of recombinant progeny.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -886,7 +886,7 @@
 					"iri": "http://purl.obolibrary.org/obo/OBI_0001472",
 					"name": "specimen with known storage state",
 					"description": "A specimen for which it is known whether it has been subjected to storage of a specified type.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {
@@ -916,7 +916,7 @@
 					"iri": "http://purl.obolibrary.org/obo/OBI_0600002",
 					"name": "tumor grading",
 					"description": "An assay that determines the grade (severity/stage) of a tumor sample, used in cancer biology to describe abnormalities/qualities of tumor cells or tissues. Values can be described by terms from NCI Thesaurus. Determination of the grade (severity/stage) of a tumor sample, used in cancer biology to describe abnormalities/qualities of tumor cells or tissues. Values can be described by terms from NCI Thesaurus.",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
 					"isaTag": "source_characteristic",
 					"ontology": {

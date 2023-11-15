@@ -31,7 +31,7 @@
       "isaTag": "protocol",
       "ontology": null,
       "CVList": null
-    }, 
+    },
     {
       "iri": "http://www.ebi.ac.uk/efo/EFO_0000688",
       "name": "sampling site",
@@ -52,7 +52,7 @@
         "iri": "http://www.ebi.ac.uk/efo/EFO_0000635",
         "name": "organism part",
         "description": "The part of organism's anatomy or substance arising from an organism from which the biomaterial was derived, excludes cells. E.g. tissue, organ, system, sperm, blood or body location (arm).",
-        "dataType": "Ontology",
+        "dataType": "Controlled Vocabulary",
         "required": true,
         "isaTag": "sample_characteristic",
         "ontology": {
@@ -60,7 +60,7 @@
           "version": "1",
           "description": "Experimental Factor Ontology",
           "rootTermURI": "http://www.ebi.ac.uk/efo/EFO_0000635"
-        } 
+        }
     },
     {
         "iri": null,
@@ -71,7 +71,7 @@
         "isaTag": "sample_characteristic",
         "ontology": null,
         "CVList": ["whole organism", "organism part", "RNA", "DNA", "cell"]
-    }, 
+    },
     {
       "iri": null,
       "name": "Sample Name",
@@ -109,6 +109,6 @@
         "isaTag": "sample_characteristic",
         "ontology": null
     }
- 
+
   ]
   }
