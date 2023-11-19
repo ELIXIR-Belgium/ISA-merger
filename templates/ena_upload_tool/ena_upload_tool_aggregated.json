@@ -390,7 +390,7 @@
                     "iri": null,
                     "name": "collection date",
                     "description": "Date of the sample collection",
-                    "dataType": "ENA collection date",
+                    "dataType": "ENA custom date",
                     "required": true,
                     "ontology": null,
                     "isaTag": "sample_characteristic"
