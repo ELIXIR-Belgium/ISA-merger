@@ -407,7 +407,7 @@
                 },
                 {
                     "iri": null,
-                    "name": "submission date",
+                    "name": "submission_date",
                     "description": "Date in which experiment was submitted to ENA.",
                     "dataType": "String",
                     "required": false,
@@ -732,7 +732,7 @@
                 },
                 {
                     "iri": null,
-                    "name": "submission date",
+                    "name": "submission_date",
                     "description": "Date in which run was submitted to ENA.",
                     "dataType": "String",
                     "required": false,
@@ -854,7 +854,7 @@
                 },
                 {
                     "iri": null,
-                    "name": "submission date",
+                    "name": "submission_date",
                     "description": "Date in which run was submitted to ENA.",
                     "dataType": "String",
                     "required": false,
