@@ -346,7 +346,7 @@
                     "iri": null,
                     "name": "Input",
                     "description": "Existing Samples in DataHub that represent input for this protocol.",
-                    "dataType": "Registered Sample (multiple)",
+                    "dataType": "Registered Sample List",
                     "required": true,
                     "isaTag": null
                 },
@@ -455,7 +455,7 @@
                     "iri": null,
                     "name": "Input",
                     "description": "Existing Samples in DataHub that represent input for this protocol.",
-                    "dataType": "Registered Sample (multiple)",
+                    "dataType": "Registered Sample List",
                     "required": true,
                     "isaTag": null
                 },
@@ -780,7 +780,7 @@
                     "iri": null,
                     "name": "Input",
                     "description": "Existing Samples in DataHub that represent input for this protocol.",
-                    "dataType": "Registered Sample (multiple)",
+                    "dataType": "Registered Sample List",
                     "required": true,
                     "isaTag": null
                 },
