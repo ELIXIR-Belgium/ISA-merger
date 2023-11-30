@@ -26,7 +26,7 @@
       "iri": "http://purl.obolibrary.org/obo/OBI_0100026",
       "name": "organism",
       "description": "A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs. E.g Drosophila melanogaster.",
-      "dataType": "Ontology",
+      "dataType": "Controlled Vocabulary",
       "required": true,
       "isaTag": "source_characteristic",
       "ontology": {
@@ -56,7 +56,7 @@
       "iri": "http://www.ebi.ac.uk/efo/EFO_0000399",
       "name": "developmental stage",
       "description": "A developmental stage is spatiotemporal region encompassing some part of the life cycle of an organism, e.g. blastula stage",
-      "dataType": "Ontology",
+      "dataType": "Controlled Vocabulary",
       "required": true,
       "isaTag": "source_characteristic",
       "ontology": {
@@ -64,13 +64,13 @@
         "version": "1",
         "description": "Experimental Factor Ontology",
         "rootTermURI": "http://www.ebi.ac.uk/efo/EFO_0000399"
-      } 
+      }
     },
     {
       "iri": "http://www.ebi.ac.uk/efo/EFO_0000246",
       "name": "age",
       "description": "A temporal measurement of the time period elapsed since an identifiable point in the life cycle of an organism. If a developmental stage is specified, the identifiable point would be the beginning of that stage. Otherwise the identifiable point must be specified such as planting (e.g. 3 days post planting).",
-      "dataType": "Ontology",
+      "dataType": "Controlled Vocabulary",
       "required": true,
       "isaTag": "source_characteristic",
       "ontology": {
@@ -78,13 +78,13 @@
         "version": "1",
         "description": "Experimental Factor Ontology",
         "rootTermURI": "http://www.ebi.ac.uk/efo/EFO_0000246"
-      } 
+      }
     },
     {
       "iri": "http://www.ebi.ac.uk/efo/EFO_0000513",
       "name": "genotype",
       "description": "The total sum of the genetic information of an organism that is known and relevant to the experiment being performed, including chromosomal, plasmid, viral or other genetic material which has been introduced into the organism either prior to or during the experiment.",
-      "dataType": "Ontology",
+      "dataType": "Controlled Vocabulary",
       "required": true,
       "isaTag": "source_characteristic",
       "ontology": {
@@ -92,7 +92,7 @@
         "version": "1",
         "description": "Experimental Factor Ontology",
         "rootTermURI": "http://www.ebi.ac.uk/efo/EFO_0000513"
-      } 
+      }
     },
     {
       "iri": "http://www.ebi.ac.uk/efo/EFO_0005136",
@@ -106,7 +106,7 @@
       "iri": "http://www.ebi.ac.uk/efo/EFO_0000510",
       "name": "genetic modification",
       "description": "A genetic modification of the genome of an organism which may occur naturally by spontaneous mutation, or be introduced by some experimental means. Examples of genetic modification include specification of a transgene or the gene knocked-out or details of transient transfection.",
-      "dataType": "Ontology",
+      "dataType": "Controlled Vocabulary",
       "required": false,
       "isaTag": "source_characteristic",
       "ontology": {
@@ -114,13 +114,13 @@
         "version": "1",
         "description": "Experimental Factor Ontology",
         "rootTermURI": "http://www.ebi.ac.uk/efo/EFO_0000510"
-      }  
+      }
     },
     {
       "iri": "http://www.ebi.ac.uk/efo/EFO_0000523",
       "name": "growth condition",
       "description": "A role that a material entity can play which enables particular conditions used to grow organisms or parts of the organism. This includes isolated environments such as cultures and open environments such as field studies.",
-      "dataType": "Ontology",
+      "dataType": "Controlled Vocabulary",
       "required": false,
       "isaTag": "source_characteristic",
       "ontology": {
@@ -128,13 +128,13 @@
         "version": "1",
         "description": "Experimental Factor Ontology",
         "rootTermURI": "http://www.ebi.ac.uk/efo/EFO_0000523"
-      } 
+      }
     },
     {
       "iri": "http://www.ebi.ac.uk/efo/EFO_0000683",
       "name": "replicate",
       "description": "A role played by a a biological sample in the context of an experiment where the intent is that biological or technical variation is measured.",
-      "dataType": "Ontology",
+      "dataType": "Controlled Vocabulary",
       "required": false,
       "isaTag": "source_characteristic",
       "ontology": {
@@ -142,7 +142,7 @@
         "version": "1",
         "description": "Experimental Factor Ontology",
         "rootTermURI": "http://www.ebi.ac.uk/efo/EFO_0000683"
-      } 
+      }
     }
   ]
   }

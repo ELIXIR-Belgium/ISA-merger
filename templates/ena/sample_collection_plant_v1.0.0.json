@@ -21,14 +21,14 @@
    "dataType": "SEEK Sample Multi",
    "required": true,
    "isaTag": null
-  },  
+  },
   {
     "iri": null,
     "name": "sample collection",
     "description": "type of assay or experimental step performed.",
     "dataType": "String",
     "required": true,
-    "ontology": null,    
+    "ontology": null,
     "CVList": null,//SOPtittle
     "isaTag": "protocol"
   },
@@ -39,20 +39,20 @@
     "dataType": "String",
     "required": false,
     "ontology": null,
-    "isaTag": "parameter_value"    
+    "isaTag": "parameter_value"
   },
   {
     "iri": null,
     "name": "sample material processing",
     "description": "Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v 2013-10-25) terms please see http://purl.bioontology.org/ontology/OBI",
-    "dataType": "Ontology",
+    "dataType": "Controlled Vocabulary",
     "required": false,
     "ontology": {
       "name": "OBI",
       "version": "",
       "description": "Ontology for Biomedical Investigations",
       "rootTermURI": "http://purl.obolibrary.org/obo/OBI_0000094"},
-      "isaTag": "parameter_value"       
+      "isaTag": "parameter_value"
   },
   {
     "iri": null,
@@ -61,7 +61,7 @@
     "dataType": "String", // original Regex "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
     "required": false,
     "ontology": null,
-    "isaTag": "parameter_value"    
+    "isaTag": "parameter_value"
   },
   {
     "iri": null,
@@ -70,7 +70,7 @@
     "dataType": "String", // original Regex "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
     "required": false,
     "ontology": null,
-    "isaTag": "parameter_value"    
+    "isaTag": "parameter_value"
   },
   {
     "iri": null,
@@ -79,7 +79,7 @@
     "dataType": "String", // original Regex "[+-]?(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
     "required": false,
     "ontology": null,
-    "isaTag": "parameter_value"    
+    "isaTag": "parameter_value"
   },
   {
     "iri": null,
@@ -88,7 +88,7 @@
     "dataType": "String",
     "required": false,
     "ontology": null,
-    "isaTag": "parameter_value"    
+    "isaTag": "parameter_value"
   },
   {
     "iri": null,
@@ -97,7 +97,7 @@
     "dataType": "String",
     "required": false,
     "ontology": null,
-    "isaTag": "parameter_value"    
+    "isaTag": "parameter_value"
   },
   {
     "iri": null,
@@ -107,6 +107,6 @@
     "required": true,
     "title": true,
     "ontology": null,
-    "isaTag": "sample"    
+    "isaTag": "sample"
   }
 ]
