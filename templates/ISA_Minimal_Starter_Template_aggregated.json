@@ -57,11 +57,11 @@
 					"iri": null,
 					"name": "Input",
 					"description": "Registered Samples in the platform used as input for this protocol.",
-					"dataType": "Registered Sample (multiple)",
+					"dataType": "Registered Sample List",
 					"required": true,
 					"isaTag": null
 				},
-				{	
+				{
 					"iri": null,
 					"name": "Name of a protocol with samples as outputs",
 					"description": "Type of experimental step that generates samples as outputs from the study sources.",
@@ -122,7 +122,7 @@
 					"iri": null,
 					"name": "Input",
 					"description": "Registered Samples in the platform used as input for this protocol.",
-					"dataType": "Registered Sample (multiple)",
+					"dataType": "Registered Sample List",
 					"required": true,
 					"isaTag": null
 				},
@@ -187,7 +187,7 @@
 					"iri": null,
 					"name": "Input",
 					"description": "Registered Samples in the platform used as input for this protocol.",
-					"dataType": "Registered Sample (multiple)",
+					"dataType": "Registered Sample List",
 					"required": true,
 					"isaTag": null
 				},
