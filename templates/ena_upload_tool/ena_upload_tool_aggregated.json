@@ -462,13 +462,24 @@
                 {
                     "iri": null,
                     "name": "library construction",
-                    "description": "type of assay or experimental step performed.",
+                    "description": "Type of assay or experimental step performed.",
                     "required": true,
-                    "title": true,
+                    "title": false,
                     "ontology": null,
                     "dataType": "String", //need to be autofilled with name of selected SOP for that block
                     "CVList": null, //SOPtittle
-                    "isaTag": "parameter_value"
+                    "isaTag": "protocol"
+                },
+                {
+                    "iri": null,
+                    "name": "library",
+                    "description": "Name of the genereal output of this assay in DataHub.",
+                    "required": true,
+                    "title": true,
+                    "ontology": null,
+                    "dataType": "String",
+                    "CVList": null,
+                    "isaTag": "other_material"
                 },
                 {
                     "iri": null,
@@ -502,7 +513,7 @@
                 {
                     "iri": null,
                     "name": "library_name",
-                    "description": "Name given to the generated library",
+                    "description": "Name of the library to be published in ENA",
                     "dataType": "String",
                     "required": true,
                     "ontology": null,
