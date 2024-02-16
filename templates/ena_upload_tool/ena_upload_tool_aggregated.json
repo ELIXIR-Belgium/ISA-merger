@@ -468,7 +468,7 @@
                     "ontology": null,
                     "dataType": "String", //need to be autofilled with name of selected SOP for that block
                     "CVList": null, //SOPtittle
-                    "isaTag": "other_material"
+                    "isaTag": "parameter_value"
                 },
                 {
                     "iri": null,
@@ -477,7 +477,7 @@
                     "dataType": "String",
                     "required": false,
                     "ontology": null,
-                    "isaTag": "parameter_value"
+                    "isaTag": "protocol"
                 },
                 {
                     "iri": null,
