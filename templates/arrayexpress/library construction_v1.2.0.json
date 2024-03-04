@@ -28,7 +28,7 @@
         "description": "A protocol that describes the processes performed and equipment used to prepare nucleic acid sequencing library.",
         "required": true,
         "isaTag": "protocol",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "dataType": "String", //need to be autofilled with name of selected SOP for that block
         "CVList": null //SOPtitle
       },
@@ -39,7 +39,7 @@
         "dataType": "Controlled Vocabulary",
         "required": true,
         "isaTag": "parameter_value",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": [
           "GENOMIC",
           "GENOMIC SINGLE CELL",
@@ -59,7 +59,7 @@
         "dataType": "Controlled Vocabulary",
         "required": true,
         "isaTag": "parameter_value",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": [
           "WGS",
           "WGA",
@@ -105,7 +105,7 @@
         "dataType": "Controlled Vocabulary",
         "required": true,
         "isaTag": "parameter_value",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": [
           "RANDOM",
           "PCR",
@@ -147,7 +147,7 @@
         "dataType": "Controlled Vocabulary",
         "required": true,
         "isaTag": "parameter_value",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": ["SINGLE", "PAIRED"]
       },
       {
@@ -157,7 +157,7 @@
         "dataType": "Controlled Vocabulary",
         "required": false,
         "isaTag": "parameter_value",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": ["first strand", "second strand", "not applicable"]
       },
       {
@@ -166,7 +166,7 @@
         "dataType": "Controlled Vocabulary",
         "required": false,
         "isaTag": "parameter_value",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": ["5'-3'-3'-5'", "5'-3'-5'-3'"]
       },
       {
@@ -176,7 +176,7 @@
         "title": true,
         "required": true,
         "isaTag": "otherMaterial",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       }
     ]

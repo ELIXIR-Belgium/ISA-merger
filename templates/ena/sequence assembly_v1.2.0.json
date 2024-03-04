@@ -13,7 +13,7 @@
     "organism": "any",
     "level": "assay"
   },
-  "data": [  
+  "data": [
     {
       "iri": null,
       "name": "Input",
@@ -27,7 +27,7 @@
       "name": "sequence assembly",
       "description": "type of assay or experimental step performed.",
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "dataType": "String", //need to be autofilled with name of selected SOP for that block
       "CVList":,//SOPtittle
       "isaTag": "protocol"
@@ -38,7 +38,7 @@
       "description": "User-defined name for each normalization applied",
       "dataType": "String",
       "required": false,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": null,
       "isaTag": "parameter_value"
     },
@@ -48,7 +48,7 @@
       "description": "a data transformation",
       "dataType": "String",
       "required": false,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": null,
       "isaTag": "parameter_value"
     },
@@ -58,9 +58,9 @@
       "description": "derived data such as an assembly file",
       "dataType": "String",
       "required": false,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": null,
       "isaTag": "dataFile"
-    }    
+    }
   ]
 }

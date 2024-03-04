@@ -21,13 +21,13 @@
       "dataType": "SEEK Sample Multi",
       "required": "true",
       "isaTag": null
-    },    
+    },
     {
       "iri": null,
       "name": "nucleic acid extraction",
       "description": "type of assay or experimental step performed.",
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "dataType": "String", //need to be autofilled with name of selected SOP for that block
       "CVList":,//SOPtittle
       "isaTag": "protocol"
@@ -37,7 +37,7 @@
       "name": "sample volume or weight for DNA extraction",
       "description": "Volume (mL) or weight (g) of sample processed for DNA extraction",
       "required": false,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "dataType": "String", // Original regex "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
       "unit": null, //Original unit options ["mL","g"],
       "isaTag": "parameter_value"
@@ -49,7 +49,7 @@
       "dataType": "String",
       "title": true,
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": null,
       "isaTag": "otherMaterial"
     }

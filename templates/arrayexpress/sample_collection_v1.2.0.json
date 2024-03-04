@@ -29,9 +29,9 @@
     "dataType": "String", //need to be autofilled with name of selected SOP for that block
     "required": true,
     "isaTag": "protocol",
-    "ontology": null,
+    "Controlled Vocabulary": null,
     "CVList": null, //SOPtitle
-  }, 
+  },
   {
     "iri": "http://www.ebi.ac.uk/efo/EFO_0000688",
     "name": "sampling site",
@@ -48,7 +48,7 @@
     "title": true,
     "required": true,
     "isaTag": "sample",
-    "ontology": null
+    "Controlled Vocabulary": null
   },
   {
     "iri": null,
@@ -57,8 +57,8 @@
     "dataType": "Controlled Vocabulary",
     "required": true,
     "isaTag": "sample_characteristic",
-    "ontology": null,
+    "Controlled Vocabulary": null,
     "CVList": ["whole organism", "organism part", "RNA", "DNA", "cell"]
-  }  
+  }
 ]
 }

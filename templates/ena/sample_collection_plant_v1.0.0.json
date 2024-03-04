@@ -21,14 +21,14 @@
    "dataType": "SEEK Sample Multi",
    "required": true,
    "isaTag": null
-  },  
+  },
   {
     "iri": null,
     "name": "sample collection",
     "description": "type of assay or experimental step performed.",
     "dataType": "String",
     "required": true,
-    "ontology": null,    
+    "Controlled Vocabulary": null,
     "CVList": null,//SOPtittle
     "isaTag": "protocol"
   },
@@ -38,21 +38,21 @@
     "description": "The method or deviced employed for collecting the sample",
     "dataType": "String",
     "required": false,
-    "ontology": null,
-    "isaTag": "parameter_value"    
+    "Controlled Vocabulary": null,
+    "isaTag": "parameter_value"
   },
   {
     "iri": null,
     "name": "sample material processing",
-    "description": "Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v 2013-10-25) terms please see http://purl.bioontology.org/ontology/OBI",
-    "dataType": "Ontology",
+    "description": "Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v 2013-10-25) terms please see http://purl.bioControlled Vocabulary.org/Controlled Vocabulary/OBI",
+    "dataType": "Controlled Vocabulary",
     "required": false,
-    "ontology": {
+    "Controlled Vocabulary": {
       "name": "OBI",
       "version": "",
-      "description": "Ontology for Biomedical Investigations",
+      "description": "Controlled Vocabulary for Biomedical Investigations",
       "rootTermURI": "http://purl.obolibrary.org/obo/OBI_0000094"},
-      "isaTag": "parameter_value"       
+      "isaTag": "parameter_value"
   },
   {
     "iri": null,
@@ -60,8 +60,8 @@
     "description": "Amount or size of sample (volume, mass or area) that was collected",
     "dataType": "String", // original Regex "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
     "required": false,
-    "ontology": null,
-    "isaTag": "parameter_value"    
+    "Controlled Vocabulary": null,
+    "isaTag": "parameter_value"
   },
   {
     "iri": null,
@@ -69,8 +69,8 @@
     "description": "duration for which sample was stored",
     "dataType": "String", // original Regex "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
     "required": false,
-    "ontology": null,
-    "isaTag": "parameter_value"    
+    "Controlled Vocabulary": null,
+    "isaTag": "parameter_value"
   },
   {
     "iri": null,
@@ -78,8 +78,8 @@
     "description": "temperature at which sample was stored, e.g. -80",
     "dataType": "String", // original Regex "[+-]?(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?",
     "required": false,
-    "ontology": null,
-    "isaTag": "parameter_value"    
+    "Controlled Vocabulary": null,
+    "isaTag": "parameter_value"
   },
   {
     "iri": null,
@@ -87,8 +87,8 @@
     "description": "location at which sample was stored, usually name of a specific freezer/room",
     "dataType": "String",
     "required": false,
-    "ontology": null,
-    "isaTag": "parameter_value"    
+    "Controlled Vocabulary": null,
+    "isaTag": "parameter_value"
   },
   {
     "iri": null,
@@ -96,8 +96,8 @@
     "description": "",
     "dataType": "String",
     "required": false,
-    "ontology": null,
-    "isaTag": "parameter_value"    
+    "Controlled Vocabulary": null,
+    "isaTag": "parameter_value"
   },
   {
     "iri": null,
@@ -106,7 +106,7 @@
     "dataType": "String",
     "required": true,
     "title": true,
-    "ontology": null,
-    "isaTag": "sample"    
+    "Controlled Vocabulary": null,
+    "isaTag": "sample"
   }
 ]

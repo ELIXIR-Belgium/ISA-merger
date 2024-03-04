@@ -28,7 +28,7 @@
           "description": "A protocol that describes the processes performed and equipment used to prepare nucleic acid sequencing library.",
           "required": true,
           "isaTag": "protocol",
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "dataType": "String",
           "CVList": null
         },
@@ -38,7 +38,7 @@
             "description": "type library can vary per technology and subclass: brand, kit or restriction enzyme",
             "required": true,
             "isaTag": "parameter_value",
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "dataType": "String",
             "CVList": null
           },        {
@@ -48,7 +48,7 @@
           "dataType": "Controlled Vocabulary",
           "required": true,
           "isaTag": "parameter_value",
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": [
             "GENOMIC",
             "GENOMIC SINGLE CELL",
@@ -68,7 +68,7 @@
           "dataType": "Controlled Vocabulary",
           "required": true,
           "isaTag": "parameter_value",
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": [
             "WGS",
             "WGA",
@@ -114,7 +114,7 @@
           "dataType": "Controlled Vocabulary",
           "required": true,
           "isaTag": "parameter_value",
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": [
             "RANDOM",
             "PCR",
@@ -156,7 +156,7 @@
           "dataType": "Controlled Vocabulary",
           "required": true,
           "isaTag": "parameter_value",
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": ["SINGLE", "PAIRED"]
         },
         {
@@ -166,7 +166,7 @@
           "dataType": "Controlled Vocabulary",
           "required": false,
           "isaTag": "parameter_value",
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": ["first strand", "second strand", "not applicable"]
         },
         {
@@ -175,7 +175,7 @@
           "dataType": "Controlled Vocabulary",
           "required": false,
           "isaTag": "parameter_value",
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": ["5'-3'-3'-5'", "5'-3'-5'-3'"]
         },
         {
@@ -184,7 +184,7 @@
             "dataType": "String",
             "required": false,
             "isaTag": "parameter_value",
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null
         },
         {
@@ -193,7 +193,7 @@
             "dataType": "String",
             "required": false,
             "isaTag": "otherMaterial_characteristic",
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null
         },
         {
@@ -202,7 +202,7 @@
             "dataType": "String",
             "required": false,
             "isaTag": "otherMaterial_characteristic",
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null
         },
         {
@@ -211,7 +211,7 @@
             "dataType": "String",
             "required": false,
             "isaTag": "otherMaterial_characteristic",
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null
         },
         {
@@ -220,7 +220,7 @@
             "dataType": "String",
             "required": false,
             "isaTag": "otherMaterial_characteristic",
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null
         },
         {
@@ -229,7 +229,7 @@
             "dataType": "String",
             "required": false,
             "isaTag": "otherMaterial_characteristic",
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null
         },
         {
@@ -238,7 +238,7 @@
             "dataType": "String",
             "required": false,
             "isaTag": "otherMaterial_characteristic",
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null
         },
         {
@@ -247,7 +247,7 @@
             "dataType": "String",
             "required": false,
             "isaTag": "otherMaterial_characteristic",
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null
         },
         {
@@ -256,7 +256,7 @@
             "dataType": "String",
             "required": false,
             "isaTag": "otherMaterial_characteristic",
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null
         },
         {
@@ -265,7 +265,7 @@
             "dataType": "String",
             "required": false,
             "isaTag": "otherMaterial_characteristic",
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null
         },
         {
@@ -274,7 +274,7 @@
             "dataType": "String",
             "required": false,
             "isaTag": "otherMaterial_characteristic",
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null
         },
         {
@@ -283,7 +283,7 @@
             "dataType": "String",
             "required": false,
             "isaTag": "otherMaterial_characteristic",
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null
         },
         {
@@ -292,7 +292,7 @@
             "dataType": "String",
             "required": false,
             "isaTag": "otherMaterial_characteristic",
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null
         },
         {
@@ -301,7 +301,7 @@
             "dataType": "String",
             "required": false,
             "isaTag": "otherMaterial_characteristic",
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null
         },
         {
@@ -311,7 +311,7 @@
           "title": true,
           "required": true,
           "isaTag": "otherMaterial",
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null
         }
       ]

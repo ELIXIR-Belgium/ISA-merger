@@ -5,9 +5,9 @@
       {
         "name": "Parameter Value[Chromatography Instrument]",
         "description": "Chromatography Instrument, manufacturer and model",
-        "dataType": "Ontology term",
+        "dataType": "Controlled Vocabulary term",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -15,7 +15,7 @@
         "description": "Model or make of the of Column used, e.g C18",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -23,7 +23,7 @@
         "description": "type of Chromatography used e.g reverse phase",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -31,15 +31,15 @@
         "description": "Identifier for the labeled extract.",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
         "name": "Label",
         "description": "Indicates a chemical or biological marker, such as a radioactive isotope or a fluorescent dye which is bound to a material in order to make it detectable by some assay technology (e.g. P33, biotin, GFP).",
-        "dataType": "Ontology term",
+        "dataType": "Controlled Vocabulary term",
         "required": "false",
-        "ontology": [
+        "Controlled Vocabulary": [
           {
             "name": "Chemical Entities of Biological Interest",
             "version": "Jun 2010",
@@ -56,7 +56,7 @@
         "description": "An acquisition mode to which specifies weather polarity is negative, positive or alternating.",
         "dataType": "List",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": ["positive", "negative", "alternating", "n/a"]
       },
       {
@@ -64,17 +64,17 @@
         "description": "The limit of m/z over which a mass spectrometer can detect ions. e.g 200-1000",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
         "name": "Parameter Value[Instrument]",
         "description": "the name of the mass spectrometry instrument, manufacturer, model # operational software name operational software version",
-        "dataType": "Ontology term",
+        "dataType": "Controlled Vocabulary term",
         "required": "false",
-        "ontology": [
-          { "name": "PSI Mass Spectrometry Ontology", "version": "Jun 2010", "abbreviation": "MS", "id": "" },
-          { "name": "Systems Biology Ontology", "version": "Jun 2010", "abbreviation": "SBO", "id": "" },
+        "Controlled Vocabulary": [
+          { "name": "PSI Mass Spectrometry Controlled Vocabulary", "version": "Jun 2010", "abbreviation": "MS", "id": "" },
+          { "name": "Systems Biology Controlled Vocabulary", "version": "Jun 2010", "abbreviation": "SBO", "id": "" },
           { "name": "Mass Spectroscopy CV (PSI-MS)", "version": "Jun 2010", "abbreviation": "PSI", "id": "" }
         ],
         "CVList": null
@@ -82,11 +82,11 @@
       {
         "name": "Parameter Value[Ion source]",
         "description": "the ion source use PSI-MS cv Ionization mode (EI, APCI, ESI#), vacuum pressure skimmer/focusing lens voltages (e.g. capillary voltage etc.) gas flows (e.g. nebulization gas, cone gas etc.) source temperature",
-        "dataType": "Ontology term",
+        "dataType": "Controlled Vocabulary term",
         "required": "false",
-        "ontology": [
-          { "name": "PSI Mass Spectrometry Ontology", "version": "Jun 2010", "abbreviation": "MS", "id": "" },
-          { "name": "Systems Biology Ontology", "version": "Jun 2010", "abbreviation": "SBO", "id": "" },
+        "Controlled Vocabulary": [
+          { "name": "PSI Mass Spectrometry Controlled Vocabulary", "version": "Jun 2010", "abbreviation": "MS", "id": "" },
+          { "name": "Systems Biology Controlled Vocabulary", "version": "Jun 2010", "abbreviation": "SBO", "id": "" },
           { "name": "Mass Spectroscopy CV (PSI-MS)", "version": "Jun 2010", "abbreviation": "PSI", "id": "" }
         ],
         "CVList": null
@@ -94,11 +94,11 @@
       {
         "name": "Parameter Value[Mass analyzer]",
         "description": "the analyzer(s) used by the mass spectrometer, use PSI-MS cv",
-        "dataType": "Ontology term",
+        "dataType": "Controlled Vocabulary term",
         "required": "false",
-        "ontology": [
-          { "name": "PSI Mass Spectrometry Ontology", "version": "Jun 2010", "abbreviation": "MS", "id": "" },
-          { "name": "Systems Biology Ontology", "version": "Jun 2010", "abbreviation": "SBO", "id": "" },
+        "Controlled Vocabulary": [
+          { "name": "PSI Mass Spectrometry Controlled Vocabulary", "version": "Jun 2010", "abbreviation": "MS", "id": "" },
+          { "name": "Systems Biology Controlled Vocabulary", "version": "Jun 2010", "abbreviation": "SBO", "id": "" },
           { "name": "Mass Spectroscopy CV (PSI-MS)", "version": "Jun 2010", "abbreviation": "PSI", "id": "" }
         ],
         "CVList": null
@@ -108,7 +108,7 @@
         "description": "User-defined name for a MS assay.",
         "dataType": "String",
         "required": "true",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -116,7 +116,7 @@
         "description": "Name (or URI) of the raw spectral data file generated by an assay.",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       }
     ],
@@ -126,7 +126,7 @@
         "description": "User-defined name for each normalization applied",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -134,7 +134,7 @@
         "description": "Name (or URI) of the derived data file generated from spectral data by an assay.",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       }
     ],
@@ -144,7 +144,7 @@
         "description": "User-defined name for each data transformation applied",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -152,7 +152,7 @@
         "description": "Name (or URI) of the metabolite assignment file gathered for this assay.",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       }
     ],
@@ -162,7 +162,7 @@
         "description": "Extract concentration, Samples enrichment and resuspension processes e.g Dried under nitrogen, resuspended in H2O or pyridine, SPE column",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -170,7 +170,7 @@
         "description": "Derivatization methods e.g. OMS, TMS",
         "dataType": "List",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": ["sylilation", "acetylation", "alkylation", "other", "none"]
       },
       {
@@ -178,7 +178,7 @@
         "description": "User-defined names for each portion of extracted material.",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       }
     ],
@@ -186,17 +186,17 @@
       {
         "name": "Parameter Value[NMR tube type]",
         "description": "e.g. 5 mm conventional, Shigemi, mircocell etc.",
-        "dataType": "Ontology term",
+        "dataType": "Controlled Vocabulary term",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
         "name": "Parameter Value[Solvent]",
         "description": "D2O, CD3OD, CDCl3, etc",
-        "dataType": "Ontology term",
+        "dataType": "Controlled Vocabulary term",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -204,7 +204,7 @@
         "description": "Sample pH e.g 7.4",
         "dataType": "Double",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -212,7 +212,7 @@
         "description": "Sampel temperature run in the magnet, in Kelvin",
         "dataType": "Double",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null,
         "unit": "Temperature unit in Kelvin\""
       },
@@ -221,15 +221,15 @@
         "description": "Identifier for the labeled extract.",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
         "name": "Label",
         "description": "Indicates a chemical or biological marker or observed nucleus",
-        "dataType": "Ontology term",
+        "dataType": "Controlled Vocabulary term",
         "required": "false",
-        "ontology": [
+        "Controlled Vocabulary": [
           {
             "name": "Chemical entities of biological interest",
             "version": "40664",
@@ -244,17 +244,17 @@
       {
         "name": "Parameter Value[Instrument]",
         "description": "Name and model of the NMR instrument, e.g. Bruker Avance III, ...",
-        "dataType": "Ontology term",
+        "dataType": "Controlled Vocabulary term",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
         "name": "Parameter Value[NMR Probe]",
         "description": "Type of probe fitted to the spectroscope e.g. 10mm 31P, 5mm HCN coldprobe, 3mm flow-probe, etc.",
-        "dataType": "Ontology term",
+        "dataType": "Controlled Vocabulary term",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -262,7 +262,7 @@
         "description": "Number of transients (scan) acquired for your experiment. e.g 128 or 256",
         "dataType": "Integer",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -270,7 +270,7 @@
         "description": "Pulse sequence used to acquire the data, noesypr1d",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -278,7 +278,7 @@
         "description": "a parameter expressed in tesla to report the strength of the field e.g 14.1 T Varian Inova ; 18.8 T Bruker Avance",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null,
         "unit": "unit in Tesla\""
       },
@@ -287,7 +287,7 @@
         "description": "Name (or URI) of the acquisition parameter data file gathered for this assay.",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       }
     ],
@@ -297,7 +297,7 @@
         "description": "User-defined name for a NMR assay.",
         "dataType": "String",
         "required": "true",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -305,7 +305,7 @@
         "description": "Name (or URI) of the free induction decay data file gathered for this assay.",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       }
     ],
@@ -315,7 +315,7 @@
         "description": "extraction method used. e.g methanol/chloroform extration (1:1 v/v)",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -323,7 +323,7 @@
         "description": "User-defined names for each portion of extracted material.",
         "dataType": "String",
         "required": "false",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       }
     ]

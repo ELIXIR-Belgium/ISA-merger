@@ -18,14 +18,14 @@
       "name": "protocol type",
       "description": "type of assay or experimental step performed.",
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": ["library construction"]
     },
     {
       "name": "library source",
       "description": "The LIBRARY_SOURCE specifies the type of source material that is being sequenced. (SRA 1.2 documentation)",
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": [
         "GENOMIC",
         "GENOMIC SINGLE CELL",
@@ -42,7 +42,7 @@
       "name": "library strategy",
       "description": "Sequencing technique intended for this library (SRA 1.2 documentation)",
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": [
         "WGS",
         "WGA",
@@ -85,7 +85,7 @@
       "name": "library selection",
       "description": "Whether any method was used to select for or against, enrich, or screen the material being sequenced. (SRA 1.2 documentation)",
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": [
         "RANDOM",
         "PCR",
@@ -124,31 +124,31 @@
       "name": "library layout",
       "description": "specifies whether to expect single, paired, or other configuration of reads.",
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": ["SINGLE", "PAIRED"]
     },
     {
       "name": "library strand",
       "description": "",
       "required": false,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": ["first strand", "second strand", "not applicable"]
     },
     {
       "name": "orientation",
       "description": "",
       "required": false,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": ["5'-3'-3'-5'", "5'-3'-5'-3'"]
     },
     {
       "name": "organism part",
       "description": "A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs. E.g Drosophila melanogaster.",
       "required": true,
-      "ontology": {
+      "Controlled Vocabulary": {
         "name": "efo",
         "version": "1",
-        "description": "ontologyDescription",
+        "description": "Controlled VocabularyDescription",
         "rootTermURI": "http://www.ebi.ac.uk/efo/EFO_0000635"
       }
     }

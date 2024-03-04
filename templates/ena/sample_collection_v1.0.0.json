@@ -21,14 +21,14 @@
     "dataType": "SEEK Sample Multi",
     "required": true,
     "isaTag": null
-  },  
+  },
   {
     "iri": null,
     "name": "sample collection",
     "description": "type of assay or experimental step performed.",
     "dataType": "String", //need to be autofilled with name of selected SOP for that block
     "required": true,
-    "ontology": null,    
+    "Controlled Vocabulary": null,
     "CVList": null, //SOPtittle
     "isaTag": "protocol"
   },

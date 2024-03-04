@@ -6,7 +6,7 @@
         "name": "protocol type",
         "description": "type of assay or experimental step performed.",
         "required": true,
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "dataType": "string",
         "CVList": ["library construction"]
       },
@@ -15,7 +15,7 @@
         "description": "The LIBRARY_SOURCE specifies the type of source material that is being sequenced. (SRA 1.2 documentation)",
         "dataType": "List",
         "required": true,
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": [
           "GENOMIC",
           "GENOMIC SINGLE CELL",
@@ -33,7 +33,7 @@
         "description": "Sequencing technique intended for this library (SRA 1.2 documentation)",
         "dataType": "List",
         "required": true,
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": ["WGS",
           "WGA",
           "WXS",
@@ -76,7 +76,7 @@
         "description": "Whether any method was used to select for or against, enrich, or screen the material being sequenced. (SRA 1.2 documentation)",
         "dataType": "List",
         "required": true,
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": [
           "RANDOM",
           "PCR",
@@ -116,7 +116,7 @@
         "description": "specifies whether to expect single, paired, or other configuration of reads.",
         "dataType": "List",
         "required": true,
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": ["SINGLE", "PAIRED"]
       },
       {
@@ -124,7 +124,7 @@
         "description": "",
         "dataType": "List",
         "required": false,
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": ["first strand", "second strand", "not applicable"]
       },
       {
@@ -132,7 +132,7 @@
         "description": "",
         "dataType": "List",
         "required": false,
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": ["5'-3'-3'-5'", "5'-3'-5'-3'"]
       }
     ]

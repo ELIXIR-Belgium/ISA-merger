@@ -8,33 +8,33 @@
   {
     "name": "Characteristics[Organism]",
     "description": "Provide a taxonomic information associated to the Source Biological material (for example, Species, genus, strain,....). Ideally, provide NCBI TaxID or NEWT identifier",
-    "dataType": "Ontology term",
+    "dataType": "Controlled Vocabulary term",
     "required": "true",
-    "ontology": [
+    "Controlled Vocabulary": [
       {
         "name": "National Center for Biotechnology Information (NCBI) Organismal Classification",
         "version": "NCBITAXON",
         "abbreviation": "NCBITAXON",
-        "id": "http://data.bioontology.org/ontologies/NCBITAXON"
+        "id": "http://data.bioControlled Vocabulary.org/ontologies/NCBITAXON"
       }
     ]
   },
   {
     "name": "Characteristics[Organism part]",
     "description": "The part of organism's anatomy or substance arising from an organism from which the biomaterial was derived, excludes cells. E.g. tissue, organ, system, sperm, blood or body location (arm)",
-    "dataType": "Ontology term",
+    "dataType": "Controlled Vocabulary term",
     "required": "true",
-    "ontology": [
+    "Controlled Vocabulary": [
       { "name": "BRENDA tissue / enzyme source", "version": "46601", "abbreviation": "BTO", "id": "1005" },
-      { "name": "Experimental Factor Ontology", "version": "46765", "abbreviation": "EFO", "id": "1136" },
+      { "name": "Experimental Factor Controlled Vocabulary", "version": "46765", "abbreviation": "EFO", "id": "1136" },
       {
-        "name": "Plant Ontology (Structure, Growth and Developmental Stage)",
+        "name": "Plant Controlled Vocabulary (Structure, Growth and Developmental Stage)",
         "version": "Jun 2010",
         "abbreviation": "PO",
         "id": ""
       },
       {
-        "name": "Foundational Model of Anatomy Ontology",
+        "name": "Foundational Model of Anatomy Controlled Vocabulary",
         "version": "Jun 2010",
         "abbreviation": "FMA",
         "id": ""

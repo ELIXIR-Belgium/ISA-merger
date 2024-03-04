@@ -27,7 +27,7 @@
       "name": "library construction",
       "description": "type of assay or experimental step performed.",
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "dataType": "String", //need to be autofilled with name of selected SOP for that block
       "CVList": null,//SOPtittle
       "isaTag": "protocol"
@@ -38,15 +38,15 @@
       "description": "Free form text describing the protocol by which the sequencing library was constructed.",
       "dataType": "String",
       "required": false,
-      "ontology": null,
-      "isaTag": "parameter_value"      
-    },    
+      "Controlled Vocabulary": null,
+      "isaTag": "parameter_value"
+    },
     {
       "iri": null,
       "name": "Title",
       "description": "Short text that can be used to call out experiment records in searches or in displays.",
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "dataType": "String",
       "CVList": null,
       "isaTag": "otherMaterial_characteristic"
@@ -56,7 +56,7 @@
       "name": "design_description",
       "description": "The design of the library including details of how it was constructed. ",
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "dataType": "String",
       "CVList": null,
       "isaTag": "parameter_value"
@@ -67,7 +67,7 @@
       "description": "The LIBRARY_SOURCE specifies the type of source material that is being sequenced. (SRA 1.2 documentation)",
       "dataType": "Controlled Vocabulary",
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": [
         "GENOMIC",
         "GENOMIC SINGLE CELL",
@@ -87,7 +87,7 @@
       "description": "Sequencing technique intended for this library (SRA 1.2 documentation)",
       "dataType": "Controlled Vocabulary",
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": [
         "WGS",
         "WGA",
@@ -137,7 +137,7 @@
       "description": "Whether any method was used to select for or against, enrich, or screen the material being sequenced. (SRA 1.2 documentation)",
       "dataType": "Controlled Vocabulary",
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": [
         "RANDOM",
         "PCR",
@@ -179,7 +179,7 @@
       "description": "specifies whether to expect single, paired, or other configuration of reads. In the case of paired reads, information about the relative distance and orientation is specified.",
       "dataType": "Controlled Vocabulary",
       "required": false,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": ["SINGLE", "PAIRED"],
       "isaTag": "parameter_value"
     },
@@ -189,9 +189,9 @@
       "description": "Insert size for paired reads.",
       "dataType": "String",
       "required": false,
-      "ontology": null,
-      "isaTag": "parameter_value"      
-    },    
+      "Controlled Vocabulary": null,
+      "isaTag": "parameter_value"
+    },
     {
       "iri": null,
       "name": "library name",
@@ -199,17 +199,17 @@
       "dataType": "String",
       "title": true,
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": null,
-      "isaTag": "otherMaterial"      
-    },    
+      "isaTag": "otherMaterial"
+    },
     {
       "iri": null,
       "name": "submission date",
       "description": "Date in which experiment was submitted to ENA.",
       "dataType": "String",
       "required": false,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": null,
       "isaTag": "otherMaterial_characteristic"
     },
@@ -219,7 +219,7 @@
       "description": "Status of submission to ENA.",
       "dataType": "String",
       "required": false,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": ["add",
         "added",
         "modify",
@@ -236,7 +236,7 @@
       "description": "ENA experiment accession code. Provided by ENA after submission.",
       "dataType": "String",
       "required": false,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": null,
       "isaTag": "otherMaterial_characteristic"
     }

@@ -29,9 +29,9 @@
       "dataType": "String",
       "required": true,
       "isaTag": "protocol",
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": null
-    }, 
+    },
     {
       "iri": "http://www.ebi.ac.uk/efo/EFO_0000688",
       "name": "sampling site",
@@ -52,15 +52,15 @@
         "iri": "http://www.ebi.ac.uk/efo/EFO_0000635",
         "name": "organism part",
         "description": "The part of organism's anatomy or substance arising from an organism from which the biomaterial was derived, excludes cells. E.g. tissue, organ, system, sperm, blood or body location (arm).",
-        "dataType": "Ontology",
+        "dataType": "Controlled Vocabulary",
         "required": true,
         "isaTag": "sample_characteristic",
-        "ontology": {
+        "Controlled Vocabulary": {
           "name": "efo",
           "version": "1",
-          "description": "Experimental Factor Ontology",
+          "description": "Experimental Factor Controlled Vocabulary",
           "rootTermURI": "http://www.ebi.ac.uk/efo/EFO_0000635"
-        } 
+        }
     },
     {
         "iri": null,
@@ -69,9 +69,9 @@
         "dataType": "Controlled Vocabulary",
         "required": true,
         "isaTag": "sample_characteristic",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": ["whole organism", "organism part", "RNA", "DNA", "cell"]
-    }, 
+    },
     {
       "iri": null,
       "name": "Sample Name",
@@ -80,7 +80,7 @@
       "title": true,
       "required": true,
       "isaTag": "sample",
-      "ontology": null
+      "Controlled Vocabulary": null
     },
     {
         "iri": null,
@@ -89,7 +89,7 @@
         "dataType": "String",
         "required": true,
         "isaTag": "sample_characteristic",
-        "ontology": null
+        "Controlled Vocabulary": null
     },
     {
         "iri": null,
@@ -98,7 +98,7 @@
         "dataType": "String",
         "required": true,
         "isaTag": "sample_characteristic",
-        "ontology": null
+        "Controlled Vocabulary": null
     },
     {
         "iri": null,
@@ -107,8 +107,8 @@
         "dataType": "String",
         "required": false,
         "isaTag": "sample_characteristic",
-        "ontology": null
+        "Controlled Vocabulary": null
     }
- 
+
   ]
   }

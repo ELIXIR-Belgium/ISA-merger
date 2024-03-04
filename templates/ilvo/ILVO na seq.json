@@ -29,7 +29,7 @@
           "dataType": "String",
           "required": true,
           "isaTag": "protocol",
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null
         },
         {
@@ -39,7 +39,7 @@
           "dataType": "Controlled Vocabulary",
           "required": true,
           "isaTag": "parameter_value",
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": [
             "454 GS",
             "454 GS 20",
@@ -97,7 +97,7 @@
           "dataType": "String",
           "required": false,
           "isaTag": "parameter_value",
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null
         },
         {
@@ -107,7 +107,7 @@
           "dataType": "String",
           "required": false,
           "isaTag": "parameter_value",
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null
         },
         {
@@ -117,7 +117,7 @@
           "dataType": "String",
           "required": true,
           "isaTag": "dataFile_comment",
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null
         },
         {
@@ -127,7 +127,7 @@
           "dataType": "String",
           "required": true,
           "isaTag": "dataFile_comment",
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": ["sequencing assay"]
         },
         {
@@ -136,7 +136,7 @@
             "dataType": "String",
             "required": false,
             "isaTag": "dataFile_comment",
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null
         },
         {
@@ -145,7 +145,7 @@
             "description": "sequential number per run /per sequence provider /machinename /lane",
             "dataType": "String",
             "required": false,
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null,
             "isaTag": "dataFile_comment"
         },
@@ -155,7 +155,7 @@
           "description": "",
           "dataType": "String",
           "required": false,
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null,
           "isaTag": "dataFile_comment"
         },
@@ -165,7 +165,7 @@
           "description": "",
           "dataType": "String",
           "required": false,
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null,
           "isaTag": "dataFile_comment"
         },
@@ -175,7 +175,7 @@
           "description": "",
           "dataType": "String",
           "required": false,
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null,
           "isaTag": "dataFile_comment"
         },
@@ -185,7 +185,7 @@
           "description": "",
           "dataType": "String",
           "required": false,
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null,
           "isaTag": "dataFile_comment"
         },
@@ -195,7 +195,7 @@
           "description": "",
           "dataType": "String",
           "required": false,
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null,
           "isaTag": "dataFile_comment"
         },
@@ -205,7 +205,7 @@
           "description": "",
           "dataType": "String",
           "required": false,
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null,
           "isaTag": "dataFile_comment"
         },
@@ -215,7 +215,7 @@
           "description": "",
           "dataType": "String",
           "required": false,
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null,
           "isaTag": "dataFile_comment"
         },
@@ -225,7 +225,7 @@
           "description": "",
           "dataType": "String",
           "required": false,
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null,
           "isaTag": "dataFile_comment"
         },
@@ -235,7 +235,7 @@
           "description": "",
           "dataType": "String",
           "required": false,
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null,
           "isaTag": "dataFile_comment"
         },
@@ -245,10 +245,10 @@
           "description": "",
           "dataType": "String",
           "required": false,
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null,
           "isaTag": "dataFile_comment"
-        },    
+        },
         {
           "iri": null,
           "name": "Raw Data File",
@@ -257,7 +257,7 @@
           "title": true,
           "required": true,
           "isaTag": "dataFile",
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null
         },
         {
@@ -266,7 +266,7 @@
             "description": "The MD5 checksum of the file.",
             "dataType": "String",
             "required": false,
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null,
             "isaTag": "dataFile_comment"
         },
@@ -276,7 +276,7 @@
             "description": "The MD5 checksum of the file.",
             "dataType": "String",
             "required": false,
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null,
             "isaTag": "dataFile_comment"
         },
@@ -286,7 +286,7 @@
             "description": "The MD5 checksum of the file.",
             "dataType": "String",
             "required": false,
-            "ontology": null,
+            "Controlled Vocabulary": null,
             "CVList": null,
             "isaTag": "dataFile_comment"
         },
@@ -296,7 +296,7 @@
           "description": "Date in which run was submitted to repository. Date of submission to repository.",
           "dataType": "String",
           "required": false,
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null,
           "isaTag": "dataFile_comment"
         },
@@ -306,7 +306,7 @@
           "description": "Status of submission to repository.",
           "dataType": "String",
           "required": false,
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": ["add",
             "added",
             "modify",
@@ -323,9 +323,9 @@
           "description": "repository run accession code. Provided by ENA after submission.",
           "dataType": "String",
           "required": false,
-          "ontology": null,
+          "Controlled Vocabulary": null,
           "CVList": null,
           "isaTag": "dataFile"
-        }   
-      ]    
+        }
+      ]
   }

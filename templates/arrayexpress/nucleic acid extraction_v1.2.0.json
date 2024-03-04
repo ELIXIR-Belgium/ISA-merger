@@ -29,7 +29,7 @@
         "dataType": "String",
         "required": true,
         "isaTag": "protocol",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": [] //SOPtitle
       },
       {
@@ -39,7 +39,7 @@
         "dataType": "String",
         "required": false,
         "isaTag": "parameter_value",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "unit": null
       },
       {
@@ -50,7 +50,7 @@
         "title": true,
         "required": true,
         "isaTag": "otherMaterial",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -60,14 +60,14 @@
         "dataType": "Controlled Vocabulary",
         "required": true,
         "isaTag": "otherMaterial_characteristic",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": [
-          "whole organism", 
-          "organism part", 
-          "RNA", 
-          "DNA", 
+          "whole organism",
+          "organism part",
+          "RNA",
+          "DNA",
           "cell"
         ]
       }
-    ]  
+    ]
 }

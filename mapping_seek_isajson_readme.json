@@ -5,7 +5,7 @@
       "description": "seek description",
       "submissionDate": "to be added after data submission to EBI",
       "publicReleaseDate": "end of embargo or to be added after data release at EBI",
-      "ontologySourceReferences": [ "comment: name (acronym), version, file (.owl), description (spelled out acronym) of all ontologies used in sample types in this ISA",
+      "Controlled VocabularySourceReferences": [ "comment: name (acronym), version, file (.owl), description (spelled out acronym) of all ontologies used in sample types in this ISA",
         { "name": "", "file": "", "version": "", "description": "" },
         { "name": "", "file": "", "version": "", "description": "" }
       ],
@@ -35,7 +35,7 @@
             { "termAccession": "", "termSource": "", "annotationValue": "" }
           ],
           "comments": [ "// comment: to be used for ORCID as provided in seek",
-            { "@id": "", "value": "", "name": "" }] 
+            { "@id": "", "value": "", "name": "" }]
         }
       ],
       "studies": [ "Comment: This section represents a repeatable block, study_schema.json, which is replicated according to the number of Studies to report (i.e. two Studies, two Study blocks are represented in the Investigation file).",
@@ -51,7 +51,7 @@
             { "name": "SEEK creation date", "value": "2022-07-15T11:39:40Z" }
           ],
           "publications": ["comment: associated publication in seek"],
-          "people": [ 
+          "people": [
             {
               "@id": "#people/seek id", "// comment": "to be mapped maybe to all related people in seek, currently only the submitter",
               "lastName": "seek last name",
@@ -75,8 +75,8 @@
               "@id": "#characteristic_category/attribute name with underscores _ seek id of the sample type attribute",
               "characteristicType": {
                 "annotationValue": "attribute name", "// comment": "title from sample_attributes table in seek database",
-                "termAccession": "iri, if attribute name is an ontology term", "// comment": "pid from sample_attributes table in seek database",
-                "termSource": "ontology acronym", "// comment": "information fetched from the iri"
+                "termAccession": "iri, if attribute name is an Controlled Vocabulary term", "// comment": "pid from sample_attributes table in seek database",
+                "termSource": "Controlled Vocabulary acronym", "// comment": "information fetched from the iri"
                 }
             }
           ],
@@ -92,8 +92,8 @@
                         },
                         "value": {
                           "annotationValue": "value given to the seek sample for the specified attribute",
-                          "termSource": "ontology acronym",
-                          "termAccession": "iri, if the value given to the seek sample is an ontology term"
+                          "termSource": "Controlled Vocabulary acronym",
+                          "termAccession": "iri, if the value given to the seek sample is an Controlled Vocabulary term"
                         },
                         "unit": { "// comment": "to be implemented",
                           "termSource": "",
@@ -116,8 +116,8 @@
                       },
                       "value": {
                         "annotationValue": "value given to the seek sample for the specified attribute",
-                        "termSource": "ontology acronym",
-                        "termAccession": "iri, if the value given to the seek sample is an ontology term"
+                        "termSource": "Controlled Vocabulary acronym",
+                        "termAccession": "iri, if the value given to the seek sample is an Controlled Vocabulary term"
                       },
                       "unit": { "// comment": "to be implemented",
                         "termSource": "",
@@ -161,8 +161,8 @@
                           "@id": "#parameter/seek id of the sample type attribute with isaTag=parameter_value",
                           "parameterName": {
                             "annotationValue": "name of the attribute (with isaTag=parameter_value)",
-                            "termAccession": "iri, if the name of the attribute is an ontology term",
-                            "termSource": "ontology acronym"
+                            "termAccession": "iri, if the name of the attribute is an Controlled Vocabulary term",
+                            "termSource": "Controlled Vocabulary acronym"
                           }
                         }
                     ],
@@ -188,8 +188,8 @@
                             "category": { "@id": "#parameter/7" }, "// comment": "#parameter/seek id of the sample type attribute with isaTag=parameter_value as defined above",
                             "value": {
                               "annotationValue": "par 1", "// comment": "value given to the seek sample for the specified attribute",
-                              "termSource": "ontology acronym",
-                              "termAccession": "iri, if the name of the attribute is an ontology term"
+                              "termSource": "Controlled Vocabulary acronym",
+                              "termAccession": "iri, if the name of the attribute is an Controlled Vocabulary term"
                             },
                             "unit": { "// comment": " to be implemented",
                               "termSource": "",
@@ -208,7 +208,7 @@
                           ],
                         "outputs": [ "// comment: #sample/seek id of the seek sample(s) in question as defined above",
                           { "@id": "#sample/4" }
-                          ] 
+                          ]
                     }
                 ],
             "assays": [
@@ -217,8 +217,8 @@
                 "filename": "a_assays.txt", "// comment": "a_title of the experiment (or stream).txt; temporary, it could be the value of the isa measurement type from the first? assay template or just a_assay1.txt with progressive numbers. TBD",
                 "measurementType": {
                   "annotationValue": "", "// comment": "it could be the value of the isa measurement type from the first? assay template. TBD",
-                  "termSource": "ontology acronym", "// comment": "not applicable to the current template because ontology cannot be provided",
-                  "termAccession": "iri, if the value of the isa measurement type is an ontology term",  "// comment": "not applicable to the current template because ontology cannot be provided"
+                  "termSource": "Controlled Vocabulary acronym", "// comment": "not applicable to the current template because Controlled Vocabulary cannot be provided",
+                  "termAccession": "iri, if the value of the isa measurement type is an Controlled Vocabulary term",  "// comment": "not applicable to the current template because Controlled Vocabulary cannot be provided"
                 },
                 "technologyType": { "// comment": "as for measurement type above",
                   "annotationValue": "",
@@ -231,8 +231,8 @@
                     "@id": "#characteristic_category/attribute name with underscores _ seek id of the sample type attribute",
                     "characteristicType": {
                       "annotationValue": "attribute name", "// comment": "title from sample_attributes table in seek database",
-                      "termAccession": "iri, if attribute name is an ontology term", "// comment": "pid from sample_attributes table in seek database",
-                      "termSource": "ontology acronym"
+                      "termAccession": "iri, if attribute name is an Controlled Vocabulary term", "// comment": "pid from sample_attributes table in seek database",
+                      "termSource": "Controlled Vocabulary acronym"
                     }
                   }
                 ],
@@ -257,8 +257,8 @@
                           },
                           "value": {
                             "annotationValue": "liquid", "// comment": "value given to the seek sample for the specified attribute",
-                            "termSource": "ontology acronym",
-                            "termAccession": "iri, if the value given to the seek sample is an ontology term"
+                            "termSource": "Controlled Vocabulary acronym",
+                            "termAccession": "iri, if the value given to the seek sample is an Controlled Vocabulary term"
                           },
                           "unit": { "// comment": "to be implemented",
                             "termSource": "",
@@ -282,8 +282,8 @@
                           "category": { "@id": "#parameter/16" }, "// comment": "#parameter/seek id of the sample type attribute with isaTag=parameter_value as defined above, for the protocol in question",
                           "value": {
                             "annotationValue": "short", "// comment": "value given to the seek sample for the specified attribute",
-                            "termSource": "ontology acronym",
-                            "termAccession": "iri, if the value given to the seek sample is an ontology term"
+                            "termSource": "Controlled Vocabulary acronym",
+                            "termAccession": "iri, if the value given to the seek sample is an Controlled Vocabulary term"
                           },
                           "unit": { "// comment": "to be implemented",
                             "termSource": "",
@@ -293,7 +293,7 @@
                         }
                       ],
                       "performer": "", "// comment": "not used. it could be implemented",
-                      "date": "", "// comment": "not used. it could be implemented", 
+                      "date": "", "// comment": "not used. it could be implemented",
                       "previousProcess": { "@id": "#process/sample_collection/8" }, "// comment": "#process/protocol name (isaTag=protocol) in the sample type of the input (isaTag=seek sample multi) sample/ seek sample id of the sample in question",
                       "nextProcess": { "@id": "#process/Protocol_Assay_2/8" }, "// comment": "#process/protocol name (isaTag=protocol) in the sample type where the sample in question is listed as input (isaTag=seek sample multi)/ seek sample id of the sample in question",
                       "inputs": [{ "@id": "#sample/4" }], "// comment": "#sample or other_material/seek sample id defined above in derivesFrom= field of the sample in question",
@@ -321,5 +321,5 @@
         }
       ]
     }
-}  
-    
+}
+

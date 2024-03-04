@@ -27,7 +27,7 @@
       "name": "nucleic acid sequencing",
       "description": "type of assay or experimental step performed.",
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "dataType": "String", //need to be autofilled with name of selected SOP for that block
       "CVList": null,//SOPtittle
       "isaTag": "protocol"
@@ -38,7 +38,7 @@
       "description": "a parameter to report the sequencing instrument model and make",
       "dataType": "Controlled Vocabulary",
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": [
         " 454 GS",
         " 454 GS 20",
@@ -89,14 +89,14 @@
         " unspecified"
       ],
       "isaTag": "parameter_value"
-    },    
+    },
     {
       "iri": null,
       "name": "file type",
       "description": "The run data file model.",
       "dataType": "String",
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": [
         "bam",
         "cram",
@@ -113,7 +113,7 @@
       "description": "The MD5 checksum of the file.",
       "dataType": "String",
       "required": false,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": null,
       "isaTag": "dataFile_comment"
     },
@@ -124,7 +124,7 @@
       "dataType": "String",
       "title": true,
       "required": true,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": null,
       "isaTag": "dataFile"
     },
@@ -134,7 +134,7 @@
       "description": "Date in which run was submitted to ENA.Date of submission to ENA.",
       "dataType": "String",
       "required": false,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": null,
       "isaTag": "dataFile_comment"
     },
@@ -144,7 +144,7 @@
       "description": "Status of submission to ENA.",
       "dataType": "String",
       "required": false,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": ["add",
         "added",
         "modify",
@@ -161,7 +161,7 @@
       "description": "ENA run accession code. Provided by ENA after submission.",
       "dataType": "String",
       "required": false,
-      "ontology": null,
+      "Controlled Vocabulary": null,
       "CVList": null,
       "isaTag": "dataFile_comment"
     }

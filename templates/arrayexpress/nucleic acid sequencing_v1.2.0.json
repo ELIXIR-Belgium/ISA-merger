@@ -29,7 +29,7 @@
         "dataType": "String",  //need to be autofilled with name of selected SOP for that block
         "required": true,
         "isaTag": "protocol",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null //SOPtitle
       },
       {
@@ -39,7 +39,7 @@
         "dataType": "Controlled Vocabulary",
         "required": true,
         "isaTag": "parameter_value",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": [
           "454 GS",
           "454 GS 20",
@@ -97,7 +97,7 @@
         "dataType": "String",
         "required": false,
         "isaTag": "parameter_value",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -107,7 +107,7 @@
         "dataType": "String",
         "required": false,
         "isaTag": "parameter_value",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -117,7 +117,7 @@
         "dataType": "String",
         "required": true,
         "isaTag": "otherMaterial",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       },
       {
@@ -127,9 +127,9 @@
         "dataType": "String",
         "required": true,
         "isaTag": "otherMaterial_characteristic",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": ["sequencing assay"]
-      },      
+      },
       {
         "iri": null,
         "name": "Raw Data File",
@@ -138,8 +138,8 @@
         "title": true,
         "required": true,
         "isaTag": "dataFile",
-        "ontology": null,
+        "Controlled Vocabulary": null,
         "CVList": null
       }
-    ]    
+    ]
 }

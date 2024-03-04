@@ -31,7 +31,7 @@
 					"description": "A characteristic of the source",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "source_characteristic"
 				},
@@ -41,20 +41,20 @@
 					"description": "A characteristic of the source. With a controlled vocabulary of Yes and No.",
 					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": ["Yes", "No"],
 					"isaTag": "source_characteristic"
 				},
 				{
 					"iri": null,
 					"name": "Source Characteristic 3",
-					"description": "A characteristic of the source. With terms from an Ontology as accepted values",
-					"dataType": "Ontology",
+					"description": "A characteristic of the source. With terms from an Controlled Vocabulary as accepted values",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": {
+					"Controlled Vocabulary": {
 						"name": "ENVO",
 						"version": "",
-						"description": "Environment Ontology",
+						"description": "Environment Controlled Vocabulary",
 						"rootTermURI": "http://purl.obolibrary.org/obo/ENVO_00005803"
 					},
 					"CVList": null,
@@ -82,7 +82,7 @@
 					"iri": null,
 					"name": "Input",
 					"description": "Existing Samples in DataHub that represent input for this protocol.",
-					"dataType": "Registered Sample (multiple)",
+					"dataType": "Registered Sample List",
 					"required": true,
 					"isaTag": null
 				},
@@ -92,7 +92,7 @@
 					"description": "type of assay or experimental step performed.",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "protocol"
 				},
@@ -102,7 +102,7 @@
 					"description": "Parameter value 1 for sample collection",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "parameter_value"
 				},
@@ -112,7 +112,7 @@
 					"description": "Parameter value 2 for sample collection",
 					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": ["a", "b", "c"],
 					"isaTag": "parameter_value"
 				},
@@ -120,12 +120,12 @@
 					"iri": null,
 					"name": "sample collection parameter value 3",
 					"description": "Parameter value 3 for sample collection",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": {
+					"Controlled Vocabulary": {
 						"name": "PATO",
 						"version": "",
-						"description": "Phenotype And Trait Ontology",
+						"description": "Phenotype And Trait Controlled Vocabulary",
 						"rootTermURI": "http://purl.obolibrary.org/obo/PATO_0002317"
 					},
 					"CVList": null,
@@ -146,7 +146,7 @@
 					"description": "sample characteristic 1",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "sample_characteristic"
 				},
@@ -156,7 +156,7 @@
 					"description": "sample characteristic 2",
 					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": ["d", "e", "f"],
 					"isaTag": "sample_characteristic"
 				},
@@ -164,12 +164,12 @@
 					"iri": null,
 					"name": "sample characteristic 3",
 					"description": "sample characteristic 3",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": {
+					"Controlled Vocabulary": {
 						"name": "FOODON",
 						"version": "",
-						"description": "Food Ontology",
+						"description": "Food Controlled Vocabulary",
 						"rootTermURI": "http://purl.obolibrary.org/obo/FOODON_00001800"
 					},
 					"CVList": null,
@@ -197,7 +197,7 @@
 					"iri": null,
 					"name": "Input",
 					"description": "Existing Samples in DataHub that represent input for this protocol.",
-					"dataType": "Registered Sample (multiple)",
+					"dataType": "Registered Sample List",
 					"required": true,
 					"isaTag": null
 				},
@@ -207,7 +207,7 @@
 					"description": "type of assay or experimental step performed.",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "protocol"
 				},
@@ -217,7 +217,7 @@
 					"description": "Parameter value 1 for Assay 1",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "parameter_value"
 				},
@@ -227,7 +227,7 @@
 					"description": "Parameter value 2 for Assay 1",
 					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": ["1", "2", "3"],
 					"isaTag": "parameter_value"
 				},
@@ -235,13 +235,13 @@
 					"iri": null,
 					"name": "Assay 1 parameter value 3",
 					"description": "Parameter value 3 for Assay 1",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": {
+					"Controlled Vocabulary": {
 						"name": "BAO",
 						"version": "",
-						"description": "BioAssay Ontology",
-						"rootTermURI": "http://www.bioassayontology.org/bao#BAO_0002099"
+						"description": "BioAssay Controlled Vocabulary",
+						"rootTermURI": "http://www.bioassayControlled Vocabulary.org/bao#BAO_0002099"
 					},
 					"CVList": null,
 					"isaTag": "parameter_value"
@@ -261,7 +261,7 @@
 					"description": "other material characteristic 1",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "other_material_characteristic"
 				},
@@ -271,7 +271,7 @@
 					"description": "other material characteristic 2",
 					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": ["4", "5", "6"],
 					"isaTag": "other_material_characteristic"
 				},
@@ -279,12 +279,12 @@
 					"iri": null,
 					"name": "other material characteristic 3",
 					"description": "other material characteristic 3",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": {
+					"Controlled Vocabulary": {
 						"name": "FOODON",
 						"version": "",
-						"description": "Food Ontology",
+						"description": "Food Controlled Vocabulary",
 						"rootTermURI": "http://purl.obolibrary.org/obo/FOODON_00001800"
 					},
 					"CVList": null,
@@ -312,7 +312,7 @@
 					"iri": null,
 					"name": "Input",
 					"description": "Existing Samples in DataHub that represent input for this protocol.",
-					"dataType": "Registered Sample (multiple)",
+					"dataType": "Registered Sample List",
 					"required": true,
 					"isaTag": null
 				},
@@ -322,7 +322,7 @@
 					"description": "type of assay or experimental step performed.",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "protocol"
 				},
@@ -332,7 +332,7 @@
 					"description": "Parameter value 1 for Assay 2",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "parameter_value"
 				},
@@ -342,7 +342,7 @@
 					"description": "Parameter value 2 for Assay 2",
 					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": ["7", "8", "9"],
 					"isaTag": "parameter_value"
 				},
@@ -350,12 +350,12 @@
 					"iri": null,
 					"name": "Assay 2 parameter value 3",
 					"description": "Parameter value 3 for Assay 2",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": {
+					"Controlled Vocabulary": {
 						"name": "OMIT",
 						"version": "",
-						"description": "Ontology for MIRNA Target",
+						"description": "Controlled Vocabulary for MIRNA Target",
 						"rootTermURI": "http://purl.obolibrary.org/obo/OMIT_0004895"
 					},
 					"CVList": null,
@@ -376,7 +376,7 @@
 					"description": "other material characteristic 2",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "other_material_characteristic"
 				},
@@ -386,7 +386,7 @@
 					"description": "other material characteristic 2",
 					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": ["10", "11", "12"],
 					"isaTag": "other_material_characteristic"
 				},
@@ -394,9 +394,9 @@
 					"iri": null,
 					"name": "other material 2 characteristic 3",
 					"description": "other material characteristic 3",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": {
+					"Controlled Vocabulary": {
 						"name": "SNOMED",
 						"version": "",
 						"description": "SNOMED CT (International Edition)",
@@ -427,7 +427,7 @@
 					"iri": null,
 					"name": "Input",
 					"description": "Existing Samples in DataHub that represent input for this protocol.",
-					"dataType": "Registered Sample (multiple)",
+					"dataType": "Registered Sample List",
 					"required": true,
 					"isaTag": null
 				},
@@ -437,7 +437,7 @@
 					"description": "type of assay or experimental step performed.",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "protocol"
 				},
@@ -447,7 +447,7 @@
 					"description": "Parameter value 1 for Assay 3",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "parameter_value"
 				},
@@ -457,7 +457,7 @@
 					"description": "Parameter value 2 for Assay 3",
 					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": ["13", "14", "15"],
 					"isaTag": "parameter_value"
 				},
@@ -465,12 +465,12 @@
 					"iri": null,
 					"name": "Assay 3 parameter value 3",
 					"description": "Parameter value 3 for Assay 3",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": {
+					"Controlled Vocabulary": {
 						"name": "AFO",
 						"version": "",
-						"description": "Allotrope Merged Ontology Suite",
+						"description": "Allotrope Merged Controlled Vocabulary Suite",
 						"rootTermURI": "http://purl.allotrope.org/ontologies/equipment#AFE_0002157"
 					},
 					"CVList": null,
@@ -491,7 +491,7 @@
 					"description": "other material characteristic 2",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "other_material_characteristic"
 				},
@@ -501,7 +501,7 @@
 					"description": "other material characteristic 2",
 					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": ["16", "17", "18"],
 					"isaTag": "other_material_characteristic"
 				},
@@ -509,9 +509,9 @@
 					"iri": null,
 					"name": "other material 3 characteristic 3",
 					"description": "other material characteristic 3",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": {
+					"Controlled Vocabulary": {
 						"name": "SNOMED",
 						"version": "",
 						"description": "SNOMED CT (International Edition)",
@@ -542,7 +542,7 @@
 					"iri": null,
 					"name": "Input",
 					"description": "Existing Samples in DataHub that represent input for this protocol.",
-					"dataType": "Registered Sample (multiple)",
+					"dataType": "Registered Sample List",
 					"required": true,
 					"isaTag": null
 				},
@@ -552,7 +552,7 @@
 					"description": "type of assay or experimental step performed.",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "protocol"
 				},
@@ -562,7 +562,7 @@
 					"description": "Parameter value 1 for Assay 4",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "parameter_value"
 				},
@@ -572,7 +572,7 @@
 					"description": "Parameter value 2 for Assay 4",
 					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": ["19", "20", "21"],
 					"isaTag": "parameter_value"
 				},
@@ -580,12 +580,12 @@
 					"iri": null,
 					"name": "Assay 4 parameter value 3",
 					"description": "Parameter value 3 for Assay 4",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": {
+					"Controlled Vocabulary": {
 						"name": "ERO",
 						"version": "",
-						"description": "eagle-i resource ontology",
+						"description": "eagle-i resource Controlled Vocabulary",
 						"rootTermURI": "http://purl.obolibrary.org/obo/ERO_0000071"
 					},
 					"CVList": null,
@@ -606,7 +606,7 @@
 					"description": "data file comment 1",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "data_file_comment"
 				},
@@ -616,7 +616,7 @@
 					"description": "data file comment 2",
 					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": ["22", "23", "24"],
 					"isaTag": "data_file_comment"
 				},
@@ -624,12 +624,12 @@
 					"iri": null,
 					"name": "comment 3",
 					"description": "data file comment 3",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": {
+					"Controlled Vocabulary": {
 						"name": "MS",
 						"version": "",
-						"description": "Mass spectrometry ontology)",
+						"description": "Mass spectrometry Controlled Vocabulary)",
 						"rootTermURI": "http://purl.obolibrary.org/obo/MS_1001459"
 					},
 					"CVList": null,
@@ -657,7 +657,7 @@
 					"iri": null,
 					"name": "Input",
 					"description": "Existing Samples in DataHub that represent input for this protocol.",
-					"dataType": "Registered Sample (multiple)",
+					"dataType": "Registered Sample List",
 					"required": true,
 					"isaTag": null
 				},
@@ -667,7 +667,7 @@
 					"description": "type of assay or experimental step performed.",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "protocol"
 				},
@@ -677,7 +677,7 @@
 					"description": "Parameter value 1 for Assay 5",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "parameter_value"
 				},
@@ -687,7 +687,7 @@
 					"description": "Parameter value 2 for Assay 5",
 					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": ["25", "26", "27"],
 					"isaTag": "parameter_value"
 				},
@@ -695,13 +695,13 @@
 					"iri": null,
 					"name": "Assay 5 parameter value 3",
 					"description": "Parameter value 3 for Assay 5",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": {
+					"Controlled Vocabulary": {
 						"name": "EDAM",
 						"version": "",
 						"description": "Bioinformatics operations, data types, formats, identifiers and topics",
-						"rootTermURI": "http://edamontology.org/operation_2409"
+						"rootTermURI": "http://edamControlled Vocabulary.org/operation_2409"
 					},
 					"CVList": null,
 					"isaTag": "parameter_value"
@@ -721,7 +721,7 @@
 					"description": "data file 2 comment 1",
 					"dataType": "String",
 					"required": true,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": null,
 					"isaTag": "data_file_comment"
 				},
@@ -731,7 +731,7 @@
 					"description": "data file 2 comment 2",
 					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": null,
+					"Controlled Vocabulary": null,
 					"CVList": ["28", "29", "30"],
 					"isaTag": "data_file_comment"
 				},
@@ -739,9 +739,9 @@
 					"iri": null,
 					"name": "comment 3",
 					"description": "data file 2 comment 3",
-					"dataType": "Ontology",
+					"dataType": "Controlled Vocabulary",
 					"required": false,
-					"ontology": {
+					"Controlled Vocabulary": {
 						"name": "NCIT",
 						"version": "",
 						"description": "NCI Thesaurus OBO Edition)",
