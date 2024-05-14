@@ -1,5 +1,8 @@
 {
-  "meta": { "measurement": "metabolite profiling", "technology": "mass spectrometry" },
+  "meta": {
+    "measurement": "metabolite profiling",
+    "technology": "mass spectrometry"
+  },
   "data": {
     "Chromatography": [
       {
@@ -73,9 +76,24 @@
         "dataType": "Ontology term",
         "required": "false",
         "ontology": [
-          { "name": "PSI Mass Spectrometry Ontology", "version": "Jun 2010", "abbreviation": "MS", "id": "" },
-          { "name": "Systems Biology Ontology", "version": "Jun 2010", "abbreviation": "SBO", "id": "" },
-          { "name": "Mass Spectroscopy CV (PSI-MS)", "version": "Jun 2010", "abbreviation": "PSI", "id": "" }
+          {
+            "name": "PSI Mass Spectrometry Ontology",
+            "version": "Jun 2010",
+            "abbreviation": "MS",
+            "id": ""
+          },
+          {
+            "name": "Systems Biology Ontology",
+            "version": "Jun 2010",
+            "abbreviation": "SBO",
+            "id": ""
+          },
+          {
+            "name": "Mass Spectroscopy CV (PSI-MS)",
+            "version": "Jun 2010",
+            "abbreviation": "PSI",
+            "id": ""
+          }
         ],
         "CVList": null
       },
@@ -85,9 +103,24 @@
         "dataType": "Ontology term",
         "required": "false",
         "ontology": [
-          { "name": "PSI Mass Spectrometry Ontology", "version": "Jun 2010", "abbreviation": "MS", "id": "" },
-          { "name": "Systems Biology Ontology", "version": "Jun 2010", "abbreviation": "SBO", "id": "" },
-          { "name": "Mass Spectroscopy CV (PSI-MS)", "version": "Jun 2010", "abbreviation": "PSI", "id": "" }
+          {
+            "name": "PSI Mass Spectrometry Ontology",
+            "version": "Jun 2010",
+            "abbreviation": "MS",
+            "id": ""
+          },
+          {
+            "name": "Systems Biology Ontology",
+            "version": "Jun 2010",
+            "abbreviation": "SBO",
+            "id": ""
+          },
+          {
+            "name": "Mass Spectroscopy CV (PSI-MS)",
+            "version": "Jun 2010",
+            "abbreviation": "PSI",
+            "id": ""
+          }
         ],
         "CVList": null
       },
@@ -97,9 +130,24 @@
         "dataType": "Ontology term",
         "required": "false",
         "ontology": [
-          { "name": "PSI Mass Spectrometry Ontology", "version": "Jun 2010", "abbreviation": "MS", "id": "" },
-          { "name": "Systems Biology Ontology", "version": "Jun 2010", "abbreviation": "SBO", "id": "" },
-          { "name": "Mass Spectroscopy CV (PSI-MS)", "version": "Jun 2010", "abbreviation": "PSI", "id": "" }
+          {
+            "name": "PSI Mass Spectrometry Ontology",
+            "version": "Jun 2010",
+            "abbreviation": "MS",
+            "id": ""
+          },
+          {
+            "name": "Systems Biology Ontology",
+            "version": "Jun 2010",
+            "abbreviation": "SBO",
+            "id": ""
+          },
+          {
+            "name": "Mass Spectroscopy CV (PSI-MS)",
+            "version": "Jun 2010",
+            "abbreviation": "PSI",
+            "id": ""
+          }
         ],
         "CVList": null
       },
