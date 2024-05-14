@@ -1,0 +1,337 @@
+{
+  "data": [
+    {
+      "metadata": {
+        "name": "Liquid Chromatography",
+        "group": "MetaboLights",
+        "group_order": 5,
+        "temporary_name": "5_metabolights_liquid_chromatography",
+        "version": "1.0.0",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": "LC-MS",
+        "isa_technology_type": "Mass Spectrometry",
+        "isa_protocol_type": "",
+        "repo_schema_id": "",
+        "organism": "any",
+        "level": "assay - material"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Input",
+          "description": "Existing Samples in DataHub that represent input for this protocol.",
+          "dataType": "Registered Sample List",
+          "required": true,
+          "isaTag": null
+        },
+        {
+          "iri": null,
+          "name": "LC protocol",
+          "description": "Protocol, describing the procedure from sample extraction to chromatography.",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Extract Name",
+          "description": "User-defined names for each portion of extracted material.",
+          "dataType": "String",
+          "title": true,
+          "required": true,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "other_material"
+        },
+        {
+          "iri": null,
+          "name": "Derivatization",
+          "description": "Derivatization methods e.g. OMS, TMS",
+          "dataType": "Controlled Vocabulary",
+          "required": false,
+          "ontology": null,
+          "CVList": ["sylilation", "acetylation", "alkylation", "other", "none"],
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Post extraction",
+          "description": "User-defined names for each portion of extracted material.",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Chromatography instrument",
+          "description": "Chromatography Instrument, manufacturer and model",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Column model",
+          "description": "Chromatography Instrument, manufacturer and model",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Labeled Extract Name",
+          "description": "Identifier for the labeled extract.",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "other_material_characteristic"
+        },
+        {
+          "iri": null,
+          "name": "Label",
+          "description": "Indicates a chemical or biological marker, such as a radioactive isotope or a fluorescent dye which is bound to a material in order to make it detectable by some assay technology (e.g. P33, biotin, GFP).",
+          "dataType": "String",
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "other_material_characteristic"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "Mass Spectrometry",
+        "group": "MetaboLights",
+        "group_order": 5,
+        "temporary_name": "5_metabolights_mass_spectrometry",
+        "version": "1.0.0",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": "LC-MS",
+        "isa_technology_type": "Mass Spectrometry",
+        "isa_protocol_type": "",
+        "repo_schema_id": "",
+        "organism": "any",
+        "level": "assay - data file"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Input",
+          "description": "Existing Samples in DataHub that represent input for this protocol.",
+          "dataType": "Registered Sample List",
+          "required": true,
+          "isaTag": null
+        },
+        {
+          "iri": null,
+          "name": "MS Assay Name",
+          "description": "User-defined name for a MS assay.",
+          "dataType": "String",
+          "title": true,
+          "required": true,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "data_file"
+        },
+        {
+          "iri": null,
+          "name": "MS protocol",
+          "description": "Protocol, describing the settings the Mass Analyzers for acquisition.",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Scan polarity",
+          "description": "An acquisition mode to which specifies weather polarity is negative, positive or alternating.",
+          "required": false,
+          "ontology": null,
+          "dataType": "Controlled Vocabulary",
+          "CVList": ["positive", "negative", "alternating", "n/a"],
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Scan m/z range",
+          "description": "The limit of m/z over which a mass spectrometer can detect ions. e.g 200-1000",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+
+        },
+        {
+          "iri": null,
+          "name": "Instument",
+          "description": "the name of the mass spectrometry instrument, manufacturer, model # operational software name operational software version",
+          "required": false,
+          "ontology": null,
+          "dataType": "Controlled Vocabulary",
+          "CVList": ["Thermo Scientific", "Agilent", "Waters", "Sciex"],
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Ion source",
+          "description": "The type of ion source used in the mass spectrometry instrument.",
+          "required": false,
+          "ontology": null,
+          "dataType": "Controlled Vocabulary",
+          "CVList": ["Electrospray Ionization", "Atmospheric Pressure Chemical Ionization", "Matrix-Assisted Laser Desorption/Ionization", "Electron Impact"],
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Mass Analyzer",
+          "description": "The type of mass analyzers used in the mass spectrometry instrument. E.g. Quadrupole, Time-of-Flight, Orbitrap, Ion Trap",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Raw Spectral Data File",
+          "description": "Name (or URI) of the raw spectral data file generated by an assay.",
+          "dataType": "String",
+          "title": false,
+          "required": true,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "data_file_comment"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "Data Transformation",
+        "group": "MetaboLights",
+        "group_order": 5,
+        "temporary_name": "5_metabolights_data_transformation",
+        "version": "1.0.0",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": "LC-MS",
+        "isa_technology_type": "Mass Spectrometry",
+        "isa_protocol_type": "",
+        "repo_schema_id": "",
+        "organism": "any",
+        "level": "assay - data file"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Input",
+          "description": "Existing Samples in DataHub that represent input for this protocol.",
+          "dataType": "Registered Sample List",
+          "required": true,
+          "isaTag": null
+        },
+        {
+          "iri": null,
+          "name": "Data Transformation protocol",
+          "description": "Protocol, describing the steps to transform the raw data.",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Normalization Name",
+          "description": "User-defined name for each normalization applied.",
+          "dataType": "String",
+          "title": true,
+          "required": true,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "data_file"
+        },
+        {
+          "iri": null,
+          "name": "Derived Spectral Data File",
+          "description": "Name of the derived data file generated from spectral data by an assay. Do not include any folder names, only the filename.",
+          "dataType": "String",
+          "title": false,
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "data_file_comment"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "Metabolite Identification",
+        "group": "MetaboLights",
+        "group_order": 5,
+        "temporary_name": "5_metabolights_metabolite_identification",
+        "version": "1.0.0",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": "LC-MS",
+        "isa_technology_type": "Mass Spectrometry",
+        "isa_protocol_type": "",
+        "repo_schema_id": "",
+        "organism": "any",
+        "level": "assay - data file"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Input",
+          "description": "Existing Samples in DataHub that represent input for this protocol.",
+          "dataType": "Registered Sample List",
+          "required": true,
+          "isaTag": null
+        },
+        {
+          "iri": null,
+          "name": "Data Transformation Name",
+          "description": "User-defined name for each data transformation applied.",
+          "dataType": "String",
+          "title": true,
+          "required": true,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "data_file"
+        },
+        {
+          "iri": null,
+          "name": "Metabolite identification protocol",
+          "description": "Protocol, describing the method for identifying metabolites.",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Metabolite Assignment File",
+          "description": "Name (or URI) of the metabolite assignment file gathered for this assay.",
+          "dataType": "String",
+          "title": false,
+          "required": false,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "data_file_comment"
+        }
+      ]
+    }
+  ]
+}
+
