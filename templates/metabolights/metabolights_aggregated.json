@@ -1,0 +1,62 @@
+{
+  "data": [
+    {
+      "metadata": {
+        "name": "Metabolights - Extraction",
+        "group": "metabolights",
+        "group_order": 1,
+        "temporary_name": "1_metabolights_extraction",
+        "version": "1.0.0",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": null,
+        "isa_technology_type": "mass spectrometry | NMR spectroscopy",
+        "isa_protocol_type": null,
+        "repo_schema_id": "",
+        "organism": "any",
+        "level": "assay - material"
+      },
+      "data": [
+        {
+            "iri": null,
+            "name": "Extraction Method",
+            "description": "The protocol used to extract the metabolites from the biological material.",
+            "required": true,
+            "ontology": null,
+            "dataType": "String",
+            "CVList": null,
+            "isaTag": "protocol"
+          },
+          {
+            "iri": null,
+            "name": "Post extraction",
+            "description": "Only applies to materials used for Mass Spectrometry. Extract concentration, Samples enrichment and resuspension processes e.g Dried under nitrogen, resuspended in H2O or pyridine, SPE column.",
+            "required": false,
+            "ontology": null,
+            "dataType": "String",
+            "CVList": null,
+            "isaTag": "parameter_value"
+          },
+          {
+            "iri": null,
+            "name": "Derivatization",
+            "description": "Only applies to materials used for Mass Spectrometry. Derivatization methods e.g. OMS, TMS",
+            "required": false,
+            "ontology": null,
+            "dataType": "String",
+            "CVList": null,
+            "isaTag": "parameter_value"
+          },
+          {
+            "iri": null,
+            "name": "Extract Name",
+            "description": "User-defined names for each portion of extracted material.",
+            "required": true,
+            "ontology": null,
+            "dataType": "String",
+            "CVList": null,
+            "isaTag": "other_material"
+          }
+      ]
+    }
+  ]
+}
