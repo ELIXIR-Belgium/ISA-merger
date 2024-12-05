@@ -1,0 +1,183 @@
+{
+  "data": [
+    {
+      "metadata": {
+        "name": "BioImage Archive - Image Acquisition",
+        "group": "bioimage_archive",
+        "group_order": 1,
+        "temporary_name": "1_bioimage_archive_image_acquisition",
+        "version": "1.0.0",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": null,
+        "isa_technology_type": "Imaging",
+        "isa_protocol_type": null,
+        "repo_schema_id": "",
+        "organism": "any",
+        "level": "study source"
+      },
+      "data": [
+        {
+            "iri": null,
+            "name": "BioSamples Input",
+            "description": "Registered Sample in the platform used as input for the protocol.",
+            "required": true,
+            "ontology": null,
+            "dataType": "Registered Sample List",
+            "CVList": null,
+            "isaTag": null
+          },
+        {
+            "iri": null,
+            "name": "Protocol",
+            "description": "Provide a link to the external source or document detailing the experimental or technical procedures used during the assay",
+            "required": true,
+            "ontology": null,
+            "dataType": "URI",
+            "CVList": null,
+            "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Imaging Method Value",
+          "description": "Provide a link to the external source or document detailing the experimental or technical procedures used during the assay",
+          "required": true,
+          "ontology": null,
+          "dataType": "text",
+          "CVList": null,
+          "isaTag": "parameter_value"
+      },
+      {
+          "iri": null,
+          "name": "Imaging Method Ontology Name",
+          "description": "The name of the ontology.",
+          "required": true,
+          "ontology": {
+            "name": "Biological Imaging Methods Ontology",
+            "version": "2020-11-06",
+            "description": "Biological Imaging Methods Controlled Vocalubary",
+            "rootTermURI": "http://purl.obolibrary.org/obo/FBbi_root_00000000"
+          },
+          "dataType": "Controlled Vocabulary",
+          "CVList": null,
+          "isaTag": "parameter_value"
+
+        },
+        {
+          "iri": null,
+          "name": "Imaging Method Ontology ID",
+          "description": "The URI identifier for the ontology value.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Controlled Vocabulary",
+          "CVList": [],
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Imaging Instrument",
+          "description": "Description of the instrument used to capture the images.",
+          "required": true,
+          "ontology": null,
+          "dataType": "text",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Imaging Acquisition Parameters",
+          "description": "Describe, in detail, the specific settings and parameters used during the acquisition of imaging data. This includes detailed information on the imaging equipment, protocols, and settings that were applied to capture the images.",
+          "required": true,
+          "ontology": null,
+          "dataType": "text",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Link URL",
+          "description": "The URL of a link relevant to the dataset.",
+          "required": false,
+          "ontology": null,
+          "dataType": "URI",
+          "CVList": null,
+          "isaTag": "data_file_comment"
+        },
+        {
+          "iri": null,
+          "name": "Private Until Date",
+          "description": null,
+          "required": true,
+          "ontology": null,
+          "dataType": "Date",
+          "CVList": null,
+          "isaTag": "data_file_comment"
+        },
+        {
+          "iri": null,
+          "name": "Datafile Name",
+          "description": "Unique name given to the image data file obtained by applying the protocol to sample_input. NO DUPLICATES ALLOWED within this column.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "data_file"
+        },
+        {
+          "iri": null,
+          "name": "Source Image ID",
+          "description": "Identifier for the image.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "data_file_comment"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "sample collection",
+        "group": "ena",
+        "group_order": 2,
+        "temporary_name": "2_ena_sample_collection",
+        "version": "1.0.1",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": null,
+        "isa_technology_type": "nucleotide sequencing",
+        "isa_protocol_type": "sample collection",
+        "repo_schema_id": "ERC000011.xml 2021",
+        "organism": "any",
+        "level": "study sample"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Input",
+          "description": "Existing Samples in DataHub that represent input for this protocol.",
+          "dataType": "Registered Sample List",
+          "required": true,
+          "isaTag": null
+        },
+        {
+          "iri": null,
+          "name": "sample collection",
+          "description": "type of assay or experimental step performed.",
+          "dataType": "String",
+          "required": true,
+          "ontology": null,
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Sample Name",
+          "description": "Name of the major output resulting from the application of the protocol.",
+          "dataType": "String",
+          "title": true,
+          "required": true,
+          "isaTag": "sample"
+        }
+      ]
+    }
+  ]
+}
