@@ -13,28 +13,86 @@
         "isa_protocol_type": null,
         "repo_schema_id": "",
         "organism": "any",
-        "level": "study source"
+        "level": "assay - material"
       },
       "data": [
         {
-            "iri": null,
-            "name": "BioSamples Input",
-            "description": "Registered Sample in the platform used as input for the protocol.",
-            "required": true,
-            "ontology": null,
-            "dataType": "Registered Sample List",
-            "CVList": null,
-            "isaTag": null
-          },
+          "iri": null,
+          "name": "BioSamples Input",
+          "description": "Registered Sample in the platform used as input for the protocol.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": null
+        },
         {
-            "iri": null,
-            "name": "Protocol",
-            "description": "Provide a link to the external source or document detailing the experimental or technical procedures used during the assay",
-            "required": true,
-            "ontology": null,
-            "dataType": "URI",
-            "CVList": null,
-            "isaTag": "protocol"
+          "iri": null,
+          "name": "Sample Preparation",
+          "description": "How the sample was prepared for imaging.",
+          "required": true,
+          "ontology": null,
+          "dataType": "text",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Growth Protocol",
+          "description": "How the specimen was grown, e.g. cell line cultures, crosses or plant growth.",
+          "required": false,
+          "ontology": null,
+          "dataType": "text",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Specimen Name",
+          "description": "The output material of the protocol.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "other_material"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "BioImage Archive - Image Acquisition",
+        "group": "bioimage_archive",
+        "group_order": 1,
+        "temporary_name": "1_bioimage_archive_image_acquisition",
+        "version": "1.0.0",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": null,
+        "isa_technology_type": "Imaging",
+        "isa_protocol_type": null,
+        "repo_schema_id": "",
+        "organism": "any",
+        "level": "assay - data file"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Specimen Input",
+          "description": "Registered Sample in the platform used as input for the protocol.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": null
+        },
+        {
+          "iri": null,
+          "name": "Protocol",
+          "description": "Provide a link to the external source or document detailing the experimental or technical procedures used during the assay",
+          "required": true,
+          "ontology": null,
+          "dataType": "URI",
+          "CVList": null,
+          "isaTag": "protocol"
         },
         {
           "iri": null,
@@ -45,8 +103,8 @@
           "dataType": "text",
           "CVList": null,
           "isaTag": "parameter_value"
-      },
-      {
+        },
+        {
           "iri": null,
           "name": "Imaging Method Ontology Name",
           "description": "The name of the ontology.",
@@ -60,7 +118,6 @@
           "dataType": "Controlled Vocabulary",
           "CVList": null,
           "isaTag": "parameter_value"
-
         },
         {
           "iri": null,
