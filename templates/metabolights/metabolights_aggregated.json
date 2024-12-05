@@ -17,45 +17,158 @@
       },
       "data": [
         {
-            "iri": null,
-            "name": "Extraction Method",
-            "description": "The protocol used to extract the metabolites from the biological material.",
-            "required": true,
-            "ontology": null,
-            "dataType": "String",
-            "CVList": null,
-            "isaTag": "protocol"
+          "iri": null,
+          "name": "Sample input",
+          "description": "Name of the biological material used for the extraction.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": null
+        },
+        {
+          "iri": null,
+          "name": "Extraction Method",
+          "description": "The protocol used to extract the metabolites from the biological material.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Post extraction",
+          "description": "Only applies to materials used for Mass Spectrometry. Extract concentration, Samples enrichment and resuspension processes e.g Dried under nitrogen, resuspended in H2O or pyridine, SPE column.",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Derivatization",
+          "description": "Only applies to materials used for Mass Spectrometry. Derivatization methods e.g. OMS, TMS",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Extract Name",
+          "description": "User-defined names for each portion of extracted material.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "other_material"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "Metabolights - chromatography",
+        "group": "metabolights",
+        "group_order": 2,
+        "temporary_name": "2_metabolights_chromatography",
+        "version": "1.0.0",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": null,
+        "isa_technology_type": "mass spectrometry",
+        "isa_protocol_type": null,
+        "repo_schema_id": "",
+        "organism": "any",
+        "level": "assay - material"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "protocol",
+          "description": "Chromatography protocol used to separate the metabolites.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Input extract",
+          "description": "Extract that is used for the chromatography.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": null
+        },
+        {
+          "iri": null,
+          "name": "Chromatography Instrument",
+          "description": "Chromatography Instrument, manufacturer and model",
+          "required": null,
+          "ontology": {
+            "name": "instrument model",
+            "version": "",
+            "description": "Instrument model Controlled Vocalubary",
+            "rootTermURI": "http://purl.obolibrary.org/obo/MS_1000031"
           },
-          {
-            "iri": null,
-            "name": "Post extraction",
-            "description": "Only applies to materials used for Mass Spectrometry. Extract concentration, Samples enrichment and resuspension processes e.g Dried under nitrogen, resuspended in H2O or pyridine, SPE column.",
-            "required": false,
-            "ontology": null,
-            "dataType": "String",
-            "CVList": null,
-            "isaTag": "parameter_value"
-          },
-          {
-            "iri": null,
-            "name": "Derivatization",
-            "description": "Only applies to materials used for Mass Spectrometry. Derivatization methods e.g. OMS, TMS",
-            "required": false,
-            "ontology": null,
-            "dataType": "String",
-            "CVList": null,
-            "isaTag": "parameter_value"
-          },
-          {
-            "iri": null,
-            "name": "Extract Name",
-            "description": "User-defined names for each portion of extracted material.",
-            "required": true,
-            "ontology": null,
-            "dataType": "String",
-            "CVList": null,
-            "isaTag": "other_material"
-          }
+          "dataType": "Controlled Vocabulary",
+          "CVList": [],
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Column model",
+          "description": "Model or make of the of Column used",
+          "required": true,
+          "ontology": null,
+          "dataType": "Controlled Vocabulary",
+          "CVList": [],
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Column type",
+          "description": "Type of Chromatography used.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Controlled Vocabulary",
+          "CVList": [],
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Labeled Extract Name",
+          "description": "Identifier for the labeled extract.",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "other_material_characteristic"
+        },
+        {
+          "iri": null,
+          "name": "Output Name",
+          "description": "Output of the chromatography.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "other_material"
+        },
+        {
+          "iri": null,
+          "name": "Label",
+          "description": "Indicates a chemical or biological marker, such as a radioactive isotope or a fluorescent dye which is bound to a material in order to make it detectable by some assay technology.",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "other_material_characteristic"
+        }
       ]
     }
   ]
