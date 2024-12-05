@@ -193,46 +193,79 @@
     },
     {
       "metadata": {
-        "name": "sample collection",
-        "group": "ena",
-        "group_order": 2,
-        "temporary_name": "2_ena_sample_collection",
-        "version": "1.0.1",
+        "name": "BioImage Archive -  Image Correlation (Optional)",
+        "group": "bioimage_archive",
+        "group_order": 1,
+        "temporary_name": "1_bioimage_archive_image_acquisition",
+        "version": "1.0.0",
         "isa_config": "genome_seq_default_v2015-07-02",
         "isa_measurement_type": null,
-        "isa_technology_type": "nucleotide sequencing",
-        "isa_protocol_type": "sample collection",
-        "repo_schema_id": "ERC000011.xml 2021",
+        "isa_technology_type": "Imaging",
+        "isa_protocol_type": null,
+        "repo_schema_id": "",
         "organism": "any",
-        "level": "study sample"
+        "level": "assay - data file"
       },
       "data": [
         {
           "iri": null,
-          "name": "Input",
-          "description": "Existing Samples in DataHub that represent input for this protocol.",
-          "dataType": "Registered Sample List",
+          "name": "Acquisition Datafile Input",
+          "description": "Registered Sample in the platform used as input for the protocol.",
           "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
           "isaTag": null
         },
         {
           "iri": null,
-          "name": "sample collection",
-          "description": "type of assay or experimental step performed.",
-          "dataType": "String",
+          "name": "Protocol",
+          "description": "",
           "required": true,
           "ontology": null,
+          "dataType": "String",
           "CVList": null,
           "isaTag": "protocol"
         },
         {
           "iri": null,
-          "name": "Sample Name",
-          "description": "Name of the major output resulting from the application of the protocol.",
+          "name": "Spatial and Temporal Alignment",
+          "description": "Method used to correlate images from different modalities.",
+          "required": false,
+          "ontology": null,
           "dataType": "String",
-          "title": true,
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Fiducidals used",
+          "description": "Features from correlated datasets used for colocalisation.",
           "required": true,
-          "isaTag": "sample"
+          "ontology": null,
+          "dataType": "",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Transformation Matrix",
+          "description": "Correlation transforms.",
+          "required": true,
+          "ontology": null,
+          "dataType": "text",
+          "CVList": null,
+          "isaTag": "data_file_comment"
+        },
+        {
+          "iri": null,
+          "name": "Correlation output",
+          "description": "Output data file from the correlation.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "data_file"
         }
       ]
     }
