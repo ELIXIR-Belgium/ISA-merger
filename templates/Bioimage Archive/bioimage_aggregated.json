@@ -2,10 +2,10 @@
   "data": [
     {
       "metadata": {
-        "name": "BioImage Archive - Image Acquisition",
+        "name": "BioImage Archive - Specimen preparation",
         "group": "bioimage_archive",
         "group_order": 1,
-        "temporary_name": "1_bioimage_archive_image_acquisition",
+        "temporary_name": "1_bioimage_archive_specimen_preparation",
         "version": "1.0.0",
         "isa_config": "genome_seq_default_v2015-07-02",
         "isa_measurement_type": null,
@@ -62,8 +62,8 @@
       "metadata": {
         "name": "BioImage Archive - Image Acquisition",
         "group": "bioimage_archive",
-        "group_order": 1,
-        "temporary_name": "1_bioimage_archive_image_acquisition",
+        "group_order": 2,
+        "temporary_name": "2_bioimage_archive_image_acquisition",
         "version": "1.0.0",
         "isa_config": "genome_seq_default_v2015-07-02",
         "isa_measurement_type": null,
@@ -195,8 +195,8 @@
       "metadata": {
         "name": "BioImage Archive -  Image Correlation (Optional)",
         "group": "bioimage_archive",
-        "group_order": 1,
-        "temporary_name": "1_bioimage_archive_image_acquisition",
+        "group_order": 3,
+        "temporary_name": "3_bioimage_archive_image_correlation",
         "version": "1.0.0",
         "isa_config": "genome_seq_default_v2015-07-02",
         "isa_measurement_type": null,
