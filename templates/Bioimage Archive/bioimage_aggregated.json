@@ -32,7 +32,7 @@
           "description": "How the sample was prepared for imaging.",
           "required": true,
           "ontology": null,
-          "dataType": "text",
+          "dataType": "Text",
           "CVList": null,
           "isaTag": "protocol"
         },
@@ -42,7 +42,7 @@
           "description": "How the specimen was grown, e.g. cell line cultures, crosses or plant growth.",
           "required": false,
           "ontology": null,
-          "dataType": "text",
+          "dataType": "Text",
           "CVList": null,
           "isaTag": "parameter_value"
         },
@@ -100,7 +100,7 @@
           "description": "Provide a link to the external source or document detailing the experimental or technical procedures used during the assay",
           "required": true,
           "ontology": null,
-          "dataType": "text",
+          "dataType": "Text",
           "CVList": null,
           "isaTag": "parameter_value"
         },
@@ -135,7 +135,7 @@
           "description": "Description of the instrument used to capture the images.",
           "required": true,
           "ontology": null,
-          "dataType": "text",
+          "dataType": "Text",
           "CVList": null,
           "isaTag": "parameter_value"
         },
@@ -145,7 +145,7 @@
           "description": "Describe, in detail, the specific settings and parameters used during the acquisition of imaging data. This includes detailed information on the imaging equipment, protocols, and settings that were applied to capture the images.",
           "required": true,
           "ontology": null,
-          "dataType": "text",
+          "dataType": "Text",
           "CVList": null,
           "isaTag": "parameter_value"
         },
@@ -243,7 +243,7 @@
           "description": "Features from correlated datasets used for colocalisation.",
           "required": true,
           "ontology": null,
-          "dataType": "",
+          "dataType": "Text",
           "CVList": null,
           "isaTag": "parameter_value"
         },
@@ -253,7 +253,7 @@
           "description": "Correlation transforms.",
           "required": true,
           "ontology": null,
-          "dataType": "text",
+          "dataType": "Text",
           "CVList": null,
           "isaTag": "data_file_comment"
         },
@@ -261,6 +261,54 @@
           "iri": null,
           "name": "Correlation output",
           "description": "Output data file from the correlation.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "data_file"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "BioImage Archive - Image Analysis",
+        "group": "bioimage_archive",
+        "group_order": 4,
+        "temporary_name": "4_bioimage_archive_image_analysis",
+        "version": "1.0.0",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": null,
+        "isa_technology_type": "Imaging",
+        "isa_protocol_type": null,
+        "repo_schema_id": "",
+        "organism": "any",
+        "level": "assay - data file"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "(Correlated) Acquisition Datafile Input",
+          "description": "Registered Sample in the platform used as input for the protocol.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": null
+        },
+        {
+          "iri": null,
+          "name": "Analysis Overview",
+          "description": "How image analysis was carried out.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Text",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Analysed Datafile",
+          "description": "The output data file from the analysis.",
           "required": true,
           "ontology": null,
           "dataType": "String",
