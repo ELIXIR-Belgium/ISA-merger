@@ -142,7 +142,7 @@
         {
           "iri": null,
           "name": "Private Until Date",
-          "description": null,
+          "description": "Study stays private until this date.",
           "required": true,
           "ontology": null,
           "dataType": "Date",
