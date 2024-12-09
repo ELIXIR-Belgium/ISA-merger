@@ -772,6 +772,54 @@
           "isaTag": "data_file"
         }
       ]
+    },
+    {
+      "metadata": {
+        "name": "Metabolights - Data Trasformation",
+        "group": "metabolights",
+        "group_order": 8,
+        "temporary_name": "8_metabolights_metabolite_identification",
+        "version": "1.0.0",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": null,
+        "isa_technology_type": "mass spectrometry | NMR spectroscopy",
+        "isa_protocol_type": null,
+        "repo_schema_id": "",
+        "organism": "any",
+        "level": "assay - data file"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Input Derived Spectral Data File",
+          "description": "Input file used for the data transformation.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": null
+        },
+        {
+          "iri": null,
+          "name": "Data Transformation Protocol",
+          "description": "Description of the data transformation process.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Metabolite Assignment File",
+          "description": "Name of the metabolite assignment file gathered for this assay. Do not include any folder names, only the filename.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "data_file"
+        }
+      ]
     }
   ]
 }
