@@ -126,7 +126,13 @@
           "required": true,
           "ontology": null,
           "dataType": "Controlled Vocabulary",
-          "CVList": ["Ascentis Express C18", "Ascentis Express C8", "Ascentis Express F5", "Ascentis Express HILIC", "Ascentis Express Phenyl-Hexyl"],
+          "CVList": [
+            "Ascentis Express C18",
+            "Ascentis Express C8",
+            "Ascentis Express F5",
+            "Ascentis Express HILIC",
+            "Ascentis Express Phenyl-Hexyl"
+          ],
           "isaTag": "parameter_value"
         },
         {
@@ -229,7 +235,13 @@
           "required": true,
           "ontology": null,
           "dataType": "Controlled Vocabulary",
-          "CVList": ["Ascentis Express C18", "Ascentis Express C8", "Ascentis Express F5", "Ascentis Express HILIC", "Ascentis Express Phenyl-Hexyl"],
+          "CVList": [
+            "Ascentis Express C18",
+            "Ascentis Express C8",
+            "Ascentis Express F5",
+            "Ascentis Express HILIC",
+            "Ascentis Express Phenyl-Hexyl"
+          ],
           "isaTag": "parameter_value"
         },
         {
@@ -436,6 +448,115 @@
           "isaTag": "data_file"
         }
       ]
+    },
+    {
+      "metadata": {
+        "name": "Metabolights - NMR Sample",
+        "group": "metabolights",
+        "group_order": 4,
+        "temporary_name": "4_metabolights_nmr_sample",
+        "version": "1.0.0",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": null,
+        "isa_technology_type": "NMR spectroscopy",
+        "isa_protocol_type": null,
+        "repo_schema_id": "",
+        "organism": "any",
+        "level": "assay - material"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "NMR Sample Protocol",
+          "description": "Provide a detailed description of the experimental or technical procedures used during the experiment.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "NMR tube type",
+          "description": "Describe the NMR tube type.",
+          "required": false,
+          "ontology": {
+            "name": "NMR sample tube",
+            "version": "",
+            "description": "The sample-tube holds the NMR sample and sits in the NMR probe. It is usually a glass tube of 5-20mm diameter. Sortal dimensions are Vendor, Size (Diameter, length), Material (glass, quarz, pyrex ...), Frequency, Concentricity, OD and ID",
+            "rootTermURI": "http://nmrML.org/nmrCV#NMR:1400132"
+          },
+          "dataType": "Controlled Vocabulary",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Solvent",
+          "description": "Please describe the solvent used. E.g. '0.02 M phosphate buffered D2O, 0.9% NaCl in D2O, ...'",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Sample pH",
+          "description": "Sample pH",
+          "required": false,
+          "ontology": null,
+          "dataType": "Real number",
+          "CVList": null,
+          "isaTag": "other_material_characteristic"
+        },
+        {
+          "iri": null,
+          "name": "Temperature",
+          "description": "Sample temperature run in the magnet, in Kelvin.",
+          "required": false,
+          "ontology": null,
+          "dataType": "Real number",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Labeled Extract Name",
+          "description": "Identifier for the labeled extract.",
+          "required": false,
+          "ontology": null,
+          "dataType": "string",
+          "CVList": null,
+          "isaTag": "other_material_characteristic"
+        },
+        {
+          "iri": null,
+          "name": "Label",
+          "description": null,
+          "required": false,
+          "ontology": {
+            "name": "label",
+            "version": "",
+            "description": "A role played by a part of a molecular entity distinguishable by the observer but not by the system and used to identify a tracer.",
+            "rootTermURI": "http://purl.obolibrary.org/obo/CHEBI_35209"
+          },
+          "dataType": "Controlled Vocabulary",
+          "CVList": null,
+          "isaTag": "other_material_characteristic"
+        },
+        {
+          "iri": null,
+          "name": "NMR Sample Name",
+          "description": "Name of the extract.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "other_material"
+        }
+      ]
+    },
     }
   ]
 }
