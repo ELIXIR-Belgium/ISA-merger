@@ -18,7 +18,7 @@
       "data": [
         {
           "iri": null,
-          "name": "Sample input",
+          "name": "Input Sample",
           "description": "Name of the biological material used for the extraction.",
           "required": true,
           "ontology": null,
@@ -116,7 +116,7 @@
             "rootTermURI": "http://purl.obolibrary.org/obo/MS_1000031"
           },
           "dataType": "Controlled Vocabulary",
-          "CVList": [],
+          "CVList": null,
           "isaTag": "parameter_value"
         },
         {
@@ -126,7 +126,7 @@
           "required": true,
           "ontology": null,
           "dataType": "Controlled Vocabulary",
-          "CVList": [],
+          "CVList": ["Ascentis Express C18", "Ascentis Express C8", "Ascentis Express F5", "Ascentis Express HILIC", "Ascentis Express Phenyl-Hexyl"],
           "isaTag": "parameter_value"
         },
         {
@@ -136,7 +136,7 @@
           "required": true,
           "ontology": null,
           "dataType": "Controlled Vocabulary",
-          "CVList": [],
+          "CVList": ["HILI", "C18", "C8", "F5", "Phenyl-Hexyl"],
           "isaTag": "parameter_value"
         },
         {
@@ -219,7 +219,7 @@
             "rootTermURI": "http://purl.obolibrary.org/obo/MS_1000031"
           },
           "dataType": "Controlled Vocabulary",
-          "CVList": [],
+          "CVList": null,
           "isaTag": "parameter_value"
         },
         {
@@ -229,7 +229,7 @@
           "required": true,
           "ontology": null,
           "dataType": "Controlled Vocabulary",
-          "CVList": [],
+          "CVList": ["Ascentis Express C18", "Ascentis Express C8", "Ascentis Express F5", "Ascentis Express HILIC", "Ascentis Express Phenyl-Hexyl"],
           "isaTag": "parameter_value"
         },
         {
@@ -239,7 +239,7 @@
           "required": true,
           "ontology": null,
           "dataType": "Controlled Vocabulary",
-          "CVList": [],
+          "CVList": ["HILI", "C18", "C8", "F5", "Phenyl-Hexyl"],
           "isaTag": "parameter_value"
         },
         {
