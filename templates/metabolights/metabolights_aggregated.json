@@ -110,7 +110,7 @@
           "description": "Chromatography Instrument, manufacturer and model",
           "required": null,
           "ontology": {
-            "name": "instrument model",
+            "name": "ms",
             "version": "",
             "description": "Instrument model Controlled Vocalubary",
             "rootTermURI": "http://purl.obolibrary.org/obo/MS_1000031"
@@ -219,7 +219,7 @@
           "description": "Chromatography Instrument, manufacturer and model",
           "required": null,
           "ontology": {
-            "name": "instrument model",
+            "name": "ms",
             "version": "",
             "description": "Instrument model Controlled Vocalubary",
             "rootTermURI": "http://purl.obolibrary.org/obo/MS_1000031"
@@ -388,7 +388,7 @@
           "description": "The name of the mass spectrometry instrument, manufacturer, model.",
           "required": false,
           "ontology": {
-            "name": "instrument model",
+            "name": "ms",
             "version": "",
             "description": "Instrument model Controlled Vocalubary",
             "rootTermURI": "http://purl.obolibrary.org/obo/MS_1000031"
@@ -403,7 +403,7 @@
           "description": "The ion source use PSI-MS cv Ionization mode (EI, APCI, ESI#), vacuum pressure skimmer/focusing lens voltages (e.g. capillary voltage etc.) gas flows (e.g. nebulization gas, cone gas etc.) source temperature",
           "required": false,
           "ontology": {
-            "name": "Mass spectrometry ontology",
+            "name": "ms",
             "version": "",
             "description": "The method by which gas phase ions are generated from the sample.",
             "rootTermURI": "http://purl.obolibrary.org/obo/MS_1000008"
@@ -418,7 +418,7 @@
           "description": "The analyzer(s) used by the mass spectrometer, use PSI-MS ontology terms",
           "required": false,
           "ontology": {
-            "name": "Mass analyzer type",
+            "name": "ms",
             "version": "",
             "description": "Mass analyzer separates the ions according to their mass-to-charge ratio.",
             "rootTermURI": "http://purl.obolibrary.org/obo/MS_1000443"
@@ -481,7 +481,7 @@
           "description": "Describe the NMR tube type.",
           "required": false,
           "ontology": {
-            "name": "NMR sample tube",
+            "name": "nmrcv",
             "version": "",
             "description": "The sample-tube holds the NMR sample and sits in the NMR probe. It is usually a glass tube of 5-20mm diameter. Sortal dimensions are Vendor, Size (Diameter, length), Material (glass, quarz, pyrex ...), Frequency, Concentricity, OD and ID",
             "rootTermURI": "http://nmrML.org/nmrCV#NMR:1400132"
@@ -518,8 +518,7 @@
           "ontology": null,
           "dataType": "Real number",
           "CVList": null,
-          "isaTag": "parameter_value",
-          "unit": "K"
+          "isaTag": "parameter_value"
         },
         {
           "iri": null,
@@ -534,10 +533,10 @@
         {
           "iri": null,
           "name": "Label",
-          "description": null,
+          "description": "Indicates a chemical or biological marker, such as a radioactive isotope or a fluorescent dye which is bound to a material in order to make it detectable by some assay technology.",
           "required": false,
           "ontology": {
-            "name": "label",
+            "name": "chebi",
             "version": "",
             "description": "A role played by a part of a molecular entity distinguishable by the observer but not by the system and used to identify a tracer.",
             "rootTermURI": "http://purl.obolibrary.org/obo/CHEBI_35209"
@@ -600,7 +599,7 @@
           "description": "Name and model of the NMR instrument. E.g. 'Bruker Avance III 600 MHz'",
           "required": false,
           "ontology": {
-            "name": "NMR instrument",
+            "name": "nmrcv",
             "version": "",
             "description": "def: An Instrument which is used to carry out a NMR analysis of some sample. synonym: NMR instrument.",
             "rootTermURI": "http://nmrML.org/nmrCV#NMR:1400059"
@@ -615,7 +614,7 @@
           "description": "Type of probe fitted to the spectroscope. E.g. 'Bruker CryoProbe'",
           "required": false,
           "ontology": {
-            "name": "NMR Probe",
+            "name": "obi",
             "version": "",
             "description": "Part of an NMR instrument that detects the signals emitted from a sample. No single probe can perform the full range of experiments, and probes that are designed to perform more than one type of measurement usually suffer from performance compromises. The probe represents a rather fragile single point of failure that can render an NMR system completely unusable if the probe is dropped or otherwise damaged. Probes are usually characterised by Sample diameter and Frequency.n alt The instrument that transmits and receives radiofrequency to and from the NMR sample.",
             "rootTermURI": "http://purl.obolibrary.org/obo/OBI_0000516"
@@ -652,8 +651,7 @@
           "ontology": null,
           "dataType": "String",
           "CVList": null,
-          "isaTag": "parameter_value",
-          "unit": "T"
+          "isaTag": "parameter_value"
         },
         {
           "iri": null,
@@ -727,7 +725,7 @@
     },
     {
       "metadata": {
-        "name": "Metabolights - Data Trasformation",
+        "name": "Metabolights - Data Transformation",
         "group": "metabolights",
         "group_order": 7,
         "temporary_name": "7_metabolights_data_transformation",
@@ -743,6 +741,16 @@
       "data": [
         {
           "iri": null,
+          "name": "Input Free Induction Decay Data File",
+          "description": "Input file used for the data transformation.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": null
+        },
+        {
+          "iri": null,
           "name": "Normalization method",
           "description": "The method used to normalize the data.",
           "required": true,
@@ -750,6 +758,16 @@
           "dataType": "String",
           "CVList": null,
           "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Data Transformation Name",
+          "description": "User-defined name for each data transformation applied.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
         },
         {
           "iri": null,
@@ -775,7 +793,7 @@
     },
     {
       "metadata": {
-        "name": "Metabolights - Data Trasformation",
+        "name": "Metabolights - Metabolite identification",
         "group": "metabolights",
         "group_order": 8,
         "temporary_name": "8_metabolights_metabolite_identification",
@@ -792,7 +810,7 @@
         {
           "iri": null,
           "name": "Input Derived Spectral Data File",
-          "description": "Input file used for the data transformation.",
+          "description": "Input file used for the metabolite identification.",
           "required": true,
           "ontology": null,
           "dataType": "Registered Sample List",
@@ -801,8 +819,8 @@
         },
         {
           "iri": null,
-          "name": "Data Transformation Protocol",
-          "description": "Description of the data transformation process.",
+          "name": "Identification Protocol",
+          "description": "Description of the metabolite identification process.",
           "required": true,
           "ontology": null,
           "dataType": "String",
