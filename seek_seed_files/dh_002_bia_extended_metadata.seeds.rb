@@ -1,12 +1,3 @@
-# General functionalities
-def create_sample_controlled_vocab_terms_attributes(array)
-  attributes = []
-  array.each do |type|
-    attributes << { label: type }
-  end
-  attributes
-end
-
 disable_authorization_checks do
 
   unless ExtendedMetadataType.where(title: 'bioimage_archive_study_author_affiliation').any?
