@@ -100,7 +100,7 @@
           "description": "The name of the ontology.",
           "required": true,
           "ontology": {
-            "name": "Biological Imaging Methods Ontology",
+            "name": "fbbi",
             "version": "2020-11-06",
             "description": "Biological Imaging Methods Controlled Vocalubary",
             "rootTermURI": "http://purl.obolibrary.org/obo/FBbi_root_00000000"
