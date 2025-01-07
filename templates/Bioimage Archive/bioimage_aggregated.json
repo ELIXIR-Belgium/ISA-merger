@@ -64,7 +64,7 @@
         "group": "bioimage_archive",
         "group_order": 2,
         "temporary_name": "2_bioimage_archive_image_acquisition",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "isa_config": "genome_seq_default_v2015-07-02",
         "isa_measurement_type": null,
         "isa_technology_type": "Imaging",
@@ -103,7 +103,7 @@
             "name": "fbbi",
             "version": "2020-11-06",
             "description": "Biological Imaging Methods Controlled Vocalubary",
-            "rootTermURI": "http://purl.obolibrary.org/obo/FBbi_root_00000000"
+            "rootTermURI": "http://purl.obolibrary.org/obo/FBbi_00000265"
           },
           "dataType": "Controlled Vocabulary",
           "CVList": null,
