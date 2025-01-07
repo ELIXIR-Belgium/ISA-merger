@@ -468,17 +468,6 @@
                     "ontology": null,
                     "dataType": "String", //need to be autofilled with name of selected SOP for that block
                     "CVList": null, //SOPtittle
-                    "isaTag": "protocol"
-                },
-                {
-                    "iri": null,
-                    "name": "library",
-                    "description": "Name of the genereal output of this assay in DataHub.",
-                    "required": true,
-                    "title": true,
-                    "ontology": null,
-                    "dataType": "String",
-                    "CVList": null,
                     "isaTag": "other_material"
                 },
                 {
