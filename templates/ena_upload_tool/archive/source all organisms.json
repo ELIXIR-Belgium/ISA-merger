@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "name": "source ENA Upload Tool",
+    "group": "ena modified for upload tool",
+    "group_order": 1,
+    "temporary_name": "1_ena_custom_source",
+    "version": "1.0.0",
+    "isa_config": "genome_seq_default_v2015-07-02",
+    "isa_measurement_type": null,
+    "isa_technology_type": "nucleotide sequencing",
+    "isa_protocol_type": null,
+    "repo_schema_id": "ERC000011.xml 2021",
+    "organism": "any",
+    "level": "study source"
+  },
+  "data": [
+    {
+      "iri": null,
+      "name": "Source Name",
+      "description": "Sources are considered as the starting biological material used in a study.",
+      "dataType": "String",
+      "title": true,
+      "required": true,
+      "isaTag": "source"
+    },
+    {
+      "iri": null,
+      "name": "title",
+      "description": "Short text that can be used to call out sample records in search results or in displays.",
+      "dataType": "String",
+      "required": true,
+      "isaTag": "source_characteristic"
+    },
+    {
+      "iri": null,
+      "name": "description",
+      "description": "Free-form text describing the sample, its origin, and its method of isolation.",
+      "dataType": "String",
+      "required": true,
+      "ontology": null,
+      "isaTag": "source_characteristic"
+    },
+    {
+      "iri": null,
+      "name": "taxon_id", //First field on an ENA sample file. It is the number ID
+      "description": "NCBI Taxonomy Identifier number ID. This is appropriate for individual organisms and some environmental samples.",
+      "dataType": "Integer",
+      "required": true,
+      "ontology": null,
+      "isaTag": "source_characteristic"
+    }
+  ]
+}
