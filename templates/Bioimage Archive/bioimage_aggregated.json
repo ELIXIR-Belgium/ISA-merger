@@ -38,16 +38,6 @@
         },
         {
           "iri": null,
-          "name": "Growth Protocol",
-          "description": "How the specimen was grown, e.g. cell line cultures, crosses or plant growth.",
-          "required": false,
-          "ontology": null,
-          "dataType": "Text",
-          "CVList": null,
-          "isaTag": "parameter_value"
-        },
-        {
-          "iri": null,
           "name": "Specimen Name",
           "description": "The output material of the protocol.",
           "title": true,
