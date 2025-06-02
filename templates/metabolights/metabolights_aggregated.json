@@ -60,6 +60,7 @@
           "iri": null,
           "name": "Extract Name",
           "description": "User-defined names for each portion of extracted material.",
+          "title": true,
           "required": true,
           "ontology": null,
           "dataType": "String",
@@ -70,7 +71,7 @@
     },
     {
       "metadata": {
-        "name": "Metabolights - chromatography",
+        "name": "Metabolights - Chromatography",
         "group": "metabolights",
         "group_order": 2,
         "temporary_name": "2_metabolights_chromatography",
@@ -86,7 +87,7 @@
       "data": [
         {
           "iri": null,
-          "name": "protocol",
+          "name": "Protocol",
           "description": "Chromatography protocol used to separate the metabolites.",
           "required": true,
           "ontology": null,
@@ -121,6 +122,16 @@
         },
         {
           "iri": null,
+          "name": "autosampler_model",
+          "description": "Please provide the Liquid Chromatography autosampler model used",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
           "name": "Column model",
           "description": "Model or make of the of Column used",
           "required": true,
@@ -142,18 +153,18 @@
           "required": true,
           "ontology": null,
           "dataType": "Controlled Vocabulary",
-          "CVList": ["HILI", "C18", "C8", "F5", "Phenyl-Hexyl"],
+          "CVList": ["HILIC", "C18", "C8", "F5", "Phenyl-Hexyl"],
           "isaTag": "parameter_value"
         },
         {
           "iri": null,
-          "name": "Labeled Extract Name",
-          "description": "Identifier for the labeled extract.",
+          "name": "Guard Column",
+          "description": "Please provide the guard column model used",
           "required": false,
           "ontology": null,
           "dataType": "String",
           "CVList": null,
-          "isaTag": "other_material_characteristic"
+          "isaTag": "parameter_value"
         },
         {
           "iri": null,
@@ -162,6 +173,7 @@
           "required": true,
           "ontology": null,
           "dataType": "String",
+          "title": true,
           "CVList": null,
           "isaTag": "other_material"
         },
@@ -246,29 +258,40 @@
         },
         {
           "iri": null,
+          "name": "autosampler_model",
+          "description": "Please provide the Liquid Chromatography autosampler model used",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
           "name": "Column type",
           "description": "Type of Chromatography used.",
           "required": true,
           "ontology": null,
           "dataType": "Controlled Vocabulary",
-          "CVList": ["HILI", "C18", "C8", "F5", "Phenyl-Hexyl"],
+          "CVList": ["HILIC", "C18", "C8", "F5", "Phenyl-Hexyl"],
           "isaTag": "parameter_value"
         },
         {
           "iri": null,
-          "name": "Labeled Extract Name",
-          "description": "Identifier for the labeled extract.",
+          "name": "Guard Column",
+          "description": "Please provide the guard column model used",
           "required": false,
           "ontology": null,
           "dataType": "String",
           "CVList": null,
-          "isaTag": "other_material_characteristic"
+          "isaTag": "parameter_value"
         },
         {
           "iri": null,
           "name": "Output Name",
           "description": "Output of the chromatography.",
           "required": true,
+          "title": true,
           "ontology": null,
           "dataType": "String",
           "CVList": null,
@@ -384,7 +407,7 @@
         },
         {
           "iri": null,
-          "name": "instrument",
+          "name": "Instrument",
           "description": "The name of the mass spectrometry instrument, manufacturer, model.",
           "required": false,
           "ontology": {
@@ -433,6 +456,7 @@
           "description": "User-defined name for a MS assay.",
           "required": true,
           "ontology": null,
+          "title": true,
           "dataType": "String",
           "CVList": null,
           "isaTag": "data_file_comment"
@@ -522,16 +546,6 @@
         },
         {
           "iri": null,
-          "name": "Labeled Extract Name",
-          "description": "Identifier for the labeled extract.",
-          "required": false,
-          "ontology": null,
-          "dataType": "String",
-          "CVList": null,
-          "isaTag": "other_material_characteristic"
-        },
-        {
-          "iri": null,
           "name": "Label",
           "description": "Indicates a chemical or biological marker, such as a radioactive isotope or a fluorescent dye which is bound to a material in order to make it detectable by some assay technology.",
           "required": false,
@@ -549,6 +563,7 @@
           "iri": null,
           "name": "NMR Sample Name",
           "description": "Name of the extract.",
+          "title": true,
           "required": true,
           "ontology": null,
           "dataType": "String",
@@ -659,6 +674,7 @@
           "description": "Name of the raw spectral data file generated by an assay. Do not include any folder names, only the filename.",
           "required": true,
           "ontology": null,
+          "title": true,
           "dataType": "String",
           "CVList": null,
           "isaTag": "data_file"
@@ -716,6 +732,7 @@
           "name": "Free Induction Decay Data File",
           "description": "Name of the free induction decay data file gathered for this assay.",
           "required": true,
+          "title": true,
           "ontology": null,
           "dataType": "String",
           "CVList": null,
@@ -784,6 +801,7 @@
           "name": "Derived Spectral Data File",
           "description": "Name of the derived data file generated from spectral data by an assay. Do not include any folder names, only the filename.",
           "required": true,
+          "title": true,
           "ontology": null,
           "dataType": "String",
           "CVList": null,
@@ -832,6 +850,7 @@
           "name": "Metabolite Assignment File",
           "description": "Name of the metabolite assignment file gathered for this assay. Do not include any folder names, only the filename.",
           "required": true,
+          "title": true,
           "ontology": null,
           "dataType": "String",
           "CVList": null,
