@@ -119,7 +119,7 @@
                         "name": "Imaging method",
                         "description": "What method was used to capture images.",
                         "title": true,
-                        "dataType": "Text",
+                        "dataType": "Controlled Vocabulary",
                         "required": "true",
                         "isaTag": "parameter_value",
                         "ontology": {
@@ -232,7 +232,7 @@
                         "name": "Annotation Type",
                         "description": "",
                         "title": null,
-                        "dataType": "String",
+                        "dataType": "Controlled Vocabulary",
                         "required": "false",
                         "isaTag": "other_material",
                         "ontology": null,
@@ -263,4 +263,5 @@
             }
         }
     ]
+
 }
