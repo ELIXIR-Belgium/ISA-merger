@@ -1,0 +1,119 @@
+{
+    "data": [
+        {
+            "metadata": {
+                "name": "BIA - Bio-imaging",
+                "group": "BioImage Archive",
+                "group_order": 5,
+                "temporary_name": "BIA - Bio-imaging",
+                "version": "1.0.0",
+                "isa_measurement_type": "Bio-imaging",
+                "isa_technology_type": "bio-imaging",
+                "isa_protocol_type": "Bio-imaging",
+                "repo_schema_id": "REMBI v1.5",
+                "organism": "any",
+                "level": "assay - data file"
+            },
+            "data": {
+                "Bio-imaging": [
+                    {
+                        "name": "Input Sample",
+                        "description": "Registered Sample in the platform used as input for the protocol.",
+                        "title": null,
+                        "dataType": "String",
+                        "required": "true",
+                        "isaTag": "",
+                        "ontology": null,
+                        "CVList": null
+                    },
+                    {
+                        "name": "Bio-imaging Protocol",
+                        "description": "Describe the procedures and protocols used to prepare the specimen or sample, how the image was acquired, processed and analysed.",
+                        "title": null,
+                        "dataType": "String",
+                        "required": "true",
+                        "isaTag": "protocol",
+                        "ontology": null,
+                        "CVList": null
+                    },
+                    {
+                        "name": "Output Sample Name",
+                        "description": "DataHub sample name. Short, unique name given to the image data file obtained by applying the protocol. NO DUPLICATES ALLOWED within this column.",
+                        "title": true,
+                        "dataType": "String",
+                        "required": "true",
+                        "isaTag": "other_material",
+                        "ontology": null,
+                        "CVList": null
+                    },
+                    {
+                        "name": "Imaging instrument",
+                        "description": "Description of the instrument used to capture the images.",
+                        "title": true,
+                        "dataType": "Text",
+                        "required": "true",
+                        "isaTag": "parameter_value",
+                        "ontology": null,
+                        "CVList": null
+                    },
+                    {
+                        "name": "Image acquisition parameters",
+                        "description": "How the images were acquired, including instrument settings/parameters.",
+                        "title": true,
+                        "dataType": "Text",
+                        "required": "true",
+                        "isaTag": "parameter_value",
+                        "ontology": null,
+                        "CVList": null
+                    },
+                    {
+                        "name": "Imaging method",
+                        "description": "What method was used to capture images.",
+                        "title": true,
+                        "dataType": "Text",
+                        "required": "true",
+                        "isaTag": "parameter_value",
+                        "ontology": {
+                            "name": "FBbi",
+                            "version": "2020-11-06",
+                            "description": "Biological Imaging Methods Ontology",
+                            "rootTermURI": "http://purl.obolibrary.org/obo/FBbi_00000222"
+                        },
+                        "CVList": null
+                    },
+                    {
+                        "name": "Annotation Type",
+                        "description": "",
+                        "title": null,
+                        "dataType": "String",
+                        "required": "false",
+                        "isaTag": "other_material",
+                        "ontology": null,
+                        "CVList": [
+                            "Class labels" ,
+                            "Bounding boxes",
+                            "Counts",
+                            "Derived annotations",
+                            "Geometrical annotations",
+                            "Graphs",
+                            "Point annotations",
+                            "Segmentation masks",
+                            "Tracks",
+                            "Weak annotations"
+                        ]
+                    },
+                    {
+                        "name": "Annotation Method",
+                        "description": "Description of how the annotations where created.",
+                        "title": false ,
+                        "dataType": "String",
+                        "required": "true",
+                        "isaTag": "other_material",
+                        "ontology": null,
+                        "CVList": null
+                    }
+                ]
+            }
+        }
+    ]
+}
