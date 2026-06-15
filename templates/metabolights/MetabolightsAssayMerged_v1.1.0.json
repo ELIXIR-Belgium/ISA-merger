@@ -17,7 +17,7 @@
       "data": {
         "Extraction": [
           {
-            "name": "Registered Sample",
+            "name": "Input Registered Sample",
             "description": "Registered Sample in the platform used as input for the protocol.",
             "title": null,
             "dataType": "Registered Sample List",
@@ -114,7 +114,7 @@
       "data": {
         "Chromatography": [
           {
-            "name": "Registered Sample",
+            "name": "Input Registered Sample",
             "description": "Registered Sample in the platform used as input for the protocol.",
             "title": null,
             "dataType": "Registered Sample List",
@@ -243,7 +243,7 @@
       "data": {
         "Chromatography_extended": [
           {
-            "name": "Registered Sample",
+            "name": "Input Registered Sample",
             "description": "Registered Sample in the platform used as input for the protocol.",
             "title": null,
             "dataType": "Registered Sample List",
@@ -408,7 +408,7 @@
       "data": {
         "Mass spectrometry": [
           {
-            "name": "Registered Sample",
+            "name": "Input Registered Sample",
             "description": "Registered Sample in the platform used as input for the protocol.",
             "title": null,
             "dataType": "Registered Sample List",
@@ -572,7 +572,7 @@
       "data": {
         "Metabolite identification": [
           {
-            "name": "Registered Sample",
+            "name": "Input Registered Sample",
             "description": "Registered Sample in the platform used as input for the protocol.",
             "title": null,
             "dataType": "Registered Sample List",
@@ -612,15 +612,6 @@
           {
             "name": "Normalization Name",
             "description": "User-defined name for each normalization applied",
-            "dataType": "String",
-            "required": "false",
-            "isaTag": "parameter_value",
-            "ontology": null,
-            "CVList": null
-          },
-          {
-            "name": "Data Transformation Name",
-            "description": "User-defined name for each data transformation applied",
             "dataType": "String",
             "required": "false",
             "isaTag": "parameter_value",

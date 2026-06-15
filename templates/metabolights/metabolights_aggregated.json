@@ -18,7 +18,7 @@
       "data": [
         {
           "iri": null,
-          "name": "Registered Sample",
+          "name": "Input Registered Sample",
           "description": "Registered Sample in the platform used as input for the protocol.",
           "title": false,
           "required": true,
@@ -94,7 +94,7 @@
       "data": [
         {
           "iri": null,
-          "name": "Registered Sample",
+          "name": "Input Registered Sample",
           "description": "Registered Sample in the platform used as input for the protocol.",
           "required": true,
           "ontology": null,
@@ -233,7 +233,7 @@
       "data": [
         {
           "iri": null,
-          "name": "Registered Sample",
+          "name": "Input Registered Sample",
           "description": "Registered Sample in the platform used as input for the protocol.",
           "required": true,
           "ontology": null,
@@ -412,13 +412,13 @@
       "data": [
         {
           "iri": null,
-          "name": "Registered Sample",
+          "name": "Input Registered Sample",
           "description": "Registered Sample in the platform used as input for the protocol.",
           "required": true,
           "ontology": null,
           "dataType": "Registered Sample List",
           "CVList": null,
-          "isaTag": null
+          "isaTag": "input"
         },
         {
           "iri": null,
@@ -541,7 +541,7 @@
       "data": [
         {
           "iri": null,
-          "name": "Registered Sample",
+          "name": "Input Registered Sample",
           "description": "Registered Sample in the platform used as input for the protocol.",
           "required": true,
           "ontology": null,
@@ -574,18 +574,7 @@
           "iri": null,
           "name": "Normalization Name",
           "description": "User-defined name for each normalization applied",
-          "required": false
-          "title": false,
-          "ontology": null,
-          "dataType": "String",
-          "CVList": null,
-          "isaTag": "parameter_value"
-        },
-        {
-          "iri": null,
-          "name": "Data Transformation Name",
-          "description": "User-defined name for each data transformation applied",
-          "required": false
+          "required": false,
           "title": false,
           "ontology": null,
           "dataType": "String",
@@ -623,7 +612,7 @@
       "data": [
         {
           "iri": null,
-          "name": "Registered Sample",
+          "name": "Input Registered Sample",
           "description": "Registered Sample in the platform used as input for the protocol.",
           "required": true,
           "ontology": null,
@@ -729,7 +718,7 @@
           "ontology": null,
           "dataType": "Registered Sample List",
           "CVList": null,
-          "isaTag": null
+          "isaTag": "input"
         },
         {
           "iri": null,
@@ -799,8 +788,7 @@
           "ontology": null,
           "dataType": "String",
           "CVList": null,
-          "isaTag": "parameter_value",
-          "unit": "unit in Tesla"
+          "isaTag": "parameter_value"
         },
         {
           "iri": null,
@@ -898,7 +886,7 @@
           "ontology": null,
           "dataType": "Registered Sample List",
           "CVList": null,
-          "isaTag": null
+          "isaTag": "input"
         },
         {
           "iri": null,
