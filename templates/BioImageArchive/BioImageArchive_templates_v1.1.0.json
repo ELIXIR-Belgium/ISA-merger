@@ -4,7 +4,7 @@
             "metadata": {
                 "name": "BIA - Specimen Preparation",
                 "group": "BioImage Archive",
-                "group_order": 5,
+                "group_order": 1,
                 "temporary_name": "BIA - Specimen Preparation",
                 "version": "1.1.0",
                 "isa_measurement_type": "specimen preparation",
@@ -30,7 +30,7 @@
                         "name": "Specimen Preparation Protocol",
                         "description": "Describe the procedures and protocols used to prepare the specimen or sample for analysis. This includes details on how the sample was collected, treated, processed, and preserved, ensuring reproducibility and clarity for downstream analyses.",
                         "title": null,
-                        "dataType": "String",
+                        "dataType": "Registered SOP",
                         "required": "true",
                         "isaTag": "protocol",
                         "ontology": null,
@@ -53,9 +53,9 @@
             "metadata": {
                 "name": "BIA - Image Acquisition",
                 "group": "BioImage Archive",
-                "group_order": 5,
+                "group_order": 2,
                 "temporary_name": "BIA - Image Acquisition",
-                "version": "1.0.0",
+                "version": "1.1.0",
                 "isa_measurement_type": "Image Acquisition",
                 "isa_technology_type": "bio-imaging",
                 "isa_protocol_type": "Image Acquisition",
@@ -79,7 +79,7 @@
                         "name": "Image Acquisition Protocol",
                         "description": "Provide details on the experimental or technical procedures used during the assay",
                         "title": null,
-                        "dataType": "Registered Protocol",
+                        "dataType": "Registered SOP",
                         "required": "true",
                         "isaTag": "protocol",
                         "ontology": null,
@@ -91,7 +91,7 @@
                         "title": true,
                         "dataType": "String",
                         "required": "true",
-                        "isaTag": "other_material",
+                        "isaTag": "data_file",
                         "ontology": null,
                         "CVList": null
                     },
@@ -101,7 +101,7 @@
                         "title": true,
                         "dataType": "Text",
                         "required": "true",
-                        "isaTag": "parameter_value",
+                        "isaTag": "data_file_comment",
                         "ontology": null,
                         "CVList": null
                     },
@@ -111,7 +111,7 @@
                         "title": true,
                         "dataType": "Text",
                         "required": "true",
-                        "isaTag": "parameter_value",
+                        "isaTag": "data_file_comment",
                         "ontology": null,
                         "CVList": null
                     },
@@ -121,7 +121,7 @@
                         "title": true,
                         "dataType": "Controlled Vocabulary",
                         "required": "true",
-                        "isaTag": "parameter_value",
+                        "isaTag": "data_file_comment",
                         "ontology": {
                             "name": "FBbi",
                             "version": "2020-11-06",
@@ -137,9 +137,9 @@
             "metadata": {
                 "name": "BIA - Image Correlation",
                 "group": "BioImage Archive",
-                "group_order": 5,
+                "group_order": 3,
                 "temporary_name": "BIA - Image Correlation",
-                "version": "1.0.0",
+                "version": "1.1.0",
                 "isa_measurement_type": "Image Correlation",
                 "isa_technology_type": "bio-imaging",
                 "isa_protocol_type": "Image Correlation",
@@ -163,7 +163,7 @@
                         "name": "Image Correlation Protocol",
                         "description": "Provide details on the experimental or technical procedures used during the assay",
                         "title": null,
-                        "dataType": "Registered Protocol",
+                        "dataType": "Registered SOP",
                         "required": "true",
                         "isaTag": "protocol",
                         "ontology": null,
@@ -175,7 +175,7 @@
                         "title": true,
                         "dataType": "String",
                         "required": "true",
-                        "isaTag": "other_material",
+                        "isaTag": "data_file",
                         "ontology": null,
                         "CVList": null
                     }
@@ -186,9 +186,9 @@
             "metadata": {
                 "name": "BIA - Image Analysis",
                 "group": "BioImage Archive",
-                "group_order": 5,
+                "group_order": 4,
                 "temporary_name": "BIA - Image Analysis",
-                "version": "1.0.0",
+                "version": "1.1.0",
                 "isa_measurement_type": "Image Analysis",
                 "isa_technology_type": "bio-imaging",
                 "isa_protocol_type": "Image Analysis",
@@ -212,7 +212,7 @@
                         "name": "Image Analysis Protocol",
                         "description": "Provide details on the experimental or technical procedures used during the assay",
                         "title": null,
-                        "dataType": "Registered Protocol",
+                        "dataType": "Registered SOP",
                         "required": "true",
                         "isaTag": "protocol",
                         "ontology": null,
@@ -224,7 +224,7 @@
                         "title": true,
                         "dataType": "String",
                         "required": "true",
-                        "isaTag": "other_material",
+                        "isaTag": "data_file",
                         "ontology": null,
                         "CVList": null
                     },
@@ -234,7 +234,7 @@
                         "title": null,
                         "dataType": "Controlled Vocabulary",
                         "required": "false",
-                        "isaTag": "other_material",
+                        "isaTag": "data_file_comment",
                         "ontology": null,
                         "CVList": [
                             "Class labels" ,
@@ -255,7 +255,7 @@
                         "title": false ,
                         "dataType": "String",
                         "required": "true",
-                        "isaTag": "other_material",
+                        "isaTag": "data_file_comment",
                         "ontology": null,
                         "CVList": null
                     }

@@ -2,7 +2,7 @@
   "data": [
     {
       "metadata": {
-        "name": "sample_collection",
+        "name": "ILVO -  sample_collection",
         "group": "ilvo",
         "group_order": 2,
         "temporary_name": "2_arrayexpress_sample_collection",
@@ -116,7 +116,7 @@
 
     {
       "metadata": {
-        "name": "source_plant",
+        "name": "ILVO -  source_plant",
         "group": "ilvo",
         "group_order": 1,
         "temporary_name": "1_arrayexpress_source_plant",
@@ -265,7 +265,7 @@
 
     {
       "metadata": {
-        "name": "library construction",
+        "name": "ILVO -  library construction",
         "group": "ilvo",
         "group_order": 4,
         "temporary_name": "4_arrayexpress_library_construction",
@@ -585,7 +585,7 @@
 
     {
       "metadata": {
-        "name": "nucleic acid extraction",
+        "name": "ILVO - nucleic acid extraction",
         "group": "ilvo",
         "group_order": 3,
         "temporary_name": "3_arrayexpress_nucleic_acid_extraction",
@@ -643,7 +643,7 @@
 
     {
       "metadata": {
-        "name": "nucleic acid sequencing",
+        "name": "ILVO - nucleic acid sequencing",
         "group": "ilvo",
         "group_order": 5,
         "temporary_name": "5_arrayexpress_nucleic_acid_sequencing",

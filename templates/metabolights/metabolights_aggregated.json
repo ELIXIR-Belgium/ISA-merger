@@ -1,0 +1,906 @@
+{
+  "data": [
+    {
+      "metadata": {
+        "name": "Metabolights - Extraction",
+        "group": "metabolights",
+        "group_order": 1,
+        "temporary_name": "1_metabolights_extraction",
+        "version": "1.1.0",
+        "isa_config": "",
+        "isa_measurement_type": null,
+        "isa_technology_type": "mass spectrometry | NMR spectroscopy",
+        "isa_protocol_type": null,
+        "repo_schema_id": "mtbls-validation",
+        "organism": "any",
+        "level": "assay - material"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Input Registered Sample",
+          "description": "Registered Sample in the platform used as input for the protocol.",
+          "title": false,
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": "input"
+        },
+        {
+          "iri": null,
+          "name": "Extraction Protocol",
+          "description": "Describe the procedures and protocols used to prepare the specimen or sample for analysis. This includes details on how the sample was collected, treated, processed, and preserved, ensuring reproducibility and clarity for downstream analyses.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered SOP",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Extract Name",
+          "description": "User-defined names for each portion of extracted material.",
+          "title": true,
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "other_material"
+        },
+        {
+          "iri": null,
+          "name": "Post extraction",
+          "description": "Extract concentration, Samples enrichment and resuspension processes e.g Dried under nitrogen, resuspended in H2O or pyridine, SPE column",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Derivatization",
+          "description": "Only applies to materials used for Mass Spectrometry. Derivatization methods e.g. OMS, TMS",
+          "required": false,
+          "ontology": null,
+          "dataType": "Controlled Vocabulary",
+          "CVList": [
+            "sylilation",
+            "acetylation",
+            "alkylation",
+            "other",
+            "none"
+          ],
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Labeled Extract Name",
+          "description": "Identifier for the labeled extract.",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "other_material_characteristic"
+        },
+         {
+          "name": "Label",
+          "description": "Indicates a chemical or biological marker or observed nucleus",
+          "title": false,
+          "required": false,
+          "ontology": {
+            "name": "chebi",
+            "version": "31 March 2015",
+            "description": "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.",
+            "rootTermURI": "http://purl.obolibrary.org/obo/CHEBI_24431"
+          },
+          "dataType": "Controlled Vocabulary",
+          "CVList": null,
+          "isaTag": "other_material_characteristic"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "Metabolights - Chromatography",
+        "group": "metabolights",
+        "group_order": 2,
+        "temporary_name": "MetaboLights - Chromatography",
+        "version": "1.1.0",
+        "isa_config": null,
+        "isa_measurement_type": "chromatography",
+        "isa_technology_type": "metabolomics",
+        "isa_protocol_type": "chromatography",
+        "repo_schema_id": "mtbls-validation",
+        "organism": "any",
+        "level": "assay - material"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Input Registered Sample",
+          "description": "Registered Sample in the platform used as input for the protocol.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": "input"
+        },
+        {
+          "iri": null,
+          "name": "Separation Protocol",
+          "description": "Describe the procedures and protocols used to separate the components of the specimen or sample for analysis.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered SOP",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Output name",
+          "description": "User-defined name for the output of the chromatography separation protocol.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "title": true,
+          "CVList": null,
+          "isaTag": "other_material"
+        },
+        {
+          "iri": null,
+          "name": "Chromatography Instrument",
+          "description": "Chromatography Instrument, manufacturer and model",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Column model",
+          "description": "Model or make of the of Column used, e.g C18",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Column type",
+          "description": "Type of Chromatography used e.g reverse phase",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Autosampler model",
+          "description": "Model or make of the autosampler used",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Guard column model",
+          "description": "Model or make of the guard column used",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Detector model",
+          "description": "If relevant, Model or make of the detector used during chromatography separation",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Detector Temperature",
+          "description": "If relevant, temperature of the detector (e.g. FID) used during chromatography separation",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Signal range of the detector",
+          "description": "If relevant, signal range of the detector (e.g. DAD) used during chromatography separation",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Resolution of the detector",
+          "description": "If relevant, resolution of the detector (e.g. DAD) used during chromatography separation",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "Metabolights - chromatography (extended)",
+        "group": "metabolights",
+        "group_order": 2,
+        "temporary_name": "MetaboLights - Chromatography (extended)",
+        "version": "1.1.0",
+        "isa_config": null,
+        "isa_measurement_type": "chromatography",
+        "isa_technology_type": "metabolomics",
+        "isa_protocol_type": "chromatography",
+        "repo_schema_id": "mtbls-validation",
+        "organism": "any",
+        "level": "assay - material"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Input Registered Sample",
+          "description": "Registered Sample in the platform used as input for the protocol.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": "input"
+        },
+        {
+          "iri": null,
+          "name": "Separation Protocol",
+          "description": "Describe the procedures and protocols used to separate the components of the specimen or sample for analysis.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered SOP",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Output name",
+          "description": "User-defined name for the output of the chromatography separation protocol.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "title": true,
+          "CVList": null,
+          "isaTag": "other_material"
+        },
+        {
+          "iri": null,
+          "name": "Chromatography Instrument",
+          "description": "Chromatography Instrument, manufacturer and model",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Column model",
+          "description": "Model or make of the of Column used, e.g C18",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Column type",
+          "description": "Type of Chromatography used e.g reverse phase",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Mobile phase",
+          "description": "Composition of the mobile phase used for chromatography separation, e.g. 0.1% formic acid in water",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Gradient profile setting",
+          "description": "The profile of the ratio of solvents in the mobile phase used over the course of a chromatographic separation. Use notation whereby relative proportions of the eluents at a specific time point are separated by “/”, e.g. “10/90 at 1 min”. Different time points are separated by a comma. Include re-equilibration times. Example: '0/100 at 0 min, 100/0 at 6 min, 0/100 at 7 min, 0/100 at 10 min'",
+          "required": false,
+          "ontology": null,
+          "dataType": "Text",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Flow rate",
+          "description": "Flow rate of the mobile phase during chromatography separation, e.g. 0.3 mL/min",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Column temperature",
+          "description": "Temperature of the column during chromatography separation, e.g. 40 °C",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Autosampler model",
+          "description": "Model or make of the autosampler used",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Guard column model",
+          "description": "Model or make of the guard column used",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Detector model",
+          "description": "If relevant, Model or make of the detector used during chromatography separation",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Detector Temperature",
+          "description": "If relevant, temperature of the detector (e.g. FID) used during chromatography separation",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Signal range of the detector",
+          "description": "If relevant, signal range of the detector (e.g. DAD) used during chromatography separation",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Resolution of the detector",
+          "description": "If relevant, resolution of the detector (e.g. DAD) used during chromatography separation",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "Metabolights - Mass Spectrometry",
+        "group": "metabolights",
+        "group_order": 3,
+        "temporary_name": "3_metabolights_mass_spectrometry",
+        "version": "1.1.0",
+        "isa_config": null,
+        "isa_measurement_type": "mass spectrometry",
+        "isa_technology_type": "metabolomics",
+        "isa_protocol_type": "mass spectrometry",
+        "repo_schema_id": "mtbls-validation",
+        "organism": "any",
+        "level": "assay - data file"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Input Registered Sample",
+          "description": "Registered Sample in the platform used as input for the protocol.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": "input"
+        },
+        {
+          "iri": null,
+          "name": "Spectrometry Protocol",
+          "description": "Describe the procedures and protocols used for mass spectrometry analysis of the specimen or sample.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered SOP",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "MS Data File Name",
+          "description": "User-defined name for the MS assay sample.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "data_file"
+        },
+        {
+          "iri": null,
+          "name": "Scan polarity",
+          "description": "An acquisition mode to which specifies weather polarity is negative, positive or alternating.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Controlled Vocabulary",
+          "CVList": [
+            "positive",
+            "negative",
+            "alternating",
+            "n/a"
+          ],
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Scan m/z range",
+          "description": "The limit of m/z over which a mass spectrometer can detect ions. e.g 200-1000",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Spectrometry Instrument",
+          "description": "The name of the mass spectrometry instrument, manufacturer, model # operational software name operational software version",
+          "required": false,
+          "ontology": {
+            "name": "ms",
+            "version": "",
+            "description": "Instrument model Controlled Vocalubary",
+            "rootTermURI": "http://purl.obolibrary.org/obo/MS_1000031"
+          },
+          "dataType": "Controlled Vocabulary",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Ion source",
+          "description": "The ion source use PSI-MS cv Ionization mode (EI, APCI, ESI#), vacuum pressure skimmer/focusing lens voltages (e.g. capillary voltage etc.) gas flows (e.g. nebulization gas, cone gas etc.) source temperature",
+          "required": false,
+          "ontology": {
+            "name": "ms",
+            "version": "",
+            "description": "The method by which gas phase ions are generated from the sample.",
+            "rootTermURI": "http://purl.obolibrary.org/obo/MS_1000458"
+          },
+          "dataType": "Controlled Vocabulary",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Mass analyzer",
+          "description": "The analyzer(s) used by the mass spectrometer, use PSI-MS ontology terms",
+          "required": false,
+          "ontology": {
+            "name": "ms",
+            "version": "",
+            "description": "Mass analyzer separates the ions according to their mass-to-charge ratio.",
+            "rootTermURI": "http://purl.obolibrary.org/obo/MS_1000443"
+          },
+          "dataType": "Controlled Vocabulary",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Raw Spectral Data File",
+          "description": "Name (or URI) of the raw spectral data file generated by an assay.",
+          "required": false,
+          "ontology": null,
+          "title": false,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "data_file_comment"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "Metabolights - Metabolite identification",
+        "group": "metabolights",
+        "group_order": 4,
+        "temporary_name": "MetaboLights - Metabolite identification",
+        "version": "1.1.0",
+        "isa_config": null,
+        "isa_measurement_type": "metabolite identification",
+        "isa_technology_type": "metabolomics",
+        "isa_protocol_type": "metabolite identification",
+        "repo_schema_id": "mtbls-validation",
+        "organism": "any",
+        "level": "assay - data file"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Input Registered Sample",
+          "description": "Registered Sample in the platform used as input for the protocol.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": "input"
+        },
+        {
+          "iri": null,
+          "name": "Data Transformation Name",
+          "description": "Describe the procedures and protocols used for mass spectrometry analysis of the specimen or sample.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered SOP",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Derived Spectral Data File Name",
+          "description": "Name of the derived data file generated from spectral data by an assay.",
+          "required": true,
+          "title": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "data_file"
+        },
+        {
+          "iri": null,
+          "name": "Normalization Name",
+          "description": "User-defined name for each normalization applied",
+          "required": false,
+          "title": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Metabolite Assignment File",
+          "description": "Name (or URI) of the metabolite assignment file gathered for this assay.",
+          "required": false,
+          "title": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "MetaboLights - NMR sample",
+        "group": "MetaboLights",
+        "group_order": 5,
+        "temporary_name": "MetaboLights - NMR sample",
+        "version": "1.1.0",
+        "isa_config": null,
+        "isa_measurement_type": "NMR sample",
+        "isa_technology_type": "metabolomics",
+        "isa_protocol_type": "NMR sample",
+        "repo_schema_id": "mtbls-validation",
+        "organism": "any",
+        "level": "assay - data file"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Input Registered Sample",
+          "description": "Registered Sample in the platform used as input for the protocol.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": "input"
+        },
+        {
+          "iri": null,
+          "name": "NMR Sample Protocol",
+          "description": "Provide a detailed description of the experimental or technical procedures used during the experiment.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered SOP",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "NMR tube type",
+          "description": "Describe the NMR tube type.",
+          "required": false,
+          "ontology": {
+            "name": "nmrcv",
+            "version": "",
+            "description": "The sample-tube holds the NMR sample and sits in the NMR probe. It is usually a glass tube of 5-20mm diameter. Sortal dimensions are Vendor, Size (Diameter, length), Material (glass, quarz, pyrex ...), Frequency, Concentricity, OD and ID",
+            "rootTermURI": "http://nmrML.org/nmrCV#NMR:1400132"
+          },
+          "dataType": "Controlled Vocabulary",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Solvent",
+          "description": "D2O, CD3OD, CDCl3, etc",
+          "required": false,
+          "ontology": null,
+          "dataType": "Controlled Vocabulary",
+          "CVList": null,
+          "ontology": {
+            "name": "nmrcv",
+            "version": "",
+            "description": "Use Chebi entities here.",
+            "rootTermURI": "http://nmrML.org/nmrCV#NMR:1000330"
+          },
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Sample pH",
+          "description": "Sample pH e.g 7.4",
+          "required": false,
+          "ontology": null,
+          "dataType": "Real number",
+          "CVList": null,
+          "isaTag": "other_material_characteristic"
+        },
+        {
+          "iri": null,
+          "name": "Temperature",
+          "description": "Sample temperature run in the magnet, in Kelvin.",
+          "required": false,
+          "ontology": null,
+          "dataType": "Real number",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Labeled Extract Name",
+          "description": "Identifier for the labeled extract.",
+          "title": true,
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "other_material"
+        },
+        {
+          "name": "Label",
+          "description": "Indicates a chemical or biological marker or observed nucleus",
+          "title": false,
+          "required": false,
+          "ontology": {
+            "name": "chebi",
+            "version": "31 March 2015",
+            "description": "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.",
+            "rootTermURI": "http://purl.obolibrary.org/obo/CHEBI_24431"
+          },
+          "dataType": "Controlled Vocabulary",
+          "CVList": null,
+          "isaTag": "other_material_characteristic"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "Metabolights - NMR Spectroscopy",
+        "group": "metabolights",
+        "group_order": 6,
+        "temporary_name": "Metabolights - NMR Spectroscopy",
+        "version": "1.0.0",
+        "isa_config": null,
+        "isa_technology_type": "metabolomics",
+        "isa_technology_type": "NMR spectroscopy",
+        "isa_protocol_type": "NMR Spectroscopy",
+        "repo_schema_id": "mtbls-validation",
+        "organism": "any",
+        "level": "assay - data file"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Input NMR Sample",
+          "description": "NMR sample used for the NMR spectroscopy analysis.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": "input"
+        },
+        {
+          "iri": null,
+          "name": "NMR spectroscopy Protocol",
+          "description": "Provide a detailed description of the experimental or technical procedures used during the experiment.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered SOP",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Instrument",
+          "description": "Name and model of the NMR instrument. E.g. 'Bruker Avance III 600 MHz'",
+          "required": false,
+          "ontology": {
+            "name": "nmrcv",
+            "version": "",
+            "description": "def: An Instrument which is used to carry out a NMR analysis of some sample. synonym: NMR instrument.",
+            "rootTermURI": "http://nmrML.org/nmrCV#NMR:1400059"
+          },
+          "dataType": "Controlled Vocabulary",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "NMR Probe",
+          "description": "Type of probe fitted to the spectroscope. E.g. 'Bruker CryoProbe'",
+          "required": false,
+          "ontology": {
+            "name": "obi",
+            "version": "",
+            "description": "Part of an NMR instrument that detects the signals emitted from a sample. No single probe can perform the full range of experiments, and probes that are designed to perform more than one type of measurement usually suffer from performance compromises. The probe represents a rather fragile single point of failure that can render an NMR system completely unusable if the probe is dropped or otherwise damaged. Probes are usually characterised by Sample diameter and Frequency.n alt The instrument that transmits and receives radiofrequency to and from the NMR sample.",
+            "rootTermURI": "http://purl.obolibrary.org/obo/OBI_0000516"
+          },
+          "dataType": "Controlled Vocabulary",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Number of transients",
+          "description": "Number of transients (scan) acquired for your experiment.",
+          "required": false,
+          "ontology": null,
+          "dataType": "Integer",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Pulse sequence name",
+          "description": "Pulse sequence used to acquire the data. E.g. '1D NOESY'",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Magnetic field strength",
+          "description": "A parameter expressed in Tesla to report the strength of the field.",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Acquisition Parameter Data File",
+          "description": "Name (or URI) of the acquisition parameter data file gathered for this assay.",
+          "required": true,
+          "ontology": null,
+          "title": true,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "data_file"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "Metabolights - NMR Assay",
+        "group": "metabolights",
+        "group_order": 7,
+        "temporary_name": "MetaboLights - NMR Assay",
+        "version": "1.1.0",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": null,
+        "isa_technology_type": "NMR spectroscopy",
+        "isa_protocol_type": null,
+        "repo_schema_id": "",
+        "organism": "any",
+        "level": "assay - data file"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Input Raw Spectral Data File",
+          "description": "Input file used for the NMR assay.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": "input"
+        },
+        {
+          "iri": null,
+          "name": "NMR assay protocol",
+          "description": "Protocol used in this assay.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered SOP",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "NMR Assay Name",
+          "description": "User-defined name for a NMR assay.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "data_file_comment"
+        },
+        {
+          "iri": null,
+          "name": "Free Induction Decay Data File",
+          "description": "name (or uri) of the free induction decay data file gathered for this assay.",
+          "required": true,
+          "title": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "data_file"
+        }
+      ]
+    }
+  ]
+}
