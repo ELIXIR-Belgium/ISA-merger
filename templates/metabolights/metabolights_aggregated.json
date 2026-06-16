@@ -89,13 +89,8 @@
           "description": "Indicates a chemical or biological marker or observed nucleus",
           "title": false,
           "required": false,
-          "ontology": {
-            "name": "chebi",
-            "version": "31 March 2015",
-            "description": "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.",
-            "rootTermURI": "http://purl.obolibrary.org/obo/CHEBI_24431"
-          },
-          "dataType": "Controlled Vocabulary",
+          "ontology": null,
+          "dataType": "String",
           "CVList": null,
           "isaTag": "other_material_characteristic"
         }
@@ -717,18 +712,13 @@
           "CVList": null,
           "isaTag": "other_material"
         },
-        {
+         {
           "name": "Label",
           "description": "Indicates a chemical or biological marker or observed nucleus",
           "title": false,
           "required": false,
-          "ontology": {
-            "name": "chebi",
-            "version": "31 March 2015",
-            "description": "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.",
-            "rootTermURI": "http://purl.obolibrary.org/obo/CHEBI_24431"
-          },
-          "dataType": "Controlled Vocabulary",
+          "ontology": null,
+          "dataType": "String",
           "CVList": null,
           "isaTag": "other_material_characteristic"
         }

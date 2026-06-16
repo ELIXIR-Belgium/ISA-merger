@@ -681,16 +681,9 @@
           {
             "name": "Label",
             "description": "Indicates a chemical or biological marker or observed nucleus",
-            "dataType": "Ontology term",
+            "dataType": "String",
             "required": "false",
-            "ontology": [
-              {
-                "name": "Chemical Entities of Biological Interest",
-                "version": "40664",
-                "abbreviation": "CHEBI",
-                "id": "1007"
-              }
-            ],
+            "ontology": null,
             "CVList": null
           }
         ]
