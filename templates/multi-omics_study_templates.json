@@ -18,7 +18,7 @@
         {
           "name": "Source Name",
           "description": "Concise, unique identifier assigned to each study source. Serves to distinguish individual components within the study.",
-          "title": null,
+          "title": true,
           "dataType": "String",
           "required": true,
           "isaTag": "source",
