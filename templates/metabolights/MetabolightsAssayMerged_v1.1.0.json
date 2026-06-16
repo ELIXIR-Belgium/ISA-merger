@@ -601,15 +601,6 @@
             "CVList": null
           },
           {
-            "name": "Derived Spectral Data File Name",
-            "description": "Name of the derived data file generated from spectral data by an assay.",
-            "dataType": "String",
-            "required": "false",
-            "isaTag": "data_file_comment",
-            "ontology": null,
-            "CVList": null
-          },
-          {
             "name": "Normalization Name",
             "description": "User-defined name for each normalization applied",
             "dataType": "String",

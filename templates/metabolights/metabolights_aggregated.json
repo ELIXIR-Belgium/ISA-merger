@@ -73,6 +73,31 @@
             "none"
           ],
           "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Labeled Extract Name",
+          "description": "Identifier for the labeled extract.",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "other_material_characteristic"
+        },
+         {
+          "name": "Label",
+          "description": "Indicates a chemical or biological marker or observed nucleus",
+          "title": false,
+          "required": false,
+          "ontology": {
+            "name": "chebi",
+            "version": "31 March 2015",
+            "description": "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.",
+            "rootTermURI": "http://purl.obolibrary.org/obo/CHEBI_24431"
+          },
+          "dataType": "Controlled Vocabulary",
+          "CVList": null,
+          "isaTag": "other_material_characteristic"
         }
       ]
     },
@@ -691,6 +716,21 @@
           "dataType": "String",
           "CVList": null,
           "isaTag": "other_material"
+        },
+        {
+          "name": "Label",
+          "description": "Indicates a chemical or biological marker or observed nucleus",
+          "title": false,
+          "required": false,
+          "ontology": {
+            "name": "chebi",
+            "version": "31 March 2015",
+            "description": "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.",
+            "rootTermURI": "http://purl.obolibrary.org/obo/CHEBI_24431"
+          },
+          "dataType": "Controlled Vocabulary",
+          "CVList": null,
+          "isaTag": "other_material_characteristic"
         }
       ]
     },
@@ -853,75 +893,6 @@
           "iri": null,
           "name": "Free Induction Decay Data File",
           "description": "name (or uri) of the free induction decay data file gathered for this assay.",
-          "required": true,
-          "title": true,
-          "ontology": null,
-          "dataType": "String",
-          "CVList": null,
-          "isaTag": "data_file"
-        }
-      ]
-    },
-    {
-      "metadata": {
-        "name": "Metabolights - Data Transformation",
-        "group": "metabolights",
-        "group_order": 8,
-        "temporary_name": "7_metabolights_data_transformation",
-        "version": "1.0.0",
-        "isa_config": "genome_seq_default_v2015-07-02",
-        "isa_measurement_type": null,
-        "isa_technology_type": "mass spectrometry | NMR spectroscopy",
-        "isa_protocol_type": null,
-        "repo_schema_id": "",
-        "organism": "any",
-        "level": "assay - data file"
-      },
-      "data": [
-        {
-          "iri": null,
-          "name": "Input Free Induction Decay Data File",
-          "description": "Input file used for the data transformation.",
-          "required": true,
-          "ontology": null,
-          "dataType": "Registered Sample List",
-          "CVList": null,
-          "isaTag": "input"
-        },
-        {
-          "iri": null,
-          "name": "Normalization method",
-          "description": "The method used to normalize the data.",
-          "required": true,
-          "ontology": null,
-          "dataType": "String",
-          "CVList": null,
-          "isaTag": "protocol"
-        },
-        {
-          "iri": null,
-          "name": "Data Transformation Name",
-          "description": "User-defined name for each data transformation applied.",
-          "required": true,
-          "ontology": null,
-          "dataType": "String",
-          "CVList": null,
-          "isaTag": "parameter_value"
-        },
-        {
-          "iri": null,
-          "name": "Normalization Name",
-          "description": "User-defined name for each normalization applied",
-          "required": false,
-          "ontology": null,
-          "dataType": "String",
-          "CVList": null,
-          "isaTag": "parameter_value"
-        },
-        {
-          "iri": null,
-          "name": "Derived Spectral Data File",
-          "description": "Name of the derived data file generated from spectral data by an assay. Do not include any folder names, only the filename.",
           "required": true,
           "title": true,
           "ontology": null,
