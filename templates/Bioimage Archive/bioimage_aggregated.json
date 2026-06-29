@@ -1,0 +1,285 @@
+{
+  "data": [
+    {
+      "metadata": {
+        "name": "BioImage Archive - Specimen preparation",
+        "group": "bioimage_archive",
+        "group_order": 1,
+        "temporary_name": "1_bioimage_archive_specimen_preparation",
+        "version": "1.0.0",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": null,
+        "isa_technology_type": "Imaging",
+        "isa_protocol_type": null,
+        "repo_schema_id": "",
+        "organism": "any",
+        "level": "assay - material"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "BioSamples Input",
+          "description": "Registered Sample in the platform used as input for the protocol.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": null
+        },
+        {
+          "iri": null,
+          "name": "Sample Preparation",
+          "description": "How the sample was prepared for imaging.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Text",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Specimen Name",
+          "description": "The output material of the protocol.",
+          "title": true,
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "other_material"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "BioImage Archive - Image Acquisition",
+        "group": "bioimage_archive",
+        "group_order": 2,
+        "temporary_name": "2_bioimage_archive_image_acquisition",
+        "version": "1.0.1",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": null,
+        "isa_technology_type": "Imaging",
+        "isa_protocol_type": null,
+        "repo_schema_id": "",
+        "organism": "any",
+        "level": "assay - data file"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Specimen Input",
+          "description": "Registered Sample in the platform used as input for the protocol.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": null
+        },
+        {
+          "iri": null,
+          "name": "Protocol",
+          "description": "Provide a link to the external source or document detailing the experimental or technical procedures used during the assay",
+          "required": true,
+          "ontology": null,
+          "dataType": "URI",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Imaging Method",
+          "description": "The name of the ontology.",
+          "required": true,
+          "ontology": {
+            "name": "fbbi",
+            "version": "2020-11-06",
+            "description": "Biological Imaging Methods Controlled Vocalubary",
+            "rootTermURI": "http://purl.obolibrary.org/obo/FBbi_00000265"
+          },
+          "dataType": "Controlled Vocabulary",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Imaging Instrument",
+          "description": "Description of the instrument used to capture the images.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Text",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Imaging Acquisition Parameters",
+          "description": "Describe, in detail, the specific settings and parameters used during the acquisition of imaging data. This includes detailed information on the imaging equipment, protocols, and settings that were applied to capture the images.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Text",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Link URL",
+          "description": "The URL of a link relevant to the dataset.",
+          "required": false,
+          "ontology": null,
+          "dataType": "URI",
+          "CVList": null,
+          "isaTag": "data_file_comment"
+        },
+        {
+          "iri": null,
+          "name": "Datafile Name",
+          "description": "Unique name given to the image data file obtained by applying the protocol to sample_input. NO DUPLICATES ALLOWED within this column.",
+          "required": true,
+          "title": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "data_file"
+        },
+        {
+          "iri": null,
+          "name": "Source Image ID",
+          "description": "Identifier for the image.",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "data_file_comment"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "BioImage Archive -  Image Correlation (Optional)",
+        "group": "bioimage_archive",
+        "group_order": 3,
+        "temporary_name": "3_bioimage_archive_image_correlation",
+        "version": "1.0.0",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": null,
+        "isa_technology_type": "Imaging",
+        "isa_protocol_type": null,
+        "repo_schema_id": "",
+        "organism": "any",
+        "level": "assay - data file"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "Acquisition Datafile Input",
+          "description": "Registered Sample in the platform used as input for the protocol.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": null
+        },
+        {
+          "iri": null,
+          "name": "Protocol",
+          "description": "",
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Spatial and Temporal Alignment",
+          "description": "Method used to correlate images from different modalities.",
+          "required": false,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Fiducidals used",
+          "description": "Features from correlated datasets used for colocalisation.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Text",
+          "CVList": null,
+          "isaTag": "parameter_value"
+        },
+        {
+          "iri": null,
+          "name": "Transformation Matrix",
+          "description": "Correlation transforms.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Text",
+          "CVList": null,
+          "isaTag": "data_file_comment"
+        },
+        {
+          "iri": null,
+          "name": "Correlation output",
+          "description": "Output data file from the correlation.",
+          "title": true,
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "data_file"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "BioImage Archive - Image Analysis",
+        "group": "bioimage_archive",
+        "group_order": 4,
+        "temporary_name": "4_bioimage_archive_image_analysis",
+        "version": "1.0.0",
+        "isa_config": "genome_seq_default_v2015-07-02",
+        "isa_measurement_type": null,
+        "isa_technology_type": "Imaging",
+        "isa_protocol_type": null,
+        "repo_schema_id": "",
+        "organism": "any",
+        "level": "assay - data file"
+      },
+      "data": [
+        {
+          "iri": null,
+          "name": "(Correlated) Acquisition Datafile Input",
+          "description": "Registered Sample in the platform used as input for the protocol.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Registered Sample List",
+          "CVList": null,
+          "isaTag": null
+        },
+        {
+          "iri": null,
+          "name": "Analysis Overview",
+          "description": "How image analysis was carried out.",
+          "required": true,
+          "ontology": null,
+          "dataType": "Text",
+          "CVList": null,
+          "isaTag": "protocol"
+        },
+        {
+          "iri": null,
+          "name": "Analysed Datafile",
+          "description": "The output data file from the analysis.",
+          "title": true,
+          "required": true,
+          "ontology": null,
+          "dataType": "String",
+          "CVList": null,
+          "isaTag": "data_file"
+        }
+      ]
+    }
+  ]
+}
