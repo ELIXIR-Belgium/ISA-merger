@@ -627,7 +627,7 @@
         "isa_protocol_type": "NMR sample",
         "repo_schema_id": "mtbls-validation",
         "organism": "any",
-        "level": "assay - data file"
+        "level": "assay - material"
       },
       "data": [
         {
