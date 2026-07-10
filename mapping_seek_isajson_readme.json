@@ -147,15 +147,15 @@
             "protocols": [ "comment: for each sample type in ONE Study (and related Assays) of this ISA, list all sample type attributes with isaTag=protocol and related attribute with isaTag=parameter_value",
                     { // not all the following isa-json fields can be mapped because SEEK allows multiple SOPs to be linked to 1 assay"
                       "@id": "#protocol/1-2_7 where 1 and 2 are SOPs' seek id and 7 is the seek Study or Assay id. When no SOP is referenced have just #protocol/_7",
-                      "name": "name of the sample type attribute with isaTag=protocol",
+                      "name": "name of the SEEK SOP referenced as value (registered SOP) within the sample type attribute with isaTag=protocol",
                       "protocolType": {
-                        "annotationValue": "same as name above",
+                        "annotationValue": "name of the sample type attribute with isaTag=protocol",
                         "termAccession": "", // TBD
                         "termSource": "" // TBD
                       },
-                      "description": "", // TBD
+                      "description": "SEEK SOP description"
                       "uri": "", // TBD
-                      "version": "", // TBD
+                      "version": "SEEK SOP version(s)",
                       "parameters": [
                         {
                           "@id": "#parameter/seek id of the sample type attribute with isaTag=parameter_value",
